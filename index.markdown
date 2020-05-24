@@ -5,7 +5,7 @@
 layout: home
 ---
 
-## Welcome
+Welcome
 
 **Hello world**,
 
