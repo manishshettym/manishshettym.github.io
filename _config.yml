@@ -27,7 +27,7 @@ url: "http://manishshettym.com" # the base hostname & protocol for your site, e.
 github_username:  mmshetty.98@gmail.com
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
