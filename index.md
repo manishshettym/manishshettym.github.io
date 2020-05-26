@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Welcome to Manish Shetty's Blog
+## Welcome to Manish Shetty's Blog
 
 I am a Research Intern at [Microsoft Research](https://www.microsoft.com/en-us/research/) and a member of the [Sankie](https://www.microsoft.com/en-us/research/project/sankie/) team. I also hold adjuct posistion as Research Assistant, under Dr. Gowri Srinivasa, at [PESU-CPR](https://research.pes.edu/center-for-pattern-recognition/]).
 
