@@ -3,8 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Welcome to Manish Shetty's Portfolio
 ---
+
+# Welcome to Manish Shetty's Blog
 
 I am a Research Intern at [Microsoft Research](https://www.microsoft.com/en-us/research/) and a member of the [Sankie](https://www.microsoft.com/en-us/research/project/sankie/) team. I also hold adjuct posistion as Research Assistant, under Dr. Gowri Srinivasa, at [PESU-CPR](https://research.pes.edu/center-for-pattern-recognition/]).
 
