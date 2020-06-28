@@ -11,7 +11,7 @@ layout: default
 
 # A medley of my works and interests
 
-Hi, this is Manish. Welcome to the mirror-land of my life and activities. Here is a little something about myself. I associate my understanding of the world to the creative, robust and innovative ideas I capture with my inbuilt wide lens camera called "The Eye" :eye:.
+Hi, this is Manish. Welcome to the mirror-land of my life and activities. Here is a little something about myself. I associate my understanding of the world to the creative, robust and innovative ideas I capture with my inbuilt wide lens camera called "The Eye". I love theorotical physics, space programs, plant and animal scientific names and the twists & turns of nature.
 
 I am a Research Intern at [Microsoft Research](https://www.microsoft.com/en-us/research/) and a member of the [Sankie](https://www.microsoft.com/en-us/research/project/sankie/) team. I also hold adjuct position as Research Assistant, under Dr. Gowri Srinivasa, at [PESU-CPR](https://research.pes.edu/center-for-pattern-recognition/).
 
@@ -22,4 +22,4 @@ My current research efforts has forked itself in two directions but my core rese
 #### 1. AI for Software Engineering, focusing on Cloud Software Reliability and Incident Management
 #### 2. AI for Bio-Technology, focusing on De-Novo drug design and Prognostic Scoring Systems for lethal diseases
 
-I also enjoy writing, design and art. They are an integral part of my ideologies and reasoning. I sketch when al
+I also enjoy writing, design and art. They are an integral part of my ideologies and reasoning. I sketch and also play the keyboard when I need to ideate or just keep thoughts flowing. I love basketbal and can beatbox as well. Enjoy the rest of website. Cheers. 
