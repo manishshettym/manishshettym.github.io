@@ -21,7 +21,7 @@ layout: default
     <td>Multi Scale Template Matching To Denoise Epigraphical Estampages</td>
     <td> IEEE ICICC'19 </td>
     <td> Springer </td>
-    <td> https://www.researchgate.net/publication/339314993_Multiscale_Template_Matching_to_Denoise_Epigraphical_Estampages </td>
+    <td style="word-wrap:break-word;"> https://www.researchgate.net/publication/339314993_Multiscale_Template_Matching_to_Denoise_Epigraphical_Estampages </td>
 </tr>
 <tr>
     <td>Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis</td>
