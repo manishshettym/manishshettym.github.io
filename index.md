@@ -2,8 +2,11 @@
 layout: default
 ---
 
-| Posts        | Projects          | Home  |
-|:-------------|:------------------|:------|
+<p align="center">
+    <a href="./posts.html">Posts</a> •
+    <a href="./projects.html">Projects</a> •
+    <a href="./index.html">Home</a> •
+</p>
 
 
 # Welcome to Manish Shetty's Blog
