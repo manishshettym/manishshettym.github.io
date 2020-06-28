@@ -5,7 +5,7 @@ layout: default
 <p align="left" style="font-size:30px">
     <a href="./posts.html">Posts</a> •
     <a href="./projects.html"> Projects</a> •
-    <a href="./projects.html"> Publications</a> •
+    <a href="./projects.html"> Publications</a>
 </p>
 
 
