@@ -22,4 +22,4 @@ My current research efforts has forked itself in two directions as applications 
 #### 1. AI for Software Engineering, focusing on Cloud Software Reliability and Incident Management
 #### 2. AI for Bio-Technology, focusing on De-Novo drug design and Prognostic Scoring Systems for lethal diseases
 
-I also enjoy writing, design and art. They are an integral part of my ideologies and reasoning. I sketch and also play the keyboard when I need to ideate or just keep thoughts flowing. I love basketbal and can beatbox as well. Enjoy the rest of website. Cheers. 
+I also enjoy writing, design and art. They are an integral part of my ideologies and reasoning. I sketch and also play the keyboard when I need to ideate or just keep thoughts flowing. I love basketball and can beatbox as well. Enjoy the rest of website. Cheers. 
