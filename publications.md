@@ -10,7 +10,7 @@ layout: default
 
 ## Here is a list of my research publications
 
-| Paper Title | Conference/Journal | Publisher | Link |
+| Paper Title &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Conference/Journal | Publisher | Link |
 |------------|--------------------|-----------|------|
 | Multi Scale Template Matching To Denoise Epigraphical Estampages | IEEE ICICC'19 | Springer | https://www.researchgate.net/publication/339314993_Multiscale_Template_Matching_to_Denoise_Epigraphical_Estampages|
 | Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis | CoCoNET'19 | Elsevier | - |
