@@ -2,7 +2,7 @@
 layout: default
 ---
 
-| [Posts](./posts.html) | [Projects](./projects.html) | [Home](./index.html) |
+| ## [Posts](./posts.html) | ## [Projects](./projects.html) | ## [Home](./index.html) |
 
 
 # Welcome to Manish Shetty's Blog
