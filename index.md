@@ -2,8 +2,8 @@
 layout: default
 ---
 
-| [Posts](./another-page.html)       | Projects         | Home |
-|:-------------|:------------------|:------|
+| [Posts](./posts.html) | [Projects](./projects.html) | [Home](./index.html) |
+
 
 # Welcome to Manish Shetty's Blog
 
