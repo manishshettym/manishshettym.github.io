@@ -121,6 +121,20 @@ ul.downloads {
   width:270px;
 }
 
+ul.social {
+  list-style:none;
+  height:10px;
+  padding:0;
+  border-radius:5px;
+  border:1px solid #e0e0e0;
+  width:10px;
+}
+
+.social li {
+  width:40px;
+  height:40px;
+}
+
 .downloads li {
   width:89px;
   float:left;
