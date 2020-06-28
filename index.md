@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<p align="center">
-    <a href="./posts.html">Posts</a> •
-    <a href="./projects.html">Projects</a> •
-    <a href="./index.html">Home</a> •
+<p align="left" style="font-size:30px">
+    | <a href="./posts.html">Posts</a> •
+    <a href="./projects.html"> Projects</a> •
+    <a href="./index.html"> Home</a> |
 </p>
 
 
