@@ -11,7 +11,7 @@ layout: default
 
 # A medley of my works and interests
 
-Hi, this is Manish. Welcome to the mirror-land of my life and activities. Here is a little something about myself. I associate my understanding of the world to the creative, robust and innovative ideas I capture with that wide lens camera called "The Eye" :eye:.
+Hi, this is Manish. Welcome to the mirror-land of my life and activities. Here is a little something about myself. I associate my understanding of the world to the creative, robust and innovative ideas I capture with my inbuilt wide lens camera called "The Eye" :eye:.
 
 I am a Research Intern at [Microsoft Research](https://www.microsoft.com/en-us/research/) and a member of the [Sankie](https://www.microsoft.com/en-us/research/project/sankie/) team. I also hold adjuct position as Research Assistant, under Dr. Gowri Srinivasa, at [PESU-CPR](https://research.pes.edu/center-for-pattern-recognition/).
 
