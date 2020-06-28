@@ -2,10 +2,9 @@
 layout: default
 ---
 
-| head1        | head two          | three |
+| Posts        | Projects          | Home  |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
+|              |                   |       |
 
 
 # Welcome to Manish Shetty's Blog
