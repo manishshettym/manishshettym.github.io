@@ -4,7 +4,6 @@ layout: default
 
 | Posts        | Projects          | Home  |
 |:-------------|:------------------|:------|
-|              |                   |       |
 
 
 # Welcome to Manish Shetty's Blog
