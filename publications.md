@@ -11,12 +11,12 @@ layout: default
 ## Here is a list of my research publications
 
 <table style="display:flex;"> 
-<th>
-    <td > Paper Title </td>
+<tr style="font-weight:bold;">
+    <td style="widht:15%;"> Paper Title </td>
     <td> Conference/Journal </td>
     <td> Publisher </td>
     <td> Link </td>
-</th>
+</tr>
 <tr>
     <td>Multi Scale Template Matching To Denoise Epigraphical Estampages</td>
     <td> IEEE ICICC'19 </td>
