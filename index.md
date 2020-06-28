@@ -2,8 +2,10 @@
 layout: default
 ---
 
-| ## [Posts](./posts.html) | ## [Projects](./projects.html) | ## [Home](./index.html) |
-|:-------------------------|:-------------------------|:-------------------------|
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
 
 
 # Welcome to Manish Shetty's Blog
