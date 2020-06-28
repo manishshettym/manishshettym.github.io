@@ -6,7 +6,6 @@ layout: default
     <a href="./posts.html">Posts</a> •
     <a href="./projects.html"> Projects</a> •
     <a href="./projects.html"> Publications</a> •
-    <a href="./index.html"> Home</a>
 </p>
 
 
