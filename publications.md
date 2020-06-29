@@ -25,7 +25,7 @@ layout: default
 </tr>
 <tr>
     <td>Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis</td>
-    <td>CoCoNET'19 </td>
+    <td> ACM CoCoNET'19 </td>
     <td> Elsevier </td>
     <td> - </td>
 </tr>
