@@ -33,7 +33,7 @@ function setActiveStyleSheet(title) {
   
   function setPreferredStyleSheet(title) {
     setActiveStyleSheet(title);
-    createCookie("style", title, 365);
+    // createCookie("style", title, 365);
   }
   
   function createCookie(name,value,days) {
