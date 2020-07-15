@@ -27,4 +27,5 @@ I also enjoy writing, design and art. They are an integral part of my ideologies
 
 # Latest News
 
+![SoftNER in the press](https://venturebeat.com/wp-content/uploads/2019/11/microsoft-1-e1580261336710.jpg?resize=1200%2C573&strip=all)
 [SoftNER, my work and paper as a Research Intern, published in VentureBeat](https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/)
