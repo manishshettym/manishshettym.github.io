@@ -40,7 +40,7 @@ layout: default
 <td> Neural Knowledge Extraction from Cloud Service Incidents </td>
 <td> ACM/IEEE ASE'20 </td> 
 <td> - </td>
-<td> - </td>
+<td style="word-wrap:break-word;"> <a href="https://arxiv.org/pdf/2007.05505.pdf">Paper</a> </td>
 </tr>
 
 </table>
