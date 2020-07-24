@@ -27,9 +27,21 @@ I also enjoy writing, design and art. They are an integral part of my ideologies
 
 # Latest News
 
+<ol>
+<li>
 <p> 
     <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/" >
-    <img src="https://venturebeat.com/wp-content/uploads/2019/11/microsoft-1-e1580261336710.jpg?resize=1200%2C573&strip=all"/>
     SoftNER, my work and paper as a Research Intern, published in VentureBeat
+    <img src="https://venturebeat.com/wp-content/uploads/2019/11/microsoft-1-e1580261336710.jpg?resize=1200%2C573&strip=all"/>
     </a>
 </p>
+</li>
+
+<li>
+<p> 
+    <a href="https://www.linkedin.com/pulse/does-creating-mindless-ai-connote-modern-society-manish-shetty-m/?trackingId=svqfFR6CS5yiuzXXlPuGnw%3D%3D" >
+    Does creating "The Mindless AI"​ connote modern society?
+    <img src="https://media-exp1.licdn.com/dms/image/C4D12AQFzQ2QywGdJNw/article-cover_image-shrink_600_2000/0?e=1600905600&v=beta&t=wGEHIj5QawgHLTsTMmVov5e0xfvtpfYlfQXKoB5Q9cQ"/>
+    </a>
+</p>
+</li>
