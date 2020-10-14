@@ -29,12 +29,18 @@
 	<script src="js/onclicksmoothscroll.js"></script>
 	<script>
 		$.getJSON("js/data.json", function(json){
-    		console.log(json); // this will show the info it in firebug console
+			// console.log(json); this will show the info it in firebug console
+			var $ul = $('#results')
+			$.each(data, function(idx, item){
+				$codelink = '<a href="'+item.Links+'">Code</a>'
+				$arxivlink = '<a href="#">arxiv</a>'
+                $ul.append('<li> <p align="justify"> <strong>' + item.Title + '</strong> ['+ $arxivlink +'] ['+ $codelink +'] </p> </li>')
+            })
 		});
 	</script>
 
 	<div class="container">
-		
+
 		<div class="row">
 			<div class="span6">
 				<h1>Manish Shetty</h1>
@@ -86,7 +92,7 @@
 							[ <a href="#">arxiv</a> ]
 							[ <a href="#">Code</a>]
 						</p>
-					</li>					
+					</li>
 				</ul>
 			</div>
 		</div>
