@@ -31,7 +31,7 @@
 		$.getJSON("js/data.json", function(json){
 			// console.log(json); this will show the info it in firebug console
 			var $ul = $('#results')
-			$.each(json[0], function(idx, item){
+			$.each(json.response, function(idx, item){
 				console.log(item)
 				console.log(item.Title)
 				$codelink = '<a href="'+item.Links+'">Code</a>'
