@@ -27,9 +27,14 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/onclicksmoothscroll.js"></script>
+	<script>
+		$.getJSON("js/data.json", function(json){
+    		console.log(json); // this will show the info it in firebug console
+		});
+	</script>
 
 	<div class="container">
-
+		
 		<div class="row">
 			<div class="span6">
 				<h1>Manish Shetty</h1>
@@ -74,7 +79,7 @@
 				<!-- <p class="text-right">Papers and their Open-Source Implementations</p> -->
 			</div>
 			<div class="span10">
-				<ul class="unstyled">
+				<ul class="unstyled" id="results">
 					<li>
 						<p align="justify">
 							<strong>Title of Paper</strong>							
