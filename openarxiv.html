@@ -32,6 +32,8 @@
 			// console.log(json); this will show the info it in firebug console
 			var $ul = $('#results')
 			$.each(json, function(idx, item){
+				console.log(item)
+				console.log(item.Title)
 				$codelink = '<a href="'+item.Links+'">Code</a>'
 				$arxivlink = '<a href="#">arxiv</a>'
                 $ul.append('<li> <p align="justify"> <strong>' + item.Title + '</strong> ['+ $arxivlink +'] ['+ $codelink +'] </p> </li>')
