@@ -1,0 +1,75 @@
+.social {
+    border-radius: 4px;
+    margin: 1rem 0;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.social a {
+    color: #aaa;
+    transition: color .2s ease-in-out;
+    position: relative; 
+}
+.social a:not(:first-child) {
+      margin-left: 0.5rem; 
+}
+.linkedin:hover {
+color: #0077b5; }
+
+.github:hover {
+color: black;
+}
+
+.google-scholar:hover {
+color: #3248a8;
+}
+.twitter:hover {
+color: #1da1f2; }
+
+.spotify:hover {
+color: #2ebd59; }
+
+.dp {
+    width: 18rem;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 10px 250px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+}
+.projthumb {
+    width: 25px;
+    float: left;
+    margin-right: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    }
+.pub-type {
+    height:26px;  
+    width: 130px;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    text-align:center;
+    }
+.pub {
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 3px;
+    border: solid rgba(0, 0, 0, 0.1);
+    border-width: 0.5px 12px 0.5px 0.5px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding: 0.75rem;
+    width: 100%; 
+    }
+.pub-title {
+      color: inherit; 
+    }
+  .pub-title:hover {
+    color: #000;
+    cursor: pointer; 
+    }
+.pub-title:hover i {
+    padding-left: 1rem; 
+    }
+i.rarr {
+    transition: padding .2s ease;
+    font-style: normal; 
+    }
