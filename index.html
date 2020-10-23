@@ -7,7 +7,8 @@
 	<meta charset="htf-8">
 
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
 
 	<title> Manish Shetty's Homepage </title>
 </head>
@@ -15,12 +16,43 @@
 <body>
 
 	<style>
-		.projthumb{
+		.projthumb {
 			width: 25px;
 			float: left;
 			margin-right: 7px;
 			margin-top: 4px;
 			margin-bottom: 4px;
+			}
+		.pub-type {
+			height:26px;  
+			width: 130px;
+			margin-top: -0.5rem;
+			margin-bottom: 1.5rem;
+			text-align:center;
+			}
+		.pub {
+			box-sizing: border-box;
+			display: inline-block;
+			border-radius: 3px;
+			border: solid rgba(0, 0, 0, 0.1);
+			border-width: 0.5px 12px 0.5px 0.5px;
+			box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+			padding: 0.75rem;
+			width: 100%; 
+			}
+		.pub-title {
+  			color: inherit; 
+			}
+  		.pub-title:hover {
+			color: #000;
+			cursor: pointer; 
+			}
+    	.pub-title:hover i {
+			padding-left: 1rem; 
+			}
+		i.rarr {
+			transition: padding .2s ease;
+			font-style: normal; 
 			}
 	</style>
 
@@ -168,6 +200,20 @@
 		<div class="row" id="publications">
 			<div class="span10 offset2">
 				<h3>Publications</h3>
+				<div>
+					<div class="pub-type" style="float:left; margin-right: 0%; background:rgba(244, 126, 156, 0.2);">
+						<p style="font-size: 1rem; font-weight: 300; ">Conference</p>
+					</div>
+					<div class="pub-type" style="float:left;margin-right: 0%; background:rgba(126, 156, 244, 0.2);">
+						<p style="font-size: 1rem; font-weight: 300; ">Workshop</p>
+					</div>
+					<div class="pub-type" style="float: left; background:rgba(126, 244, 156, 0.2);">
+						<p style="font-size: 1rem; font-weight: 300;">Preprint</p>
+					</div>
+					<div class="pub-type" style="float: left; background:rgba(80, 240, 40, 0.2);">
+						<p style="font-size: 1rem; font-weight: 300;">Demonstration</p	>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -177,48 +223,47 @@
 			</div>
 			<div class="span10">
 				<ul class="unstyled">
-					<li>
+					<li class="pub" style="border-right-color: rgba(126, 244, 156, 0.2);">
 						<p align="justify">
-							<strong>Neural Knowledge Extraction From Cloud Service Incidents</strong>							
+							<a href="https://arxiv.org/abs/2007.05505" style="color:inherit">
+								<strong class="pub-title" >Neural Knowledge Extraction From Cloud Service Incidents <i class="rarr">&rarr;</i></strong>
+							</a>							
 							<br> Manish Shetty, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann
 							<br>
-							<i> Under Submission </i>
-							<br> 
-							[ <a href="https://arxiv.org/abs/2007.05505">arxiv</a> ]
-							[ Private Code ]
+							<i> Under Submission @ International Conference on Software Engineering </i> (<b>ICSE</b>) 2021
 						</p>
 					</li>
 
-					<li>
+					<li class="pub" style="border-right-color: rgba(244, 126, 156, 0.2);">
 						<p align="justify">
-							<strong>Exploration and Comparison of Modern AI Algorithms to Predict Drug Efficacy</strong>							
+							<a href="https://ieeexplore.ieee.org/document/9198433" style="color:inherit">
+								<strong class="pub-title">Exploration and Comparison of Modern AI Algorithms to Predict Drug Efficacy <i class="rarr">&rarr;</i></strong>
+							</a>							
 							<br> Anish Kasi, Manish Shetty M, Roshan Neil, Vidhya Murali, Prashanth Athri, Gowri Srinivasa
 							<br>
 							<i> International Conference on Electronics, Computing and Communication Technologies </i> (<b>CONECCT</b>) 2020
-							<br> 
-							[ <a href="https://ieeexplore.ieee.org/document/9198433">paper</a> ]
 						</p>
 					</li>
 
-					<li>
+					<li class="pub" style="border-right-color: rgba(244, 126, 156, 0.2);">
 						<p align="justify">
-							<strong>Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis</strong>							
+							<a href="https://www.sciencedirect.com/science/article/pii/S1877050920311820" style="color:inherit">
+								<strong class="pub-title">Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis <i class="rarr">&rarr;</i></strong>							
+							</a>
 							<br> Preeti P, Anish Kasi, Manish Shetty M, Mamatha H.R.
 							<br>
 							<i> International Conference on Computing and Network Communications </i> (<b>CoCoNet</b>) 2019
-							<br> 
-							[ <a href="https://www.sciencedirect.com/science/article/pii/S1877050920311820">paper</a> ]
 						</p>
 					</li>
 
-					<li>
+					<li class="pub" style="border-right-color: rgba(244, 126, 156, 0.2);">
 						<p align="justify">
-							<strong>Multi Scale Template Matching To Denoise Epigraphical Estampages</strong>							
+							<a href="https://link.springer.com/chapter/10.1007/978-981-15-1084-7_59" style="color:inherit">
+								<strong class="pub-title">Multi Scale Template Matching To Denoise Epigraphical Estampages <i class="rarr">&rarr;</i></strong>							
+							</a>
 							<br> Preeti P, Anish Kasi, Manish Shetty M, Mamatha H.R.
 							<br>
 							<i> International Conference on Intelligent Computing and Communication </i> (<b>ICICC</b>) 2019
-							<br> 
-							[ <a href="https://link.springer.com/chapter/10.1007/978-981-15-1084-7_59">paper</a> ]
 						</p>
 					</li>
 
