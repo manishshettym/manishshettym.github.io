@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta charset="htf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
 	<link rel="stylesheet" href="css/font.awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="css/my.effects.css" type="text/css">
@@ -14,6 +14,26 @@
 	<title>Manish Shetty · AI Researcher</title>
 </head>
 <style>
+	@media only screen and (max-width:800px) {
+		/* For mobile phones: */
+		.nav, .row, .span10, .span2{
+			margin-left:10px;
+		}
+
+		.nav, .container{
+			width:fit-content;
+		}
+		.msresearch-pic, .dp{
+			display: none;
+		}
+
+		.social{
+			margin: auto;
+			width: 50%;
+			padding: 10px;
+		}
+		
+	}
 	body{
 		-webkit-font-smoothing: antialiased;
 		font-family: 'Lato', sans-serif;
@@ -43,7 +63,7 @@
 			<div class="span6">
 				<h1 style="padding-top: 37px;">Manish Shetty</h1>
 			</div>
-			<div class="span6">
+			<div class="span6 msresearch-pic">
 				<img src="images/msresearch.png" style="float:right;" width="50%" alt="Microsoft Research">
 				<br>
 			</div>
@@ -97,6 +117,7 @@
 				<br>
 				<p class="text-right">Jun 2018 - Feb 2019 </p>
 				<br>
+				<p class="text-right">Contact </p>
 			</div>
 
 			<div class="span7">
@@ -135,6 +156,11 @@
 							<br>
 						</p>
 					</li>
+					<li>
+						<p class="text-left">
+							t-mamola at microsoft dot com
+						</p>
+					</li>
 				</ul>
 			</div>
 
@@ -145,11 +171,7 @@
 		</div>
 
 		<div class="row">
-			<div class="span2">
-				<p class="text-right">Contact </p>
-			</div>
-			<div class="span10">
-				<p>t-mamola at microsoft dot com</p>
+			<div class="span10 offset2">			
 				<div class="social">
 					<a href="https://www.linkedin.com/in/manishshettym/" class="linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-xs"></i></a>
 					<a href="https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en" class="google-scholar" title="GoogleScholar"><i class="ai ai-google-scholar ai-1x"></i></a>
