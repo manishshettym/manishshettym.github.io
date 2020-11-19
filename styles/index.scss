@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Slab');
+
+@mixin smallupper {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    line-height: 2em;
+    font-family: 'Roboto';
+    color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+.container {
+    margin-top: 20vmin;
+    margin-bottom: 20vmin;
+}
+
+.drawer {
+    float: left;
+    text-align: right;
+
+    ul {
+        color: #aaa;
+    }
+}
+
+.dp {
+    width: 18rem;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 3.2rem;
+}
+
+.content {
+    font-size: 1.8rem;
+}
+
+p a, ul a {
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    color: #49bf9d;
+    transition: border-bottom-color .2s ease-in-out;
+
+    &:hover {
+        border-bottom-color: transparent;
+    }
+}
+
+.social {
+    border-radius: 4px;
+    margin: 3rem 0;
+    font-size: 3rem;
+    white-space: nowrap;
+
+    a {
+        color: #aaa;
+        transition: color .2s ease-in-out;
+        position: relative;
+
+        &:not(:first-child) {
+            margin-left: 2rem;
+        }
+    }
+}
+
+.linkedin:hover {
+    color: #0077b5;
+}
+
+.mail:hover {
+    color: #449a88;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.quora:hover {
+    color: #a82400;
+}
+
+.spotify:hover {
+    color: #2ebd59;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+.pub {
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 2px 3px 0px rgba(0,0,0,0.1);
+    padding: 2rem;
+    width: 100%;
+}
+
+.pub:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+i.rarr {
+    transition: padding .2s ease;
+    font-style: normal;
+}
+
+.pub-title {
+    color: inherit;
+
+    &:hover {
+        color: #000;
+        cursor: pointer;
+
+        i {
+            padding-left: 1rem;
+        }
+    }
+}
+
+.pub-description {
+    font-size: 1.5rem;
+    margin: 0.5em 0;
+}
+
+.pub-meta {
+    color: #999;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.pub-authors {
+    font-size: 1.4rem;
+    color: #777;
+    position: static;
+    top: 90%;
+}
+
+.pub span {
+    display: block;
+}
+
+.news ul {
+    list-style-type: disc;
+    font-size: 1.5rem;
+
+    li {
+        padding-left: 1rem;
+    }
+}
+
+.tabs {
+    display: block;
+    margin-top: 4rem;
+}
+
+.tab {
+    @include smallupper;
+    cursor: pointer;
+}
+
+.tab:not(:first-child) {
+    padding-left: 1%;
+}
+
+.tab:not([class*='active']) {
+    color: #ccc;
+}
+
+@media screen and (max-width: 900px) {
+    .dp {
+        width: 20rem;
+    }
+    .content {
+        margin-left: 0 !important;
+        width: auto !important;
+    }
+    .drawer {
+        position: static;
+        float: inherit;
+        text-align: left;
+        margin-bottom: 2rem;
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .tab {
+        font-size: 1.2rem;
+    }
+}
