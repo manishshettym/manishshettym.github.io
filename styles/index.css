@@ -22,6 +22,7 @@ h3 {
   margin-bottom: 10vmin; }
 
 .drawer {
+  position:fixed;
   float: left;
   text-align: right; }
   .drawer ul {
@@ -164,7 +165,7 @@ i.rarr {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   cursor: pointer;
   padding: 5px 10px;
   height: 38px;
