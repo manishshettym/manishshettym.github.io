@@ -15,8 +15,15 @@ body {
     color: #555;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
     font-weight: 500;
+}
+
+h5{
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: 0.3vw;
+    text-transform: uppercase;
 }
 
 .container {
