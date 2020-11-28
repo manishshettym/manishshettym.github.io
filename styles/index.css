@@ -22,11 +22,12 @@ h3 {
   margin-bottom: 10vmin; }
 
 .drawer {
-  position:fixed;
+  position: fixed;
   float: left;
   text-align: right; }
-  .drawer ul {
-    color: #aaa; }
+
+.drawer ul {
+  color: #aaa; }
 
 .dp {
   width: 18rem;
