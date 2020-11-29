@@ -67,6 +67,14 @@ p a, ul a {
   p a:hover, ul a:hover {
     border-bottom-color: transparent; }
 
+h5 a{
+  text-decoration: none;
+  border-bottom: dotted 1px;
+  color: #49bf9d;
+  transition: border-bottom-color .2s ease-in-out; }
+h5 a:hover {
+    border-bottom-color: transparent; }
+
 .social {
   border-radius: 4px;
   margin: 3rem 0;

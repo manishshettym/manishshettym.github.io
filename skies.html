@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>Manish Shetty &middot; AI Researcher</title>
+        <link rel="stylesheet" href="styles/carpal.css" type="text/css">
+        <link rel="stylesheet" href="styles/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="styles/my.effects.css" type="text/css">
+        <link rel="stylesheet" href="styles/index.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    </head>
+    <style>
+        .span2{width:26%; float: left;}
+        .span7{width:70%; float: right;}
+        .text-left{text-align:left}
+        .text-right{text-align:right}
+        .row:before,.row:after{display:table;line-height:0;content:""}
+        ul.unstyled,ol.unstyled{margin-left:0;list-style:none}
+        code {background-color: rgb(27, 31, 35, 0.05); font-weight: 600;}
+        td{vertical-align:top;}
+        table td {border: 0; }
+
+        img{
+        border-radius: 3px;
+        box-shadow : 0 0px 0px 0 rgba(0, 0, 0, 0.5);
+        }
+
+        .zoom {
+        padding: 20px;
+        transition: transform .2s; /* Animation */
+        margin: 0 auto;
+        }
+      
+        .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+
+        /* footer */
+        .made-with-love-icon{
+        color: #E90606;
+        margin: 0 3px;
+        font-size: 13px;
+        animation: pound .15s infinite alternate;
+        -webkit-animation: pound .25s infinite alternate;
+        }
+    
+        .made-with-love{
+        color: #666;
+        font-size: 12px;
+        bottom: 10px;
+        width: 90%;
+        left: 50%;
+        top: 45%;
+        bottom: auto;
+        right: auto;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        }
+
+        @keyframes pound{
+            to {transform: scale(1.1);}
+        }
+
+        @-webkit-keyframes pound{
+            to {transform: scale(1.1);}
+        }
+
+    </style>
+    <body style="background-color: #FFFFFF">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/onclicksmoothscroll.js"></script>
+        
+        <div class="container">
+            <div class="drawer three columns">
+                <img class="dp" src="images/logo.jpg" width="20%" alt="A picture of Manish">
+                <h3 style="font-family: 'Poiret One'; letter-spacing: 0.1em; font-size:30px; text-transform: uppercase;">Manish Shetty</h3>
+                <nav>
+                    <ul style="list-style-type: none;">
+                        <li class="active">
+                            <a href="index.html">Go Back Home</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content eight columns offset-one"  id="pic-display" style="position: flex; float: right;">
+                <h5 style="margin-top:10px;"> Random Pictures of other-worldly Skies</a></h5>
+                <h7 style="margin-top:10px; font-weight: 100;"> PS: No expensive cameras or bank accounts were harmed in the process | Shot on OnePlus-6T</h7>
+                <hr>
+            </div>
+        </div>
+        <span class="made-with-love">
+            <p> &lt Made with <i class="fa fa-heart pulse made-with-love-icon"></i> & <img src="images/brain_pic.png" style="width:17px;"></img> by <b>Manish Shetty</b> | t-mamola [at] microsoft [dot] com /&gt</p>
+        </span>
+    </body>
+    <script>
+        var index = 1;
+        var tempImg = new Image();
+
+        tempImg.onload = function(){
+            appendImage();
+        }
+
+        var tryLoadImage = function( index ){
+            tempImg.src = 'images/skies/' + index + '.jpg';
+        }
+
+        var appendImage = function(){
+            var img = document.createElement('img');
+            img.src = tempImg.src;
+            img.className = 'zoom';
+            img.width = '300';
+            img.height = '300';
+            img.style.position = 'flex';
+
+            document.getElementById('pic-display').appendChild(img)
+            tryLoadImage( ++index )
+        }
+        tryLoadImage( index );
+    </script>
+</html>
