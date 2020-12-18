@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Slab");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,350,400,700");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,300");
 
 body {
   -webkit-font-smoothing: antialiased;
-  line-height: 2em;
-  font-family: 'Lato';
-  color: #222;
-  font-weight: 400;}
+  line-height: 1.8;
+  /* font-family: 'Lato'; */
+  font-family: 'Ubuntu';
+  color: #333;
+  font-weight: 300;}
+
+a {
+  font-weight: 300;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
@@ -62,7 +68,8 @@ h5{
 p a, ul a {
   text-decoration: none;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  /* color:  #49bf9d; */
+  color: #a00;
   transition: border-bottom-color .2s ease-in-out; }
   p a:hover, ul a:hover {
     border-bottom-color: transparent; }
@@ -70,23 +77,23 @@ p a, ul a {
 h5 a{
   text-decoration: none;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  /* color: #49bf9d; */
+  color: #a00;
   transition: border-bottom-color .2s ease-in-out; }
 h5 a:hover {
     border-bottom-color: transparent; }
 
 .social {
-  border-radius: 4px;
-  margin: 3rem 0;
-  font-size: 3rem;
+  font-size: 2.5rem;
   white-space: nowrap; }
   .social a {
-    color: #aaa;
+    /* color: #aaa; */
+    color:#a00;
     transition: color .2s ease-in-out;
     position: relative;
     border-bottom: none; }
     .social a:not(:first-child) {
-      margin-left: 2rem; }
+      margin-left: 1rem; }
 
 .linkedin:hover {
   color: #0077b5; }
