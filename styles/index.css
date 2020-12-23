@@ -144,12 +144,15 @@ i.rarr {
 
 .pub-title {
   color: inherit; 
-  font-size: 1.5rem;}
-  .pub-title:hover {
-    color: #000;
-    cursor: pointer; }
-    .pub-title:hover i {
-      padding-left: 1rem; }
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.pub-title:hover {
+  color: #000;
+  cursor: pointer; }
+
+.pub-title:hover i {
+  padding-left: 1rem; }
 
 .pub-description {
   font-size: 1.5rem;
@@ -163,7 +166,7 @@ i.rarr {
 
 .pub-authors {
   font-size: 1.4rem;
-  color: #777;
+  /* color: #777; */
   position: static;
   top: 90%; }
 
