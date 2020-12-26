@@ -56,6 +56,7 @@
         }
 
     </style>
+    <script src="js/scramble.js"></script>
     <!-- <body style="background-color: #FFFFFF"> -->
     <body style="background-image:url(images/SubtleGreyBackground.jpg);">
         <script src="js/jquery.js"></script>
@@ -69,22 +70,26 @@
                     <p>Research Fellow, Microsoft Research India</p>
                     <nav>
                         <ul style="list-style-type: none;">
-                            <li> mmshetty.98 [at] gmail [dot] com</li>
-                            <li class="active">
-                                <a href="#experience">Experience</a>
+                            <li style="color:black;">"𝚃𝚘 𝚜𝚝𝚛𝚒𝚟𝚎, 𝚝𝚘 𝚜𝚎𝚎𝚔, 𝚝𝚘 𝚏𝚒𝚗𝚍, 𝚊𝚗𝚍 𝚗𝚘𝚝 𝚝𝚘 𝚢𝚒𝚎𝚕𝚍"</li>
+                            <li style="font-weight: 300; color:#000">
+                            <span style="font-weight:bolder;">email:</span> <p id="email" style="display:inline;"></p>
+                                <script>
+                                    emailScramble = new scrambledString(document.getElementById('email'),
+                                        'emailScramble', 
+                                        't8mgih.masco@em.t9myl',
+                                        [6,11,1,13,16,4,9,2,15,3,19,20,12,5,14,18,7,10,21,8,17]);
+                                </script>
                             </li>
-                            <li>
-                                <a href="#interests">Research Interests</a>
+                            <li style="font-weight: 300; color:#000">
+                                <a href="#experience">#Experience</a> | 
+                                <a href="#interests">#Interests</a> |
+                                <a href="#tabs">#Publications</a>
                             </li>
-                            <li>
-                                <a href="#tabs">Publications & Projects</a>
-                            </li>
-                            <li"> 
-                                <a href="https://manishshettym.github.io/skies.html">Random photos of other-worldly skies</a>
-                            </li>
-                            <p style="font-weight: 300; color:#000">For more details:</p>
+                            <!-- <li> 
+                                <a href="https://manishshettym.github.io/skies.html"># Other-worldly skies</a>
+                            </li> -->
                             <li style="font-weight: 300; color:#000"> 
-                                <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a> &nbsp;|&nbsp; 
+                                For more details: <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a> &nbsp;|&nbsp; 
                                 <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a>
                             </li>
                             <div class="social">
@@ -357,9 +362,9 @@
 
                 </div>
         </div>
-        <span class="made-with-love">
+        <!-- <span class="made-with-love">
             <p> &lt Made with <i class="fa fa-heart pulse made-with-love-icon"></i> & <img src="images/brain_pic.png" style="width:17px;"></img> by <b>Manish Shetty</b> | mmshetty.98 [at] gmail [dot] com /&gt</p>
-        </span>
+        </span> -->
     </body>
 
     <script>
