@@ -14,20 +14,27 @@ a {
   font-weight: 300;
 }
 
+table {
+  font-weight: 300;
+}
+
+#date {
+  font-style: oblique;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color:#000 }
 
 h3 {
+  font-size: 3em;
   font-weight: 390;
   color:#000 
 }
 
 h5{
   font-weight: 300;
-  font-size: 1.2em;
-  letter-spacing: 0.3vw;
-  text-transform: uppercase;
+  font-size: 1.7em;
 }
 
 .container {
@@ -65,11 +72,14 @@ h5{
 .content {
   font-size: 1.6rem; }
 
+a {
+  font-weight: bolder;
+}
+
 p a, ul a {
   text-decoration: none;
   border-bottom: dotted 1px;
-  /* color:  #49bf9d; */
-  color: #a00;
+  color: #3f51b5;
   transition: border-bottom-color .2s ease-in-out; }
   p a:hover, ul a:hover {
     border-bottom-color: transparent; }
@@ -77,8 +87,7 @@ p a, ul a {
 h5 a{
   text-decoration: none;
   border-bottom: dotted 1px;
-  /* color: #49bf9d; */
-  color: #a00;
+  color: #3f51b5;
   transition: border-bottom-color .2s ease-in-out; }
 h5 a:hover {
     border-bottom-color: transparent; }
@@ -88,7 +97,7 @@ h5 a:hover {
   white-space: nowrap; }
   .social a {
     /* color: #aaa; */
-    color:#a00;
+    color:#3f51b5;
     transition: color .2s ease-in-out;
     position: relative;
     border-bottom: none; }
@@ -146,7 +155,6 @@ i.rarr {
 .pub-title {
   color: inherit; 
   font-size: 1.5rem;
-  font-weight: bolder;
 }
 .pub-title:hover {
   color: #000;
@@ -160,14 +168,14 @@ i.rarr {
   margin: 0.5em 0; }
 
 .pub-meta {
-  color: #666;
   font-size: 1.3rem;
   line-height: 190%;
+  color: inherit;
+  font-style: oblique;
   }
 
 .pub-authors {
   font-size: 1.4rem;
-  /* color: #777; */
   position: static;
   top: 90%; }
 
