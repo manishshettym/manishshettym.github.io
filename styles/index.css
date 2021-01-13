@@ -4,7 +4,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  line-height: 1.8;
+  line-height: 1.5;
   /* font-family: 'Lato'; */
   font-family: 'Ubuntu';
   color: #333;
@@ -114,6 +114,7 @@ section {
   margin-top: 3rem; }
 
 .pub {
+  background-color:#FFFFFF;
   box-sizing: border-box;
   display: inline-block;
   border-radius: 3px;
