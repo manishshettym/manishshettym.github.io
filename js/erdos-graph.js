@@ -24,7 +24,7 @@ data = {
       }
     ],
     "edges": [
-      { "from": "Paul Erdos", "to": "Dieter Kratsch" },
+      { "from": "Paul Erdös", "to": "Dieter Kratsch" },
       { "from": "Dieter Kratsch", "to": "Andreas Brandstädt" },
       { "from": "Andreas Brandstädt", "to": "Franz-Josef Brandenburg" },
       { "from": "Franz-Josef Brandenburg", "to": "Daniel Gmach" },
