@@ -27,7 +27,7 @@
         code {background-color: rgb(27, 31, 35, 0.05); font-weight: 600;}
         td{vertical-align:top;}
         table td {border: 0; }
-        #erdoscontainer{ width: 100%; height: 20%; margin: 0; padding: 0;}
+        #erdoscontainer{width: 100%; height: 19%; margin-top: 0.05em; padding: 0;}
 
         /* footer */
         .made-with-love-icon{
@@ -85,9 +85,9 @@
                                 </script>
                             </li>
                             <li style="font-weight: 300; color:#000">
-                                <a href="#experience">#Experience</a> | 
                                 <a href="#interests">#Interests</a> |
                                 <a href="#tabs">#Publications</a> |
+                                <a href="#experience">#Experience</a> |
                                 <a href="https://manishshettym.github.io/blog.html">#Blog</a>
                             </li>
                             <li style="font-weight: 300; color:#000"> 
@@ -111,24 +111,30 @@
                     Hi! <span class="wave">👋</span>Here is a little something about myself.
                     I'm a Research Fellow at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research - India</a> where I am fortunate to work with
                     <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a> on using Machine Learning and NLP techniques
-                    to aid Software Developement. I have also had the opportunity to collaborate with <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a> & <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>.
+                    to aid Software Developement. I have also had the opportunity to collaborate on AIOps projects with <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a> & <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>.
                     
                     <p style="margin-top: 0.7rem; text-align: justify;">
                     Previously, I graduated <span class="jump">🎓</span>with a B.Tech(Hons.) in Computer Science and Engineering (<i>specialization in Data Science</i>) from PES University, Bangalore, India in 2020. 
-                    I am grateful to have been advised by <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a> on my bachelor thesis.
+                    I am grateful to have been advised on my bachelor thesis by <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a>.
                     </p>
 
                     <p style="margin-top: 0.7rem; text-align: justify;">
                     I love theoretical physics, space programs, plant/animal scientific names, and the twists & turns of nature. 
-                    When I am not working, I like to read books, watch basketball games, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies</a>
+                    When I am not working, I like to read books, play basketball, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies</a>
+                    </p>
+
+                    <p style="margin-top: 0.5rem; text-align: justify;">
+                        <b><i>Fun Fact:</i> My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <code>6</code>!<br></b>
+                        <div id="erdoscontainer"></div>
+                        <script src="js/erdos-graph.js"></script>
                     </p>
 
                     <!-- RESEARCH INTERESTS -->
                     <h5 style="margin-top: 2rem;" id="interests">Research Interests</h5>
                     <p style="margin-top: 1rem; text-align: justify;">
-                        My core interest lies broadly in the intersections of <code>Machine Learning</code>, <code>Natural Language Processing</code>, and <code>Information Extraction</code>.
+                        My core interest lies broadly in the intersections of <b><i>Machine Learning</i></b>, <b><i>Natural Language Processing</i></b>, and <b><i>Information Extraction</i></b>.
                         In particular, I am interested in the extraction and representation of knowledge for automated reasoning and inference.
-                        I'm currently working on structured knowledge extraction for <code>AI-assisted Software Engineering</code> @ Microsoft. 
+                        I'm currently working on structured information and knowledge extraction for <b><i>AI-assisted Software Engineering</i></b> @ Microsoft. 
                     </p>
                     <p style="margin-top: 1rem; text-align: justify;">
                         As humans we have the ability to learn new concepts, ideas, and skills quickly and effectively. We use knowledge learnt from one task to learn decisions for others. 
@@ -136,7 +142,7 @@
                         Some interesting research domains, that revolve around this, that I'd like to explore are:
                         <ul style="list-style-type: none; margin-top:0.25em; list-style-position: outside;">
                         <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                            <i><b>Multi-task Learning</b></i> - Exploiting shared representation across related tasks. [<i>e.g. our work <a href="https://arxiv.org/abs/2007.05505">SoftNER</a></i>]
+                            <i><b>Multi-task Learning</b></i> - Exploiting shared representation across related tasks. [<i>e.g. <a href="https://arxiv.org/abs/2007.05505">SoftNER</a></i>]
                         </li>
                         <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
                             <i><b>Meta Learning</b></i> - Learning to Learn
@@ -148,12 +154,6 @@
                             <i><b>Robust & Interpretable ML</b></i> - Modelling for low resource/ long tailed data
                         </li>
                         </ul>
-                    </p>
-
-                    <p style="margin-top: 0.5rem; text-align: justify;">
-                        <b><i>Fun Fact:</i> My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is 6!<br></b>
-                        <div id="erdoscontainer"></div>
-                        <script src="js/erdos-graph.js"></script>
                     </p>
 
                     <p style="margin-top: 0.5rem; text-align: justify;">
@@ -192,17 +192,17 @@
                         <div class="pub-type" style="float: left; background:rgba(80, 240, 40, 0.2);">
                             <center style="font-size: 1.4rem; font-weight: 300;">Journal</center>
                         </div>
-                        <div>
+                        <div class="pub-type" style="float: left; border:none;">
                             <center style="font-size: 1.2rem; font-weight: 100;">* &rarr; equal contributions</center>
                         </div>
                         </div>
-                        <!-- <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.2);">
-                            <a target="_blank" href="#">
+                        <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.2);">
+                            <a target="_blank" href="https://arxiv.org/abs/2101.05961">
                             <span class="pub-title">Mining Knowledge Graphs from Incident Reports<i class="rarr">&rarr;</i></span>
                             </a>
                             <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal</span>
-                            <span class="pub-meta">Under Submission @ Mining Software Repositories (<b>MSR</b>) 2021</span>
-                        </div> -->
+                            <span class="pub-meta">Under Submission</span>
+                        </div>
                         <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.2);">
                             <a target="_blank" href="https://arxiv.org/abs/2007.05505">
                             <span class="pub-title">Neural Knowledge Extraction From Cloud Service Incidents <i class="rarr">&rarr;</i></span>

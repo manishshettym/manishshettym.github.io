@@ -134,6 +134,7 @@ section {
   width: 100%; }
 
 .pub-type {
+  padding-top:0.5em;
   height:28px;  
   width: 140px;
   border-radius: 2px;
@@ -197,10 +198,9 @@ i.rarr {
 .tab {
   display: inline-block;
   font-weight: 500;
-  font-size: 1.4rem;
-  text-transform: uppercase;
+  font-size: 1.9rem;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   cursor: pointer;
   padding: 5px 10px;
   height: 38px;
