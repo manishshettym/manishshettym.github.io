@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#000 }
 
 h3 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 390;
   color:#000 
 }
@@ -42,6 +42,7 @@ h5{
   margin-bottom: 10vmin; }
 
 .drawer {
+  padding-right: 9%;
   position: fixed;
   float: left;
   text-align: right; }

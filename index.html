@@ -18,46 +18,11 @@
            
     </head>
     <style>
-        .span2{width:26%; float: left;}
-        .span7{width:70%; float: right;}
-        .text-left{text-align:left}
-        .text-right{text-align:right}
-        .row:before,.row:after{display:table;line-height:0;content:""}
+        /* body{font-family: 'Barlow', sans-serif;} */
         ul.unstyled,ol.unstyled{margin-left:0;list-style:none}
-        code {background-color: rgb(27, 31, 35, 0.05); font-weight: 600;}
         td{vertical-align:top;}
         table td {border: 0; }
         #erdoscontainer{width: 100%; height: 19%; margin-top: 0.05em; padding: 0;}
-
-        /* footer */
-        .made-with-love-icon{
-        color: #E90606;
-        margin: 0 3px;
-        font-size: 13px;
-        animation: pound .15s infinite alternate;
-        -webkit-animation: pound .25s infinite alternate;
-        }
-    
-        .made-with-love{
-        color: #666;
-        font-size: 12px;
-        bottom: 10px;
-        width: 90%;
-        left: 50%;
-        top: 45%;
-        bottom: auto;
-        right: auto;
-        transform: translateX(-50%) translateY(-50%);
-        text-align: center;
-        }
-
-        @keyframes pound{
-            to {transform: scale(1.1);}
-        }
-
-        @-webkit-keyframes pound{
-            to {transform: scale(1.1);}
-        }
 
     </style>
     <script src="js/scramble.js"></script>
@@ -71,7 +36,7 @@
                 <div class="drawer three columns" style="line-height:1.8;">
                     <img class="dp" src="images/logo.jpg" width="20%" alt="A picture of Manish">
                     <h3>Manish Shetty</h3>
-                    <p style="font-size: 1.1em;">Research Fellow, Microsoft Research India</p>
+                    <p style="font-size: 1em;">Research Fellow, Microsoft Research India</p>
                     <nav style="margin-top:1em;">
                         <ul style="list-style-type: none;">
                             <!-- <li style="color:black;">"𝚃𝚘 𝚜𝚝𝚛𝚒𝚟𝚎, 𝚝𝚘 𝚜𝚎𝚎𝚔, 𝚝𝚘 𝚏𝚒𝚗𝚍, 𝚊𝚗𝚍 𝚗𝚘𝚝 𝚝𝚘 𝚢𝚒𝚎𝚕𝚍"</li> -->
@@ -84,12 +49,12 @@
                                         [6,11,1,13,16,4,9,2,15,3,19,20,12,5,14,18,7,10,21,8,17]);
                                 </script>
                             </li>
-                            <li style="font-weight: 300; color:#000">
+                            <!-- <li style="font-weight: 300; color:#000">
                                 <a href="#interests">#Interests</a> |
                                 <a href="#tabs">#Publications</a> |
                                 <a href="#experience">#Experience</a> |
                                 <a href="https://manishshettym.github.io/blog.html">#Blog</a>
-                            </li>
+                            </li> -->
                             <li style="font-weight: 300; color:#000"> 
                                 For more details: <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a> &nbsp;|&nbsp; 
                                 <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a>
@@ -123,9 +88,9 @@
                     When I am not working, I like to read books, play basketball, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies</a>
                     </p>
 
-                    <p style="margin-top: 0.5rem; text-align: justify;">
+                    <p style="margin-top: 0.5rem; text-align: justify;" onmouseover="document.getElementById('erdoscontainer').style.display = 'block';" onmouseout="document.getElementById('erdoscontainer').style.display='none';">
                         <b><i>Fun Fact:</i> My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <code>6</code>!<br></b>
-                        <div id="erdoscontainer"></div>
+                        <div id="erdoscontainer" style="display: none;"></div>
                         <script src="js/erdos-graph.js"></script>
                     </p>
 
@@ -373,9 +338,6 @@
 
                 </div>
         </div>
-        <!-- <span class="made-with-love">
-            <p> &lt Made with <i class="fa fa-heart pulse made-with-love-icon"></i> & <img src="images/brain_pic.png" style="width:17px;"></img> by <b>Manish Shetty</b> | mmshetty.98 [at] gmail [dot] com /&gt</p>
-        </span> -->
     </body>
 
     <script>
