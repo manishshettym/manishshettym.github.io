@@ -38,6 +38,7 @@ h5{
 }
 
 .container {
+  max-width: 760px;
   margin-top: 10vmin;
   margin-bottom: 10vmin; }
 
@@ -97,8 +98,8 @@ h5 a:hover {
     border-bottom-color: transparent; }
 
 .social {
-  font-size: 2rem;
-  font-weight: bolder;
+  font-size: 130%;
+  font-weight: bold;
   white-space: normal; 
 }
 
