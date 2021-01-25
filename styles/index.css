@@ -240,7 +240,7 @@ i.rarr {
     width: 20rem; }
 
   .content {
-    margin-left: 0 !important;
+    /* margin-left: 0 !important; */
     width: auto !important; }
 
   .drawer {
