@@ -97,16 +97,19 @@ h5 a:hover {
     border-bottom-color: transparent; }
 
 .social {
-  font-size: 2.5rem;
-  white-space: nowrap; }
-  .social a {
-    /* color: #aaa; */
-    color:#3f51b5;
-    transition: color .2s ease-in-out;
-    position: relative;
-    border-bottom: none; }
-    .social a:not(:first-child) {
-      margin-left: 1rem; }
+  font-size: 2rem;
+  font-weight: bolder;
+  white-space: normal; 
+}
+
+.social a {
+  /* color: #aaa; */
+  color:#3f51b5;
+  transition: color .2s ease-in-out;
+  position: relative;
+  border-bottom: none; }
+  .social a:not(:first-child) {
+    margin-left: 1rem; }
 
 .linkedin:hover {
   color: #0077b5; }
