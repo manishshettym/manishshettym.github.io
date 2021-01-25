@@ -33,44 +33,47 @@
         <script src="js/onclicksmoothscroll.js"></script>
         
         <div class="container">
-                <div class="drawer three columns" style="line-height:1.8;">
-                    <img class="dp" src="images/logo.jpg" width="20%" alt="A picture of Manish">
+            <div class="content ten columns" style="line-height:1.8;">
+                <div style="margin: auto;">
+                    <img class="dp" src="images/logo.jpg" alt="A picture of Manish">
                     <h3>Manish Shetty</h3>
-                    <p style="font-size: 1em;">Research Fellow, Microsoft Research India</p>
-                    <nav style="margin-top:1em;">
-                        <ul style="list-style-type: none;">
-                            <!-- <li style="color:black;">"𝚃𝚘 𝚜𝚝𝚛𝚒𝚟𝚎, 𝚝𝚘 𝚜𝚎𝚎𝚔, 𝚝𝚘 𝚏𝚒𝚗𝚍, 𝚊𝚗𝚍 𝚗𝚘𝚝 𝚝𝚘 𝚢𝚒𝚎𝚕𝚍"</li> -->
-                            <li style="font-weight: 300; color:#000">
-                            <span style="font-weight:bolder;">email:</span> <p id="email" style="display:inline;"></p>
-                                <script>
-                                    emailScramble = new scrambledString(document.getElementById('email'),
-                                        'emailScramble', 
-                                        't8mgih.masco@em.t9myl',
-                                        [6,11,1,13,16,4,9,2,15,3,19,20,12,5,14,18,7,10,21,8,17]);
-                                </script>
-                            </li>
-                            <!-- <li style="font-weight: 300; color:#000">
-                                <a href="#interests">#Interests</a> |
-                                <a href="#tabs">#Publications</a> |
-                                <a href="#experience">#Experience</a> |
-                                <a href="https://manishshettym.github.io/blog.html">#Blog</a>
-                            </li> -->
-                            <li style="font-weight: 300; color:#000"> 
-                                For more details: <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a> &nbsp;|&nbsp; 
-                                <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a>
-                            </li>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/in/manishshettym/" class="linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-xs"></i></a>
-                                <a href="https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en" class="google-scholar" title="GoogleScholar"><i class="ai ai-google-scholar ai-1x"></i></a>
-                                <a href="https://github.com/manishshettym" class="github" title="Github"><i class="fa fa-github fa-xs"></i></a>
-                                <a href="https://twitter.com/manishshettym" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="https://manishshettym.github.io/blog.html" class="blog" title="Blog"><i class="fa fa-wordpress"></i></a>
-                            </div>
-                        </ul>
-                    </nav>
+                    <div id="header-affiliations" style="display: flex; justify-content: space-between;">
+                        <span style="display: flex;">
+                            <ul style="list-style-type: none;">
+                                <li>
+                                    Research Fellow, Microsoft Research India
+                                </li>
+                                <li>
+                                    <span style="font-weight:bolder;">email:</span> <p id="email" style="display:inline;"></p>
+                                    <script>
+                                        emailScramble = new scrambledString(document.getElementById('email'), 'emailScramble', 't8mgih.masco@em.t9myl', [6,11,1,13,16,4,9,2,15,3,19,20,12,5,14,18,7,10,21,8,17]);
+                                    </script>
+                                </li>
+                            </ul>
+                        </span>
+                        <nav style="display: flex;">
+                            <ul style="list-style-type: none;">
+                                <!-- <li style="font-weight: 300; color:#000">
+                                    <a href="#interests">#Interests</a> |
+                                    <a href="#tabs">#Publications</a> |
+                                    <a href="#experience">#Experience</a> |
+                                    <a href="https://manishshettym.github.io/blog.html">#Blog</a>
+                                </li> -->
+                                
+                                <div class="social">
+                                    <!-- <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a> -->
+                                    <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a>
+                                    <a href="https://www.linkedin.com/in/manishshettym/" class="linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-xs"></i></a>
+                                    <a href="https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en" class="google-scholar" title="GoogleScholar"><i class="ai ai-google-scholar ai-1x"></i></a>
+                                    <a href="https://github.com/manishshettym" class="github" title="Github"><i class="fa fa-github fa-xs"></i></a>
+                                    <a href="https://twitter.com/manishshettym" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://manishshettym.github.io/blog.html" class="blog" title="Blog"><i class="fa fa-wordpress"></i></a>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
 
-                <div class="content eight columns offset-by-one" style="position: flex; float:right; padding-left:3%;">  
                     <!-- BIOGRAPHY -->                  
                     <p style="margin-top: 1rem; text-align: justify;">
                     Hi! <span class="wave">👋</span>Here is a little something about myself.
@@ -85,15 +88,10 @@
 
                     <p style="margin-top: 0.7rem; text-align: justify;">
                     I love theoretical physics, space programs, plant/animal scientific names, and the twists & turns of nature. 
-                    When I am not working, I like to read books, play basketball, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies</a>
-                    </p>
-
-                    <p style="margin-top: 0.5rem; text-align: justify;" onmouseover="document.getElementById('erdoscontainer').style.display = 'block';" onmouseout="document.getElementById('erdoscontainer').style.display='none';">
-                        <b><i>Fun Fact:</i> My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <code>6</code>!<br></b>
-                        <div id="erdoscontainer" style="display: none;"></div>
-                        <script src="js/erdos-graph.js"></script>
-                    </p>
-
+                    When I am not working, I like to read books, play basketball, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies.</a>
+                    <b><i>Fun Fact:</i> My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <code>6</code>!<br></b>
+                    </p> 
+                
                     <!-- RESEARCH INTERESTS -->
                     <h5 style="margin-top: 2rem;" id="interests">Research Interests</h5>
                     <p style="margin-top: 1rem; text-align: justify;">
@@ -336,7 +334,7 @@
 	                	<img class="logo" src="images/office365.png" width="20%" alt="affiliated" style="margin-bottom:-2rem; margin-left: -1.8rem;">
                     </p>
 
-                </div>
+            </div>
         </div>
     </body>
 
