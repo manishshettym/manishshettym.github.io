@@ -263,3 +263,24 @@ i.rarr {
     font-size: 1.2rem; } }
 
 /*# sourceMappingURL=index.css.map */
+
+#back2Top {
+  width: 30px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 100px;
+  right: 3%;
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+#back2Top:hover {
+  background-color: #f2a7a7;
+  color: #000;
+}
