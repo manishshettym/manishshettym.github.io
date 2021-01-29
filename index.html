@@ -33,32 +33,24 @@
         <script src="js/onclicksmoothscroll.js"></script>
         
         <div class="container">
-                <div id="top" style="margin: auto;">
-                    <img class="dp" src="images/logo.jpg" alt="A picture of Manish">
-                    <h3>Manish Shetty</h3>
-                    <div id="header-affiliations" style="display: flex; justify-content: space-between;">
-                        <span style="display: flex;">
+                <img class="dp" src="images/logo.jpg" alt="A picture of Manish">
+                    <div id="header-affiliations" style="display: flex; justify-content: space-between; position: sticky; top:0; border: solid rgba(0, 0, 0, 0.1); border-width: 0px 0px 0.5px 0px;">
+                        <div>
+                            <h3>Manish Shetty</h3>
+                            <span>
+                                <ul style="list-style-type: none;">
+                                    <li>Research Fellow, Microsoft Research India</li>
+                                    <li>
+                                        <span style="font-weight:bolder;">email:</span> <p id="email" style="display:inline;"></p>
+                                        <script>
+                                            emailScramble = new scrambledString(document.getElementById('email'), 'emailScramble', 't8mgih.masco@em.t9myl', [6,11,1,13,16,4,9,2,15,3,19,20,12,5,14,18,7,10,21,8,17]);
+                                        </script>
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
+                        <nav>
                             <ul style="list-style-type: none;">
-                                <li>
-                                    Research Fellow, Microsoft Research India
-                                </li>
-                                <li>
-                                    <span style="font-weight:bolder;">email:</span> <p id="email" style="display:inline;"></p>
-                                    <script>
-                                        emailScramble = new scrambledString(document.getElementById('email'), 'emailScramble', 't8mgih.masco@em.t9myl', [6,11,1,13,16,4,9,2,15,3,19,20,12,5,14,18,7,10,21,8,17]);
-                                    </script>
-                                </li>
-                            </ul>
-                        </span>
-                        <nav style="display: flex;">
-                            <ul style="list-style-type: none;">
-                                <!-- <li style="font-weight: 300; color:#000">
-                                    <a href="#interests">#Interests</a> |
-                                    <a href="#tabs">#Publications</a> |
-                                    <a href="#experience">#Experience</a> |
-                                    <a href="https://manishshettym.github.io/blog.html">#Blog</a>
-                                </li> -->
-                                
                                 <div class="social">
                                     <!-- <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a> -->
                                     <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a>
@@ -71,282 +63,289 @@
                             </ul>
                         </nav>
                     </div>
+
+                <!-- BIOGRAPHY -->                  
+                <p id="top" style="margin-top: 1rem; text-align: justify;">
+                Hi! <span class="wave">👋</span>Here is a little something about myself.
+                I'm a Research Fellow at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research - India</a> where I am fortunate to work with
+                <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a> on using Machine Learning and NLP techniques
+                to aid Software Developement. I have also had the opportunity to collaborate on AIOps projects with <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a> & <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>.
+                
+                <p style="margin-top: 0.7rem; text-align: justify;">
+                Previously, I graduated <span class="jump">🎓</span>with a B.Tech(Hons.) in Computer Science and Engineering (<i>specialization in Data Science</i>) from PES University, Bangalore, India in 2020. 
+                I am grateful to have been advised on my bachelor thesis by <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a>.
+                </p>
+
+                <p style="margin-top: 0.7rem; text-align: justify;">
+                I love theoretical physics, space programs, plant/animal scientific names, and the twists & turns of nature. 
+                When I am not working, I like to read books, play basketball, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies.</a>
+                <b><i>Fun Fact:</i> My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <code>6</code>!<br></b>
+                </p> 
+            
+                <!-- RESEARCH INTERESTS -->
+                <h5 style="margin-top: 2rem;" id="interests">Research Interests</h5>
+                <p style="margin-top: 1rem; text-align: justify;">
+                    My core interest lies broadly in the intersections of <b><i>Machine Learning</i></b>, <b><i>Natural Language Processing</i></b>, and <b><i>Information Extraction</i></b>.
+                    In particular, I am interested in the extraction and representation of knowledge for automated reasoning and inference.
+                    I'm currently working on structured information and knowledge extraction for <b><i>AI-assisted Software Engineering</i></b> @ Microsoft. 
+                </p>
+                <p style="margin-top: 1rem; text-align: justify;">
+                    As humans we have the ability to learn new concepts, ideas, and skills quickly and effectively. We use knowledge learnt from one task to learn decisions for others. 
+                    We also effectively process noisy and complex real-world stimuli. A long term goal of my research is to build AI systems that can do the same. 
+                    Some interesting research domains, that revolve around this, that I'd like to explore are:
+                    <ul style="list-style-type: none; margin-top:0.25em; list-style-position: outside;">
+                    <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
+                        <i><b>Multi-task Learning</b></i> - Exploiting shared representation across related tasks. [<i>e.g. <a href="https://arxiv.org/abs/2007.05505">SoftNER</a></i>]
+                    </li>
+                    <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
+                        <i><b>Meta Learning</b></i> - Learning to Learn
+                    </li> 
+                    <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
+                        <i><b>Neuro-Science 🔄AI</b></i> - Modelling how the brain solves challenges &harr; Better AI algorithms.
+                    </li>
+                    <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
+                        <i><b>Robust & Interpretable ML</b></i> - Modelling for low resource/ long tailed data
+                    </li>
+                    </ul>
+                </p>
+
+                <p style="margin-top: 0.5rem; text-align: justify;">
+                    <b>If you'd like to collaborate, chat with me about AI, or just know about research in general, feel free to drop me an email.</b>
+                </p>
+
+                <div class="tabs" id="tabs">
+                    <span class="tab pb-tab active" onclick="switchTab('pb')">Publications</span>
+                    <span class="tab ns-tab" onclick="switchTab('ns')">News</span>
+                    <span class="tab pr-tab" onclick="switchTab('pr')">Projects</span>
+                    <span class="tab tw-tab" onclick="switchTab('tw')">Tweets</span>
                 </div>
 
-                    <!-- BIOGRAPHY -->                  
-                    <p style="margin-top: 1rem; text-align: justify;">
-                    Hi! <span class="wave">👋</span>Here is a little something about myself.
-                    I'm a Research Fellow at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research - India</a> where I am fortunate to work with
-                    <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a> on using Machine Learning and NLP techniques
-                    to aid Software Developement. I have also had the opportunity to collaborate on AIOps projects with <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a> & <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>.
-                    
-                    <p style="margin-top: 0.7rem; text-align: justify;">
-                    Previously, I graduated <span class="jump">🎓</span>with a B.Tech(Hons.) in Computer Science and Engineering (<i>specialization in Data Science</i>) from PES University, Bangalore, India in 2020. 
-                    I am grateful to have been advised on my bachelor thesis by <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a>.
-                    </p>
+                <section class="news">
+                    <ul style="list-style-type: none;">
+                        <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jan '21]</b> Selected to be on the shadow PC for <a href="https://conf.researchr.org/home/msr-2021">MSR'21</a>! Stoked!!</li>
+                        <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jan '21]</b> The <a href="https://arxiv.org/abs/2007.05505">SoftNER Paper</a> was accepted at ICSE (SEIP) 2021!</li>
+                        <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Nov '20]</b> I enjoyed attending <a href="https://2020.esec-fse.org/">ESEC/FSE 2020</a> and meeting the SE community! </li>
+                        <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Oct '20]</b> Our new preprint <a href="https://arxiv.org/abs/2007.05505">Check it out!</a></li>
+                        <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jul '20]</b> Our paper featured in <b>VentureBeat</b>! <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">Check it out!</a></li>
+                        <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jun '20]</b> Filed my first patent - "Automatic Recognition of Entities Related to Cloud Incidents"!</li>
+                    </ul>
+                </section>
 
-                    <p style="margin-top: 0.7rem; text-align: justify;">
-                    I love theoretical physics, space programs, plant/animal scientific names, and the twists & turns of nature. 
-                    When I am not working, I like to read books, play basketball, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies.</a>
-                    <b><i>Fun Fact:</i> My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <code>6</code>!<br></b>
-                    </p> 
-                
-                    <!-- RESEARCH INTERESTS -->
-                    <h5 style="margin-top: 2rem;" id="interests">Research Interests</h5>
-                    <p style="margin-top: 1rem; text-align: justify;">
-                        My core interest lies broadly in the intersections of <b><i>Machine Learning</i></b>, <b><i>Natural Language Processing</i></b>, and <b><i>Information Extraction</i></b>.
-                        In particular, I am interested in the extraction and representation of knowledge for automated reasoning and inference.
-                        I'm currently working on structured information and knowledge extraction for <b><i>AI-assisted Software Engineering</i></b> @ Microsoft. 
-                    </p>
-                    <p style="margin-top: 1rem; text-align: justify;">
-                        As humans we have the ability to learn new concepts, ideas, and skills quickly and effectively. We use knowledge learnt from one task to learn decisions for others. 
-                        We also effectively process noisy and complex real-world stimuli. A long term goal of my research is to build AI systems that can do the same. 
-                        Some interesting research domains, that revolve around this, that I'd like to explore are:
-                        <ul style="list-style-type: none; margin-top:0.25em; list-style-position: outside;">
-                        <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                            <i><b>Multi-task Learning</b></i> - Exploiting shared representation across related tasks. [<i>e.g. <a href="https://arxiv.org/abs/2007.05505">SoftNER</a></i>]
-                        </li>
-                        <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                            <i><b>Meta Learning</b></i> - Learning to Learn
-                        </li> 
-                        <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                            <i><b>Neuro-Science 🔄AI</b></i> - Modelling how the brain solves challenges &harr; Better AI algorithms.
-                        </li>
-                        <li style="padding-left: 1.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                            <i><b>Robust & Interpretable ML</b></i> - Modelling for low resource/ long tailed data
-                        </li>
-                        </ul>
-                    </p>
-
-                    <p style="margin-top: 0.5rem; text-align: justify;">
-                        <b>If you'd like to collaborate, chat with me about AI, or just know about research in general, feel free to drop me an email.</b>
-                    </p>
-
-                    <div class="tabs" id="tabs">
-                        <span class="tab pb-tab active" onclick="switchTab('pb')">Publications</span>
-                        <span class="tab ns-tab" onclick="switchTab('ns')">News</span>
-                        <!-- <span class="tab or-tab" onclick="switchTab('or')">Ongoing Research</span> -->
-                        <span class="tab pr-tab" onclick="switchTab('pr')">Projects</span>
+                <section class="publications">
+                    <div>
+                    <div class="pub-type" style="float:left; margin-right: 0%; background:rgba(244, 126, 156, 0.25);">
+                        <center style="font-size: 1.4rem; font-weight: 300; ">Conference</center>
                     </div>
+                    <div class="pub-type" style="float:left;margin-right: 0%; background:rgba(126, 156, 244, 0.25);">
+                        <center style="font-size: 1.4rem; font-weight: 300; ">Workshop</center>
+                    </div>
+                    <div class="pub-type" style="float: left; background:rgba(180, 123, 228, 0.25);">
+                        <center style="font-size: 1.4rem; font-weight: 300;">Preprint</center>
+                    </div>
+                    <div class="pub-type" style="float: left; background:rgba(80, 240, 40, 0.25);">
+                        <center style="font-size: 1.4rem; font-weight: 300;">Journal</center>
+                    </div>
+                    <div class="pub-type" style="float: left; border:none;">
+                        <center style="font-size: 1.2rem; font-weight: 100;">* &rarr; equal contributions</center>
+                    </div>
+                    </div>
+                    <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.25);">
+                        <a target="_blank" href="https://arxiv.org/abs/2101.05961">
+                        <span class="pub-title">Mining Knowledge Graphs from Incident Reports<i class="rarr">&rarr;</i></span>
+                        </a>
+                        <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal</span>
+                        <span class="pub-meta">Under Submission</span>
+                    </div>
+                    <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
+                        <a target="_blank" href="https://arxiv.org/abs/2007.05505">
+                        <span class="pub-title">Neural Knowledge Extraction From Cloud Service Incidents <i class="rarr">&rarr;</i></span>
+                        </a>
+                        <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann</span>
+                        <span class="pub-meta">International Conference on Software Engineering (<b>ICSE</b>) 2021 <b>[Acceptance Rate = 34%]</b></span>
+                    </div>
+                    <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
+                        <a target="_blank" href="https://ieeexplore.ieee.org/document/9198433">
+                        <span class="pub-title">Exploration and Comparison of Modern AI Algorithms to Predict Drug Efficacy <i class="rarr">&rarr;</i></span>
+                        </a>
+                        <span class="pub-authors">Anish Kasi*, <b>Manish Shetty</b>*, Roshan Neil*, Vidhya Murali, Prashanth Athri, Gowri Srinivasa</span>
+                        <span class="pub-meta">International Conference on Electronics, Computing and Communication Technologies (<b>CONECCT</b>) 2020</span>
+                    </div>
+                    <div class="pub" style="border-right-color: rgba(80, 240, 40, 0.25);">
+                        <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1877050920311820">
+                        <span class="pub-title" style="line-height:120%;">Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis <i class="rarr">&rarr;</i></span>
+                        </a>
+                        <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
+                        <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=19700182801&tip=sid&clean=0"> <b>Procedia Computer Science</b> , Volume 171, 2020 </a> • [H-index: 59] • Proceedings of CoCoNet'19</span>
+                    </div>
+                    <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
+                        <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-15-1084-7_59">
+                        <span class="pub-title">Multi Scale Template Matching To Denoise Epigraphical Estampages <i class="rarr">&rarr;</i></span>
+                        </a>
+                        <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
+                        <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=5100152904&tip=sid&clean=0"><b>Advances in Intelligent Systems and Computing</b>, Volume 1034, 2020</a> • [H-index: 34] • Proceedings of ICICC'19</span>
+                    </div>
+                </section>
 
-                    <section class="news">
-                        <ul style="list-style-type: none;">
-                            <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jan '21]</b> Selected to be on the shadow PC for <a href="https://conf.researchr.org/home/msr-2021">MSR'21</a>! Stoked!!</li>
-                            <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jan '21]</b> The <a href="https://arxiv.org/abs/2007.05505">SoftNER Paper</a> was accepted at ICSE (SEIP) 2021!</li>
-                        	<li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Nov '20]</b> I enjoyed attending <a href="https://2020.esec-fse.org/">ESEC/FSE 2020</a> and meeting the SE community! </li>
-                            <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Oct '20]</b> Our new preprint <a href="https://arxiv.org/abs/2007.05505">Check it out!</a></li>
-                            <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jul '20]</b> Our paper featured in <b>VentureBeat</b>! <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">Check it out!</a></li>
-                            <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jun '20]</b> Filed my first patent - "Automatic Recognition of Entities Related to Cloud Incidents"!</li>
-                        </ul>
-                    </section>
+                <section class="projects">
+                    <ul class="unstyled"> 
+                        <li>
+                            <p>
+                                <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
+                                ResumeRise: An NLP tool which classifies and summarizes resumes
+                                <br>
+                                [<a href="https://github.com/ManishShettyM/ResumeRise">Code</a>]
+                                [<a href="https://github.com/ManishShettyM/ResumeRise/blob/master/README.md">Documentation</a>] 
+                                [<a href="https://github.com/ManishShettyM/ResumeRise/blob/master/Final%20Report/INSIGHT_FinalReport.pdf">Experience Paper</a>]
+                            </p>
+                        </li>
+    
+                        <li>
+                            <p>
+                                <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
+                                Offensive Text Detection using NLP
+                                <br>
+                                [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection">Code</a>]
+                                [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection/blob/master/README.md">Documentation</a>] 
+                                [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection/blob/master/Experience_Paper.pdf">Experience Paper</a>]
+                            </p>
+                        </li>
+    
+                        <li>
+                            <p>
+                                <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
+                                CANN: Artificial Neural Network Library for C built from scratch & comparisons with Keras
+                                <br>
+                                [<a href="https://github.com/ManishShettyM/CANN">Code</a>]
+                                [<a href="https://github.com/ManishShettyM/CANN/blob/master/README.md">Documentation</a>]
+                                [<a href="https://github.com/ManishShettyM/CANN/blob/master/Analysis/CANN.pdf">Experience Paper</a>] 
+                            </p>
+                        </li>
+    
+                        <li>
+                            <p>
+                                <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
+                                Kennel: The Automated Pet Feeder using IoT (IoT Device)
+                                <br>
+                                [<a href="https://github.com/ManishShettyM/Kennel-The-Automated-Pet-Feeder-">Code</a>]
+                                [<a href="https://github.com/ManishShettyM/Kennel-The-Automated-Pet-Feeder-/blob/master/README.md">Documentation</a>] 
+                            </p>
+                        </li>
+    
+                        <li>
+                            <p>
+                                <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
+                                WhatsEpoch: A WhatsApp notification client for large model training (Tool)
+                                <br>
+                                [<a href="https://github.com/ManishShettyM/WhatsEpoch">Code</a>]
+                                [<a href="https://github.com/ManishShettyM/WhatsEpoch/blob/master/README.md">Documentation</a>] 
+                            </p>
+                        </li>
+    
+                        <li>
+                            <p>
+                                <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
+                                SpotiFetch: Download any Spotify playlist to local Music folder as mp3 (PS: mp3 rocks!) (Tool)
+                                <br>
+                                [<a href="https://github.com/ManishShettyM/SpotiFetch">Code</a>]
+                                [<a href="https://github.com/ManishShettyM/SpotiFetch/blob/master/README.md">Documentation</a>] 
+                            </p>
+                        </li>
+    
+                        <li>
+                            <p>
+                                <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
+                                CloudSimExtensions: Improved cloud provisioning algorithms for the famous CloudSim Tool
+                                <br>
+                                [<a href="https://github.com/ManishShettyM/CloudSimExtensions">Code</a>]
+                                [<a href="https://github.com/ManishShettyM/CloudSimExtensions/blob/master/README.md">Documentation</a>] 
+                            </p>
+                        </li>
+                    </ul>
+                </section>
 
-                    <section class="publications">
-                        <div>
-                        <div class="pub-type" style="float:left; margin-right: 0%; background:rgba(244, 126, 156, 0.25);">
-                            <center style="font-size: 1.4rem; font-weight: 300; ">Conference</center>
-                        </div>
-                        <div class="pub-type" style="float:left;margin-right: 0%; background:rgba(126, 156, 244, 0.25);">
-                            <center style="font-size: 1.4rem; font-weight: 300; ">Workshop</center>
-                        </div>
-                        <div class="pub-type" style="float: left; background:rgba(180, 123, 228, 0.25);">
-                            <center style="font-size: 1.4rem; font-weight: 300;">Preprint</center>
-                        </div>
-                        <div class="pub-type" style="float: left; background:rgba(80, 240, 40, 0.25);">
-                            <center style="font-size: 1.4rem; font-weight: 300;">Journal</center>
-                        </div>
-                        <div class="pub-type" style="float: left; border:none;">
-                            <center style="font-size: 1.2rem; font-weight: 100;">* &rarr; equal contributions</center>
-                        </div>
-                        </div>
-                        <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.25);">
-                            <a target="_blank" href="https://arxiv.org/abs/2101.05961">
-                            <span class="pub-title">Mining Knowledge Graphs from Incident Reports<i class="rarr">&rarr;</i></span>
-                            </a>
-                            <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal</span>
-                            <span class="pub-meta">Under Submission</span>
-                        </div>
-                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                            <a target="_blank" href="https://arxiv.org/abs/2007.05505">
-                            <span class="pub-title">Neural Knowledge Extraction From Cloud Service Incidents <i class="rarr">&rarr;</i></span>
-                            </a>
-                            <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann</span>
-                            <span class="pub-meta">International Conference on Software Engineering (<b>ICSE</b>) 2021 <b>[Acceptance Rate = 34%]</b></span>
-                        </div>
-                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                            <a target="_blank" href="https://ieeexplore.ieee.org/document/9198433">
-                            <span class="pub-title">Exploration and Comparison of Modern AI Algorithms to Predict Drug Efficacy <i class="rarr">&rarr;</i></span>
-                            </a>
-                            <span class="pub-authors">Anish Kasi*, <b>Manish Shetty</b>*, Roshan Neil*, Vidhya Murali, Prashanth Athri, Gowri Srinivasa</span>
-                            <span class="pub-meta">International Conference on Electronics, Computing and Communication Technologies (<b>CONECCT</b>) 2020</span>
-                        </div>
-                        <div class="pub" style="border-right-color: rgba(80, 240, 40, 0.25);">
-                            <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1877050920311820">
-                            <span class="pub-title" style="line-height:120%;">Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis <i class="rarr">&rarr;</i></span>
-                            </a>
-                            <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
-                            <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=19700182801&tip=sid&clean=0"> <b>Procedia Computer Science</b> , Volume 171, 2020 </a> • [H-index: 59] • Proceedings of CoCoNet'19</span>
-                        </div>
-                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                            <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-15-1084-7_59">
-                            <span class="pub-title">Multi Scale Template Matching To Denoise Epigraphical Estampages <i class="rarr">&rarr;</i></span>
-                            </a>
-                            <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
-                            <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=5100152904&tip=sid&clean=0"><b>Advances in Intelligent Systems and Computing</b>, Volume 1034, 2020</a> • [H-index: 34] • Proceedings of ICICC'19</span>
-                        </div>
-                    </section>
+                <section class="tweets">
+                    <a class="twitter-timeline" data-width="700" data-height="500" data-theme="dark" href="https://twitter.com/manishshettym?ref_src=twsrc%5Etfw">Tweets by manishshettym</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </section>
 
-                    <section class="projects">
-                        <ul class="unstyled"> 
-                            <li>
-                                <p>
-                                    <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                                    ResumeRise: An NLP tool which classifies and summarizes resumes
-                                    <br>
-                                    [<a href="https://github.com/ManishShettyM/ResumeRise">Code</a>]
-                                    [<a href="https://github.com/ManishShettyM/ResumeRise/blob/master/README.md">Documentation</a>] 
-                                    [<a href="https://github.com/ManishShettyM/ResumeRise/blob/master/Final%20Report/INSIGHT_FinalReport.pdf">Experience Paper</a>]
-                                </p>
-                            </li>
-        
-                            <li>
-                                <p>
-                                    <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                                    Offensive Text Detection using NLP
-                                    <br>
-                                    [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection">Code</a>]
-                                    [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection/blob/master/README.md">Documentation</a>] 
-                                    [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection/blob/master/Experience_Paper.pdf">Experience Paper</a>]
-                                </p>
-                            </li>
-        
-                            <li>
-                                <p>
-                                    <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                                    CANN: Artificial Neural Network Library for C built from scratch & comparisons with Keras
-                                    <br>
-                                    [<a href="https://github.com/ManishShettyM/CANN">Code</a>]
-                                    [<a href="https://github.com/ManishShettyM/CANN/blob/master/README.md">Documentation</a>]
-                                    [<a href="https://github.com/ManishShettyM/CANN/blob/master/Analysis/CANN.pdf">Experience Paper</a>] 
-                                </p>
-                            </li>
-        
-                            <li>
-                                <p>
-                                    <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                                    Kennel: The Automated Pet Feeder using IoT (IoT Device)
-                                    <br>
-                                    [<a href="https://github.com/ManishShettyM/Kennel-The-Automated-Pet-Feeder-">Code</a>]
-                                    [<a href="https://github.com/ManishShettyM/Kennel-The-Automated-Pet-Feeder-/blob/master/README.md">Documentation</a>] 
-                                </p>
-                            </li>
-        
-                            <li>
-                                <p>
-                                    <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                                    WhatsEpoch: A WhatsApp notification client for large model training (Tool)
-                                    <br>
-                                    [<a href="https://github.com/ManishShettyM/WhatsEpoch">Code</a>]
-                                    [<a href="https://github.com/ManishShettyM/WhatsEpoch/blob/master/README.md">Documentation</a>] 
-                                </p>
-                            </li>
-        
-                            <li>
-                                <p>
-                                    <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                                    SpotiFetch: Download any Spotify playlist to local Music folder as mp3 (PS: mp3 rocks!) (Tool)
-                                    <br>
-                                    [<a href="https://github.com/ManishShettyM/SpotiFetch">Code</a>]
-                                    [<a href="https://github.com/ManishShettyM/SpotiFetch/blob/master/README.md">Documentation</a>] 
-                                </p>
-                            </li>
-        
-                            <li>
-                                <p>
-                                    <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                                    CloudSimExtensions: Improved cloud provisioning algorithms for the famous CloudSim Tool
-                                    <br>
-                                    [<a href="https://github.com/ManishShettyM/CloudSimExtensions">Code</a>]
-                                    [<a href="https://github.com/ManishShettyM/CloudSimExtensions/blob/master/README.md">Documentation</a>] 
-                                </p>
-                            </li>
-                        </ul>
-                    </section>
+                <!-- RESEARCH EXPERIENCE -->
+                <h5 style="margin-top: 2rem;" id="experience"> Research Experience</h5>
+                <table style="margin-top: 1rem;"> 
+                    <tr>
+                        <td style="white-space:nowrap" id="date">Aug 2020 - Present</td>
+                        <td>
+                            <p>
+                                Research Fellow, Microsoft Research (India) working on <a href="https://www.microsoft.com/en-us/research/research-area/artificial-intelligence">AIOps</a></br>
+                                Advisors: <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a>, <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a>,
+                                <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space:nowrap" id="date"> Jan 2020 - Jun 2020</td>
+                        <td>
+                            <p class="text-left">
+                                Research Intern, Microsoft Research (India) worked with Chetan Bansal on creating and developing <a href="https://arxiv.org/abs/2007.05505">SoftNER</a>.
+                                <i class="fa fa-trophy"></i> Featured on VentureBeat! - <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">here</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space:nowrap" id="date">Jul 2019 - Jun 2020</td>
+                        <td>
+                            <p class="text-left">
+                                Research Assistant, Center for Pattern Recognition, PES University worked with
+                                <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a> on ML powered drug discovery at 
+                                <a href="https://research.pes.edu/center-for-pattern-recognition/">PESU-CPR</a>
+                                <br>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space:nowrap" id="date">Jun 2019 - Aug 2019</td>
+                        <td>
+                            <p class="text-left">
+                                Machine Learning Research Intern, Deloitte worked on ML/NLP assisted Risk Advisory for the <a href="https://www2.deloitte.com/in/en/pages/risk/solutions/cyber-risk-services.html">Cyber-Risk team</a>
+                                <br>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space:nowrap" id="date">Jun 2018 - Feb 2019</td>
+                        <td>
+                            <p class="text-left">
+                                Research Intern, Center for Cloud Computing and Big Data, PES University worked with
+                                <a href="https://www.linkedin.com/in/phalachandra-hl-0408066/?originalSubdomain=in">Phalachandra HL</a> on intelligent VM provisioning algorithms
+                                <br>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
 
-                    <!-- RESEARCH EXPERIENCE -->
-                    <h5 style="margin-top: 2rem;" id="experience"> Research Experience</h5>
-                    <table style="margin-top: 1rem;"> 
-                        <tr>
-                            <td style="white-space:nowrap" id="date">Aug 2020 - Present</td>
-                            <td>
-                                <p>
-                                    Research Fellow, Microsoft Research (India) working on <a href="https://www.microsoft.com/en-us/research/research-area/artificial-intelligence">AIOps</a></br>
-                                    Advisors: <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a>, <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a>,
-                                    <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="white-space:nowrap" id="date"> Jan 2020 - Jun 2020</td>
-                            <td>
-                                <p class="text-left">
-                                    Research Intern, Microsoft Research (India) worked with Chetan Bansal on creating and developing <a href="https://arxiv.org/abs/2007.05505">SoftNER</a>.
-                                    <i class="fa fa-trophy"></i> Featured on VentureBeat! - <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">here</a>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="white-space:nowrap" id="date">Jul 2019 - Jun 2020</td>
-                            <td>
-                                <p class="text-left">
-                                    Research Assistant, Center for Pattern Recognition, PES University worked with
-                                    <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a> on ML powered drug discovery at 
-                                    <a href="https://research.pes.edu/center-for-pattern-recognition/">PESU-CPR</a>
-                                    <br>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="white-space:nowrap" id="date">Jun 2019 - Aug 2019</td>
-                            <td>
-                                <p class="text-left">
-                                    Machine Learning Research Intern, Deloitte worked on ML/NLP assisted Risk Advisory for the <a href="https://www2.deloitte.com/in/en/pages/risk/solutions/cyber-risk-services.html">Cyber-Risk team</a>
-                                    <br>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="white-space:nowrap" id="date">Jun 2018 - Feb 2019</td>
-                            <td>
-                                <p class="text-left">
-                                    Research Intern, Center for Cloud Computing and Big Data, PES University worked with
-                                    <a href="https://www.linkedin.com/in/phalachandra-hl-0408066/?originalSubdomain=in">Phalachandra HL</a> on intelligent VM provisioning algorithms
-                                    <br>
-                                </p>
-                            </td>
-                        </tr>
-                    </table>
-
-                    <h5 style="margin-top:2rem; margin-bottom: 1em;">Current Affiliations</h5>
-                    <p>
-						<img class="logo" src="images/msresearch.png" width="20%" alt="affiliated" style="border-radius: 50%;">
-						<img class="logo" src="images/pesucpr.jpeg" width="12%" alt="affiliated" style="margin-left: 2rem; border-radius: 40%;">
-	                	<img class="logo" src="images/office365.png" width="20%" alt="affiliated" style="margin-bottom: -2rem; margin-left: 2rem; border-radius: 50%;">
-                    </p>
-                    <a id="back2Top" title="Back to top" href="#">&#x2191;</a>
+                <h5 style="margin-top:2rem; margin-bottom: 1em;">Current Affiliations</h5>
+                <p>
+                    <img class="logo" src="images/msresearch.png" width="20%" alt="affiliated" style="border-radius: 50%;">
+                    <img class="logo" src="images/pesucpr.jpeg" width="12%" alt="affiliated" style="margin-left: 2rem; border-radius: 40%;">
+                    <img class="logo" src="images/office365.png" width="20%" alt="affiliated" style="margin-bottom: -2rem; margin-left: 2rem; border-radius: 50%;">
+                </p>
+                <a id="back2Top" title="Back to top" href="#">&#x2191;</a>
         </div>
     </body>
 
+    <!-- Switch tabs -->
     <script>
     var pb = document.querySelector('.publications'),
         ns = document.querySelector('.news'),
         pr = document.querySelector('.projects');
+        tw = document.querySelector('.tweets');
 
     var pbt = document.querySelector('.pb-tab'),
         nst = document.querySelector('.ns-tab'),
         prt = document.querySelector('.pr-tab');
+        twt = document.querySelector('.tw-tab');
 
     ns.style.display = 'none';
     pr.style.display = 'none';
+    tw.style.display = 'none';
 
     function switchTab(tab) {
         switch (tab) {
@@ -357,6 +356,8 @@
                 pbt.className = 'tab pb-tab';
                 pr.style.display = 'none';
                 prt.className = 'tab pr-tab';
+                tw.style.display = 'none';
+                twt.className = 'tab tw-tab';
                 break;
             case 'pb':
                 ns.style.display = 'none';
@@ -365,6 +366,8 @@
                 pbt.className = 'tab pb-tab active';
                 pr.style.display = 'none';
                 prt.className = 'tab pr-tab';
+                tw.style.display = 'none';
+                twt.className = 'tab tw-tab';
                 break;
             case 'pr':
                 pr.style.display = 'block';
@@ -373,7 +376,40 @@
                 nst.className = 'tab ns-tab';
                 pb.style.display = 'none';
                 pbt.className = 'tab pb-tab';
+                tw.style.display = 'none';
+                twt.className = 'tab tw-tab';
+                break;
+            case 'tw':
+                ns.style.display = 'none';
+                nst.className = 'tab ns-tab';
+                pb.style.display = 'none';
+                pbt.className = 'tab pb-tab';
+                pr.style.display = 'none';
+                prt.className = 'tab pr-tab';
+                tw.style.display = 'block';
+                twt.className = 'tab tw-tab active';
+                break;
         }
     }
     </script>
+
+    <!-- Navigation transition -->
+    <script>
+        var myNav = document.getElementById('header-affiliations');
+        window.onscroll = function () {
+            "use strict";
+            if (document.body.scrollTop >= 179) {
+                myNav.classList.add('my-nav-new-style');
+            }
+            else{
+                myNav.classList.remove('my-nav-new-style');
+            }
+        };
+    </script>
+    <style>
+        .my-nav-new-style{
+            background-image:url(images/SubtleGreyBackground.jpg);
+        }
+    </style>
+
 </html>
