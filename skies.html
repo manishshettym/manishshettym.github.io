@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Manish Shetty &middot; AI Researcher</title>
-        <link rel="stylesheet" href="styles/normalize.css" type="text/css">
+        <!-- <link rel="stylesheet" href="styles/normalize.css" type="text/css"> -->
         <link rel="stylesheet" href="styles/carpal.css" type="text/css">
         <link rel="stylesheet" href="styles/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="styles/my.effects.css" type="text/css">
@@ -26,18 +26,13 @@
         table td {border: 0; }
 
         img{
-        border-radius: 3px;
+        border-radius: 30px;
         box-shadow : 0 0px 0px 0 rgba(0, 0, 0, 0.5);
         }
 
         .zoom {
         padding: 20px;
-        transition: transform .2s; /* Animation */
         margin: 0 auto;
-        }
-      
-        .zoom:hover {
-        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
         }
 
         /* footer */
@@ -78,21 +73,26 @@
         <script src="js/onclicksmoothscroll.js"></script>
         
         <div class="container">
-            <div class="drawer three columns">
+            <div>
                 <img class="dp" src="images/logo.jpg" width="20%" alt="A picture of Manish">
-                <h3>Manish Shetty</h3>
-                <nav>
-                    <ul style="list-style-type: none;">
-                        <li class="active">
-                            <a href="https://manishshettym.github.io/index.html">Go Back Home</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div style="float: left; width: 30%;"> 
+                    <h3>Manish Shetty</h3>
+                    <nav>
+                        <ul style="list-style-type: none;">
+                            <li class="active">
+                                <a href="https://manishshettym.github.io/index.html">Go Back Home</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div style="font-weight: 100; float: right; width: 70%; text-align:right;">
+                    <h5> Random Pictures of other-worldly Skies</a></h5>
+                    <h7> Shot on OnePlus-6T</h7>    
+                </div>
+                <!-- <hr> -->
             </div>
-            <div class="content eight columns offset-one"  id="pic-display" style="position: flex; float: right; padding-left:3%;">
-                <h5 style="margin-top:10px;"> Random Pictures of other-worldly Skies</a></h5>
-                <h7 style="margin-top:10px; font-weight: 100;"> PS: No expensive cameras or bank accounts were harmed in the process | Shot on OnePlus-6T</h7>
-                <hr>
+            <div id="pic-display">
             </div>
         </div>
         <!-- <span class="made-with-love">
@@ -115,8 +115,8 @@
             var img = document.createElement('img');
             img.src = tempImg.src;
             img.className = 'zoom';
-            img.width = '300';
-            img.height = '300';
+            img.width = '500';
+            img.height = '600';
             img.style.position = 'flex';
 
             document.getElementById('pic-display').appendChild(img)
