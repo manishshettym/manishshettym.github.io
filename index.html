@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles/my.effects.css" type="text/css">
         <link rel="stylesheet" href="styles/index.css" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,7 +18,6 @@
            
     </head>
     <style>
-        /* body{font-family: 'Barlow', sans-serif;} */
         ul.unstyled,ol.unstyled{margin-left:0;list-style:none}
         td{vertical-align:top;}
         table td {border: 0; }
@@ -41,9 +40,9 @@
         
         <div class="container">
                 <img class="dp" src="images/logo.jpg" alt="A picture of Manish">
-                    <div id="header-affiliations" style="display: flex; justify-content: space-between; border: solid rgba(0, 0, 0, 0.3); border-width: 0px 0px 0.5px 0px;">
+                    <div class="header-affiliations">
                         <div>
-                            <h3>Manish Shetty</h3>
+                            <h3><span style="font-weight: 600;">Manish</span> Shetty</h3>
                             <span>
                                 <ul style="list-style-type: none;">
                                     <li>Research Fellow, Microsoft Research India</li>
@@ -56,21 +55,29 @@
                                 </ul>
                             </span>
                         </div>
-                        <nav>
-                            <ul style="list-style-type: none;">
-                                <div class="social">
-                                    <!-- <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a> -->
-                                    <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a>
-                                    <a href="https://www.linkedin.com/in/manishshettym/" class="linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-xs"></i></a>
-                                    <a href="https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en" class="google-scholar" title="GoogleScholar"><i class="ai ai-google-scholar ai-1x"></i></a>
-                                    <a href="https://github.com/manishshettym" class="github" title="Github"><i class="fa fa-github fa-xs"></i></a>
-                                    <a href="https://twitter.com/manishshettym" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://manishshettym.github.io/blog.html" class="blog" title="Blog"><i class="fa fa-wordpress"></i></a>
-                                </div>
-                            </ul>
-                        </nav>
+                        <div>
+                            <nav>
+                                <ul style="list-style-type: none;">
+                                    <div class="social">
+                                        <!-- <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a> -->
+                                        <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a>
+                                        <a href="https://www.linkedin.com/in/manishshettym/" class="linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-xs"></i></a>
+                                        <a href="https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en" class="google-scholar" title="GoogleScholar"><i class="ai ai-google-scholar ai-1x"></i></a>
+                                        <a href="https://github.com/manishshettym" class="github" title="Github"><i class="fa fa-github fa-xs"></i></a>
+                                        <a href="https://twitter.com/manishshettym" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                        <a href="https://manishshettym.github.io/blog.html" class="blog" title="Blog"><i class="fa fa-wordpress"></i></a>
+                                    </div>
+                                </ul>
+                            </nav>
+                            <nav id="page-navigator">
+                                <a href="#tabs" onclick="switchTab('ns')">#News</a>
+                                <a href="#tabs" onclick="switchTab('pb')">#Publications</a>
+                                <a href="#interests">#Interests</a>
+                                <a href="#experience">#Experience</a>
+                            </nav>
+                        </div>
                     </div>
-
+                    
                 <!-- BIOGRAPHY -->                  
                 <p id="top" style="margin-top: 1rem; text-align: justify;">
                 Hi!👋Here is a little something about myself.
@@ -422,24 +429,4 @@
         }
     }
     </script>
-
-    <!-- Navigation transition -->
-    <script>
-        var myNav = document.getElementById('header-affiliations');
-        window.onscroll = function () {
-            "use strict";
-            if (document.body.scrollTop >= 179) {
-                myNav.classList.add('my-nav-new-style');
-            }
-            else{
-                myNav.classList.remove('my-nav-new-style');
-            }
-        };
-    </script>
-    <style>
-        .my-nav-new-style{
-            background-image:url(images/SubtleGreyBackground.jpg);
-        }
-    </style>
-
 </html>
