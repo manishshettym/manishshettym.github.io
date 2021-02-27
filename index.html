@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>Manish Shetty &middot; AI Researcher</title>
+        <title>Manish Shetty &middot; Researcher</title>
+        <link rel="icon" href="images/sitelogo.png" type="image/icon type">
         <link rel="stylesheet" href="styles/normalize.css" type="text/css">
         <link rel="stylesheet" href="styles/carpal.css" type="text/css">
         <link rel="stylesheet" href="styles/font-awesome.min.css" type="text/css">
@@ -34,49 +35,59 @@
     <script src="js/scramble.js"></script>
     <!-- <body style="background-color: #FFFFFF"> -->
     <body style="background-image:url(images/SubtleGreyBackground.jpg);">
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/onclicksmoothscroll.js"></script>
-        
-        <div class="container">
-                <img class="dp" src="images/logo.jpg" alt="A picture of Manish">
-                    <div class="header-affiliations">
-                        <div>
-                            <h3><span style="font-weight: 600;">Manish</span> Shetty</h3>
-                            <span>
-                                <ul style="list-style-type: none;">
-                                    <li>Research Fellow, Microsoft Research India</li>
-                                    <li>
-                                        <span style="font-weight:bolder;">email:</span> <p id="email" style="display:inline;"></p>
-                                        <script>
-                                            emailScramble = new scrambledString(document.getElementById('email'), 'emailScramble', 't8mgih.masco@em.t9myl', [6,11,1,13,16,4,9,2,15,3,19,20,12,5,14,18,7,10,21,8,17]);
-                                        </script>
-                                    </li>
-                                </ul>
-                            </span>
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/onclicksmoothscroll.js"></script>
+            
+            <div class="container">
+                <div class="dp-div">
+                    <div class=dp-div-inner>
+                        <div class="dp-front">
+                            <img class="dp" src="images/logo.jpg" alt="A picture of Manish">
                         </div>
-                        <div>
-                            <nav>
-                                <ul style="list-style-type: none;">
-                                    <div class="social">
-                                        <!-- <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a> -->
-                                        <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a>
-                                        <a href="https://www.linkedin.com/in/manishshettym/" class="linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-xs"></i></a>
-                                        <a href="https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en" class="google-scholar" title="GoogleScholar"><i class="ai ai-google-scholar ai-1x"></i></a>
-                                        <a href="https://github.com/manishshettym" class="github" title="Github"><i class="fa fa-github fa-xs"></i></a>
-                                        <a href="https://twitter.com/manishshettym" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-                                        <a href="https://manishshettym.github.io/blog.html" class="blog" title="Blog"><i class="fa fa-wordpress"></i></a>
-                                    </div>
-                                </ul>
-                            </nav>
-                            <nav id="page-navigator">
-                                <a href="#tabs" onclick="switchTab('ns')">#News</a>
-                                <a href="#tabs" onclick="switchTab('pb')">#Publications</a>
-                                <a href="#interests">#Interests</a>
-                                <a href="#experience">#Experience</a>
-                            </nav>
+                        <div class="dp-back">
+                            <img class="dp" src="images/sitelogo.png" alt="A logo">
                         </div>
                     </div>
+                </div>
+            
+                <div class="header-affiliations">
+                    <div>
+                        <h3><span style="font-weight: 600;">Manish</span> Shetty</h3>
+                        <span>
+                            <ul style="list-style-type: none;">
+                                <li>Research Fellow, Microsoft Research India</li>
+                                <li>
+                                    <span style="font-weight:bolder;">email:</span> <p id="email" style="display:inline;"></p>
+                                    <script>
+                                        emailScramble = new scrambledString(document.getElementById('email'), 'emailScramble', 't8mgih.masco@em.t9myl', [6,11,1,13,16,4,9,2,15,3,19,20,12,5,14,18,7,10,21,8,17]);
+                                    </script>
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div>
+                        <nav>
+                            <ul style="list-style-type: none;">
+                                <div class="social">
+                                    <!-- <a href="https://manishshettym.github.io/pdf/Diversity_Statement.pdf">[Diversity Statement]</a> -->
+                                    <a href="https://manishshettym.github.io/pdf/CV.pdf">[CV]</a>
+                                    <a href="https://www.linkedin.com/in/manishshettym/" class="linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-xs"></i></a>
+                                    <a href="https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en" class="google-scholar" title="GoogleScholar"><i class="ai ai-google-scholar ai-1x"></i></a>
+                                    <a href="https://github.com/manishshettym" class="github" title="Github"><i class="fa fa-github fa-xs"></i></a>
+                                    <a href="https://twitter.com/manishshettym" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://manishshettym.github.io/blog.html" class="blog" title="Blog"><i class="fa fa-wordpress"></i></a>
+                                </div>
+                            </ul>
+                        </nav>
+                        <nav id="page-navigator">
+                            <a href="#tabs" onclick="switchTab('ns')">#News</a>
+                            <a href="#tabs" onclick="switchTab('pb')">#Publications</a>
+                            <a href="#interests">#Interests</a>
+                            <a href="#experience">#Experience</a>
+                        </nav>
+                    </div>
+                </div>
                     
                 <!-- BIOGRAPHY -->                  
                 <p id="top" style="margin-top: 1rem; text-align: justify;">
@@ -101,17 +112,17 @@
                 <p style="margin-top: 1rem; text-align: justify;">
                     My interests broadly lie in <b><i>Machine Learning</i></b>, <b><i>NLP</i></b>, <b><i>Information Extraction</i></b>, and <b><i>ML for Software Engineering.</i></b></br>
                     
-                    <table style="border-collapse:separate; border:solid black 1px; border-radius:6px; margin: 3%;">
+                    <table style="border-collapse:separate; border:solid black 1px; border-radius:6px; margin: 3%; max-width: 650px;">
                         <th style="text-align: center; background-color: rgba(126, 156, 244, 0.25);">ML + NLP + Information Extraction</th>
                         <th style="border-left: solid black 1px; text-align: center; background-color: rgba(180, 123, 228, 0.25);">Software Engineering + Systems</th>
                         <tr>
-                            <td style="border-top:solid black 1px; text-align: justify; padding: 1.5%;">
+                            <td style="border-top:solid black 1px; text-align: justify; padding: 1.5%; width: 50%;">
                                 I am interested in the 
                                 <span class="underline--magical">extraction and representation of knowledge</span>
                                 for <span class="underline--magical">automated reasoning and inference</span>.
                                 <a href="https://en.wikipedia.org/wiki/Information_extraction">#IE</a>
                             </td>
-                            <td style="border-left: solid black 1px; border-top:solid black 1px; text-align: justify; padding: 1.5%;"> 
+                            <td style="border-left: solid black 1px; border-top:solid black 1px; text-align: justify; padding: 1.5%; width: 50%;"> 
                                 I am interested in the 
                                 <span class="underline--magical">fusion of ML and Systems</span>
                                 and building <span class="underline--magical">data-driven systems that aid software development processes</span>. 

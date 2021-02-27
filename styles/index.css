@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Slab");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,350,400,700");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,300");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
+  font-family: 'EB Garamond';
+  color: #292929;
   /* font-family: 'Lato'; */
-  font-family: 'Ubuntu';
-  color: #333;
+  /* font-family: 'Ubuntu'; */
+  /* color: #333; */
   font-weight: 300;}
 
 a {
@@ -59,7 +62,44 @@ h5{
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem; 
+}
+
+.dp-div {
+  background-color: transparent;
+  height: 220px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.dp-div-inner {
+  /* position: relative; */
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.dp-div:hover .dp-div-inner {
+  transform: rotateY(180deg);
+}
+
+.dp-front, .dp-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.dp-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.dp-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
 
 .logo {
   /*width: 18rem;*/
