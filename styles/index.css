@@ -350,8 +350,36 @@ i.rarr {
   /* border-width: 0px 0px 0.5px 0px; */
 }
 
+.underline--magical {
+  background-image: linear-gradient(120deg,#e68686 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.3em;
+  background-position: -1 130%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical:hover {
+  background-size: 100% 100%;
+}
+
+.collapsible {
+  background-color: white;
+  border: none;
+  padding: 1px;
+  text-align: center;
+  margin: 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.pub-abstract {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
 @media screen and (max-width: 780px) {
   .header-affiliations {
       display: inline;
   }
 }
+

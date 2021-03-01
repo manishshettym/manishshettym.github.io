@@ -21,16 +21,7 @@
     <style>
         ul.unstyled,ol.unstyled{margin-left:0;list-style:none}
         td{vertical-align:top;}
-        table td {border: 0; }
-        #erdoscontainer{width: 100%; height: 19%; margin-top: 0.05em; padding: 0;}
-        .underline--magical {
-            background-image: linear-gradient(120deg,#e68686 0%, #8fd3f4 100%);
-            background-repeat: no-repeat;
-            background-size: 100% 0.3em;
-            background-position: -1 130%;
-            transition: background-size 0.25s ease-in;
-        }
-        .underline--magical:hover {background-size: 100% 100%;}
+        table td {border: 0;}
     </style>
     <script src="js/scramble.js"></script>
     <!-- <body style="background-color: #FFFFFF"> -->
@@ -135,6 +126,7 @@
                         I'm currently working on structured information and knowledge extraction for <b><i>AI-assisted Software Engineering @ Microsoft Research</i></b>. 
                     </p>
                 </p>
+
                 <p style="margin-top: 1rem; text-align: justify;">
                     Humans have the ability to learn and capture new concepts, ideas, and skills quickly and effectively. We use knowledge learnt from one task to learn decisions for others. 
                     We also effectively process weak, noisy, and complex real world stimuli.
@@ -184,28 +176,43 @@
 
                 <section class="publications">
                     <div>
-                    <div class="pub-type" style="float:left; margin-right: 0%; background:rgba(244, 126, 156, 0.25);">
-                        <center style="font-size: 1.4rem; font-weight: 300; ">Conference</center>
-                    </div>
-                    <div class="pub-type" style="float:left;margin-right: 0%; background:rgba(126, 156, 244, 0.25);">
-                        <center style="font-size: 1.4rem; font-weight: 300; ">Workshop</center>
-                    </div>
-                    <div class="pub-type" style="float: left; background:rgba(180, 123, 228, 0.25);">
-                        <center style="font-size: 1.4rem; font-weight: 300;">Preprint</center>
-                    </div>
-                    <div class="pub-type" style="float: left; background:rgba(80, 240, 40, 0.25);">
-                        <center style="font-size: 1.4rem; font-weight: 300;">Journal</center>
-                    </div>
-                    <div class="pub-type" style="float: left; border:none;">
-                        <center style="font-size: 1.2rem; font-weight: 100;">* &rarr; equal contributions</center>
-                    </div>
-                    </div>
+                        <div class="pub-type" style="float:left; margin-right: 0%; background:rgba(244, 126, 156, 0.25);">
+                            <center style="font-size: 1.4rem; font-weight: 300; ">Conference</center>
+                        </div>
+                        <div class="pub-type" style="float:left;margin-right: 0%; background:rgba(126, 156, 244, 0.25);">
+                            <center style="font-size: 1.4rem; font-weight: 300; ">Workshop</center>
+                        </div>
+                        <div class="pub-type" style="float: left; background:rgba(180, 123, 228, 0.25);">
+                            <center style="font-size: 1.4rem; font-weight: 300;">Preprint</center>
+                        </div>
+                        <div class="pub-type" style="float: left; background:rgba(80, 240, 40, 0.25);">
+                            <center style="font-size: 1.4rem; font-weight: 300;">Journal</center>
+                        </div>
+                        <div class="pub-type" style="float: left; border:none;">
+                            <center style="font-size: 1.2rem; font-weight: 100;">* &rarr; equal contributions</center>
+                        </div>
+                    </div></br></br>
+
                     <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.25);">
                         <a target="_blank" href="https://arxiv.org/abs/2101.05961">
                         <span class="pub-title">Mining Knowledge Graphs from Incident Reports<i class="rarr">&rarr;</i></span>
                         </a>
                         <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal</span>
                         <span class="pub-meta">Under Submission</span>
+                        <button type="button" class="collapsible">Read More ▼</button>
+                        <div class="pub-abstract">
+                            Incident management is a critical part of the DevOps processes for developing and operating large-scale services in the cloud. 
+                            Incident reports filed by customers are largely unstructured making any automated diagnosis or mitigation non-trivial. 
+                            It requires on-call engineers to parse verbose reports to understand the issue and locate key information. 
+                            Prior work has looked into extraction of key attributes or entities like error codes, tenant Ids, stack traces, etc. from incident and bug reports. 
+                            Although a flat list of entities is informative, to unlock the full potential of knowledge extraction, it is necessary to provide context to these entities. 
+                            For instance, the relations between the real-world concepts or objects that these entities represent in otherwise unstructured data is useful for downstream tasks like incident linking, triaging and mitigation. 
+                            With this additional context, <b>entities are transformed from "Strings" to "Things"</b>. 
+                            In this work, we present an approach to <b>mine and score binary entity relations</b> from co-occurring entity pairs. 
+                            We evaluate binary relations extracted and show that our approach has a high precision of 0.9. 
+                            Further, we <b>construct knowledge graphs</b> automatically and 
+                            show that the implicit knowledge in the graph can be used to mine and rank relevant entities for distinct incidents, by mapping entities to clusters of incident titles. 
+                        </div>
                     </div>
                     <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
                         <a target="_blank" href="https://arxiv.org/abs/2007.05505">
@@ -213,7 +220,23 @@
                         </a>
                         <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann</span>
                         <span class="pub-meta">International Conference on Software Engineering (<b>ICSE</b>) 2021 <b>[Acceptance Rate = 34%]</b></span>
+                        <button type="button" class="collapsible">Read More ▼</button>
+                        <div class="pub-abstract"> 
+                            The move from boxed products to services and the widespread adoption of cloud computing has had a huge impact on the software development life cycle and DevOps processes. 
+                            Particularly, incident management has become critical for developing and operating large-scale services. 
+                            Prior work on incident management has heavily focused on the challenges with incident triaging and de-duplication. 
+                            In this work, we address the fundamental problem of structured knowledge extraction from service incidents. 
+                            We have built <b>SoftNER</b>, a framework for unsupervised knowledge extraction from service incidents. 
+                            We frame the knowledge extraction problem as a <b>Named-Entity Recognition</b> task for extracting factual information. 
+                            SoftNER leverages structural patterns like key-value pairs and tables for bootstrapping the training data. 
+                            Further, we build <b>a novel multi-task learning based BiLSTM-CRF</b> model which leverages not just the semantic context but also the data-types for named-entity extraction. 
+                            We have deployed SoftNER at Microsoft, a major cloud service provider and have evaluated it on more than 2 months of cloud incidents. 
+                            We show that the unsupervised machine learning pipeline has a high precision of 0.96. 
+                            Our multi-task learning based deep learning model also outperforms the state of the art NER models. 
+                            Lastly, using the knowledge extracted by SoftNER we are able to build significantly more accurate models for important downstream tasks like incident triaging.
+                        </div>
                     </div>
+                    
                     <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
                         <a target="_blank" href="https://ieeexplore.ieee.org/document/9198433">
                         <span class="pub-title">Exploration and Comparison of Modern AI Algorithms to Predict Drug Efficacy <i class="rarr">&rarr;</i></span>
@@ -439,6 +462,25 @@
                 twt.className = 'tab tw-tab active';
                 break;
         }
+    }
+    </script>
+    
+    <!-- Open abstract -->
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
     }
     </script>
 </html>
