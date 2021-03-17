@@ -29,6 +29,7 @@
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/onclicksmoothscroll.js"></script>
+        <script src="js/github-stats.js"></script>
             
         <div class="container">
             <div class="dp-div">
@@ -310,80 +311,7 @@
             </section>
 
             <section class="projects">
-                <ul class="unstyled"> 
-                    <li>
-                        <p>
-                            <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                            ResumeRise: An NLP tool which classifies and summarizes resumes
-                            <br>
-                            [<a href="https://github.com/ManishShettyM/ResumeRise">Code</a>]
-                            [<a href="https://github.com/ManishShettyM/ResumeRise/blob/master/README.md">Documentation</a>] 
-                            [<a href="https://github.com/ManishShettyM/ResumeRise/blob/master/Final%20Report/INSIGHT_FinalReport.pdf">Experience Paper</a>]
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                            Offensive Text Detection using NLP
-                            <br>
-                            [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection">Code</a>]
-                            [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection/blob/master/README.md">Documentation</a>] 
-                            [<a href="https://github.com/ManishShettyM/NLP-Offensive-Text-Detection/blob/master/Experience_Paper.pdf">Experience Paper</a>]
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                            CANN: Artificial Neural Network Library for C built from scratch & comparisons with Keras
-                            <br>
-                            [<a href="https://github.com/ManishShettyM/CANN">Code</a>]
-                            [<a href="https://github.com/ManishShettyM/CANN/blob/master/README.md">Documentation</a>]
-                            [<a href="https://github.com/ManishShettyM/CANN/blob/master/Analysis/CANN.pdf">Experience Paper</a>] 
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                            Kennel: The Automated Pet Feeder using IoT (IoT Device)
-                            <br>
-                            [<a href="https://github.com/ManishShettyM/Kennel-The-Automated-Pet-Feeder-">Code</a>]
-                            [<a href="https://github.com/ManishShettyM/Kennel-The-Automated-Pet-Feeder-/blob/master/README.md">Documentation</a>] 
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                            WhatsEpoch: A WhatsApp notification client for large model training (Tool)
-                            <br>
-                            [<a href="https://github.com/ManishShettyM/WhatsEpoch">Code</a>]
-                            [<a href="https://github.com/ManishShettyM/WhatsEpoch/blob/master/README.md">Documentation</a>] 
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                            SpotiFetch: Download any Spotify playlist to local Music folder as mp3 (PS: mp3 rocks!) (Tool)
-                            <br>
-                            [<a href="https://github.com/ManishShettyM/SpotiFetch">Code</a>]
-                            [<a href="https://github.com/ManishShettyM/SpotiFetch/blob/master/README.md">Documentation</a>] 
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            <a class="thumblink" href=""> <img class="projthumb" src="images/githublogo.png"> </a>
-                            CloudSimExtensions: Improved cloud provisioning algorithms for the famous CloudSim Tool
-                            <br>
-                            [<a href="https://github.com/ManishShettyM/CloudSimExtensions">Code</a>]
-                            [<a href="https://github.com/ManishShettyM/CloudSimExtensions/blob/master/README.md">Documentation</a>] 
-                        </p>
-                    </li>
-                </ul>
+                <p id="projects"></p>
             </section>
 
             <section class="tweets">
@@ -532,5 +460,12 @@
             }
         });
     }
+    </script>
+
+    <!-- Add github stats for projects -->
+    <script>
+        $(document).ready(function(){
+            $("#projects").loadRepositories("ManishShettyM");
+        });
     </script>
 </html>
