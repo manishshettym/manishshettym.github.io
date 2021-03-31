@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
   font-family: 'EB Garamond';
+  font-size: 16px;
   color: #292929;
   /* font-family: 'Lato'; */
   /* font-family: 'Ubuntu'; */
@@ -41,7 +42,7 @@ h5{
 }
 
 .container {
-  max-width: 760px;
+  max-width: 800px;
   margin-top: 10vmin;
   margin-bottom: 10vmin; }
 
@@ -208,7 +209,7 @@ i.rarr {
 .pub-title {
   color:#a31d1d;
   font-weight: lighter;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 .pub-title:hover {
   font-weight: 300;
