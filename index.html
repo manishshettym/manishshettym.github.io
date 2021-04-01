@@ -4,7 +4,6 @@
         <link rel="icon" href="images/sitelogo.png" type="image/icon type">
         <link rel="stylesheet" href="styles/normalize.css" type="text/css">
         <link rel="stylesheet" href="styles/carpal.css" type="text/css">
-        <link rel="stylesheet" href="styles/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="styles/my.effects.css" type="text/css">
         <link rel="stylesheet" href="styles/index.css" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
@@ -85,7 +84,7 @@
             <p id="top" style="margin-top: 1rem; text-align: justify;">
             Hi!👋Here is a little something about myself.
             I'm a Research Fellow at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research - India</a> where I am fortunate to work with
-            <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a> on using <b><i>Machine Learning and Natural Language Processing for Software Engineering</i></b>. 
+            <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a> on using <i>Machine Learning and Natural Language Processing for Software Engineering</i>. 
             I have also had the opportunity to collaborate with <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a> & <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>.
             
             <p style="margin-top: 0.7rem; text-align: justify;">
@@ -103,15 +102,16 @@
             <!-- RESEARCH INTERESTS -->
             <h5 style="margin-top: 1rem;" id="interests">Research Interests</h5>
             <p style="margin-top: 1rem; text-align: justify;">
-                My interests broadly lie in <b><i>Machine Learning, NLP, Information Extraction, Software Engineering, and Software Systems.</i></b></br>
-                
+                My research concerns a broad range of domains for <b>Machine Learning</b> methods, including <b>Natural Language Processing, Software Engineering, Information Extraction, and Systems</b>.
+                I'm currently working on structured knowledge extraction for <i>AI-assisted Software Engineering @ Microsoft Research</i>. 
+
                 <table style="border-collapse:separate; border:solid black 1px; border-radius:6px; margin: 3%; max-width: 650px;">
-                    <th style="text-align: center; background-color: rgba(126, 156, 244, 0.25);">ML + NLP + Information Extraction</th>
+                    <th style="text-align: center; background-color: rgba(126, 156, 244, 0.25);">ML + NLProc + Information Extraction</th>
                     <th style="border-left: solid black 1px; text-align: center; background-color: rgba(180, 123, 228, 0.25);">Software Engineering + Systems</th>
                     <tr>
                         <td style="border-top:solid black 1px; text-align: justify; padding: 1.5%; width: 50%;">
                             <span class="underline--magical">Extraction and representation of language, information, and knowledge</span>
-                            for <span class="underline--magical">automated reasoning and inference</span>. </br></br>
+                            for <span class="underline--magical">automated reasoning and inference</span>. </br>
                             <a href="https://en.wikipedia.org/wiki/Information_extraction">#IE</a>&nbsp;
                             <a href="https://en.wikipedia.org/wiki/Natural_language_processing">#NLProc</a>&nbsp;
                             <a href="https://www.kdd.org/">#KDD</a>&nbsp;
@@ -119,17 +119,13 @@
                         <td style="border-left: solid black 1px; border-top:solid black 1px; text-align: justify; padding: 1.5%; width: 50%;"> 
                             <span class="underline--magical">Fusion of ML and Systems,</span>
                             and building <span class="underline--magical">data-driven systems</span>
-                            systems that aid software development processes</span>. </br></br>
+                            systems that aid software development processes</span>. </br>
                             <a href="https://ml4se.github.io/">#ML4SE</a>&nbsp;
                             <a href="https://hazyresearch.stanford.edu/mlsys-seminar">#MLSys</a>&nbsp;
                             <a href="https://azure.microsoft.com/en-in/blog/advancing-azure-service-quality-with-artificial-intelligence-aiops/">#AIOps</a>
                         </td>
                     </tr>
                 </table>
-                
-                <p style="margin-top: -10px;">
-                    I'm currently working on structured knowledge extraction for <b><i>AI-assisted Software Engineering @ Microsoft Research</i></b>. 
-                </p>
             </p>
 
             <p style="margin-top: 1rem; text-align: justify;">
@@ -201,112 +197,119 @@
                     </div>
                 </div></br></br>
 
-                <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.25);">
-                    <div>
-                        <a target="_blank" href="https://arxiv.org/abs/2101.05961">
-                            <span class="pub-title">Mining Knowledge Graphs from Incident Reports<i class="rarr">&rarr;</i></span>
-                        </a>
-                        <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal</span>
-                        <span class="pub-meta">Under Submission</span>
+                <span id="pub-date">2021</span>
+                    <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.25);">
+                        <div>
+                            <a target="_blank" href="https://arxiv.org/abs/2101.05961">
+                                <span class="pub-title">Mining Knowledge Graphs from Incident Reports<i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal</span>
+                            <span class="pub-meta">Under Submission</span>
+                        </div>
+                        <div id="pub-tags">
+                            <img src="https://img.shields.io/badge/Knowledge%20Graphs%20-e6e6e6">
+                            <img src="https://img.shields.io/badge/Entity%20Relations%20-e6e6e6">
+                            <img src="https://img.shields.io/badge/Graph%20Cliques%20-e6e6e6">
+                            <img src="https://img.shields.io/badge/Clustering%20-e6e6e6">
+                            <button type="button" class="collapsible">                        
+                                <img src="https://img.shields.io/badge/Read%20More%20▼%20-white">
+                            </button>
+                        </div>
+                        <div class="pub-abstract">  
+                            Incident management is a critical part of the DevOps processes for developing and operating large-scale services in the cloud. 
+                            Incident reports filed by customers are largely unstructured making any automated diagnosis or mitigation non-trivial. 
+                            It requires on-call engineers to parse verbose reports to understand the issue and locate key information. 
+                            Prior work has looked into extraction of key attributes or entities like error codes, tenant Ids, stack traces, etc. from incident and bug reports. 
+                            Although a flat list of entities is informative, to unlock the full potential of knowledge extraction, it is necessary to provide context to these entities. 
+                            For instance, the relations between the real-world concepts or objects that these entities represent in otherwise unstructured data is useful for downstream tasks like incident linking, triaging and mitigation. 
+                            With this additional context, <b>entities are transformed from "Strings" to "Things"</b>. 
+                            In this work, we present an approach to <b>mine and score binary entity relations</b> from co-occurring entity pairs. 
+                            We evaluate binary relations extracted and show that our approach has a high precision of 0.9. 
+                            Further, we <b>construct knowledge graphs</b> automatically and 
+                            show that the implicit knowledge in the graph can be used to mine and rank relevant entities for distinct incidents, by mapping entities to clusters of incident titles. 
+                        </div>
                     </div>
-                    <div id="pub-tags">
-                        <img src="https://img.shields.io/badge/Knowledge%20Graphs%20-e6e6e6">
-                        <img src="https://img.shields.io/badge/Entity%20Relations%20-e6e6e6">
-                        <img src="https://img.shields.io/badge/Graph%20Cliques%20-e6e6e6">
-                        <img src="https://img.shields.io/badge/Clustering%20-e6e6e6">
-                        <button type="button" class="collapsible">                        
-                            <img src="https://img.shields.io/badge/Read%20More%20▼%20-white">
-                        </button>
-                    </div>
-                    <div class="pub-abstract">  
-                        Incident management is a critical part of the DevOps processes for developing and operating large-scale services in the cloud. 
-                        Incident reports filed by customers are largely unstructured making any automated diagnosis or mitigation non-trivial. 
-                        It requires on-call engineers to parse verbose reports to understand the issue and locate key information. 
-                        Prior work has looked into extraction of key attributes or entities like error codes, tenant Ids, stack traces, etc. from incident and bug reports. 
-                        Although a flat list of entities is informative, to unlock the full potential of knowledge extraction, it is necessary to provide context to these entities. 
-                        For instance, the relations between the real-world concepts or objects that these entities represent in otherwise unstructured data is useful for downstream tasks like incident linking, triaging and mitigation. 
-                        With this additional context, <b>entities are transformed from "Strings" to "Things"</b>. 
-                        In this work, we present an approach to <b>mine and score binary entity relations</b> from co-occurring entity pairs. 
-                        We evaluate binary relations extracted and show that our approach has a high precision of 0.9. 
-                        Further, we <b>construct knowledge graphs</b> automatically and 
-                        show that the implicit knowledge in the graph can be used to mine and rank relevant entities for distinct incidents, by mapping entities to clusters of incident titles. 
-                    </div>
-                </div>
 
-                <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                    <div>
-                        <a target="_blank" href="https://arxiv.org/abs/2007.05505">
-                            <span class="pub-title">Neural Knowledge Extraction From Cloud Service Incidents <i class="rarr">&rarr;</i></span>
-                        </a>
-                        <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann</span>
-                        <span class="pub-meta">International Conference on Software Engineering (<b>ICSE</b>) 2021 <b>[Acceptance Rate = 34%]</b></span>
-                    </div>
-                    <div id="pub-tags">
-                        <img src="https://img.shields.io/badge/Learning%20Representation-e6e6e6">
-                        <img src="https://img.shields.io/badge/Weak%20Supervised%20NER-e6e6e6">
-                        <img src="https://img.shields.io/badge/Multi--task%20Learning-e6e6e6">
-                        <img src="https://img.shields.io/badge/Incident%20Management-e6e6e6">
-                        <button type="button" class="collapsible">                        
-                            <img src="https://img.shields.io/badge/Read%20More%20▼%20-white">
-                        </button>
-                    </div>
-                    <div class="pub-abstract"> 
-                        The move from boxed products to services and the widespread adoption of cloud computing has had a huge impact on the software development life cycle and DevOps processes. 
-                        Particularly, incident management has become critical for developing and operating large-scale services. 
-                        Prior work on incident management has heavily focused on the challenges with incident triaging and de-duplication. 
-                        In this work, we address the fundamental problem of structured knowledge extraction from service incidents. 
-                        We have built <b>SoftNER</b>, a framework for unsupervised knowledge extraction from service incidents. 
-                        We frame the knowledge extraction problem as a <b>Named-Entity Recognition</b> task for extracting factual information. 
-                        SoftNER leverages structural patterns like key-value pairs and tables for bootstrapping the training data. 
-                        Further, we build <b>a novel multi-task learning based BiLSTM-CRF</b> model which leverages not just the semantic context but also the data-types for named-entity extraction. 
-                        We have deployed SoftNER at Microsoft, a major cloud service provider and have evaluated it on more than 2 months of cloud incidents. 
-                        We show that the unsupervised machine learning pipeline has a high precision of 0.96. 
-                        Our multi-task learning based deep learning model also outperforms the state of the art NER models. 
-                        Lastly, using the knowledge extracted by SoftNER we are able to build significantly more accurate models for important downstream tasks like incident triaging.
-                    </div>
-                </div>
-            
-                <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                    <div>
-                        <a target="_blank" href="https://ieeexplore.ieee.org/document/9198433">
-                            <span class="pub-title">Exploration and Comparison of Modern AI Algorithms to Predict Drug Efficacy <i class="rarr">&rarr;</i></span>
-                        </a>
-                        <span class="pub-authors">Anish Kasi*, <b>Manish Shetty</b>*, Roshan Neil*, Vidhya Murali, Prashanth Athri, Gowri Srinivasa</span>
-                        <span class="pub-meta">International Conference on Electronics, Computing and Communication Technologies (<b>CONECCT</b>) 2020</span>
-                    </div>
-                    <div id="pub-tags">
-                        <img src="https://img.shields.io/badge/Learning%20Representation-e6e6e6">
-                        <img src="https://img.shields.io/badge/Reinforcement%20Learning-e6e6e6">
-                    </div>
-                </div>
+                    <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
+                        <div>
+                            <a target="_blank" href="https://arxiv.org/abs/2007.05505">
+                                <span class="pub-title">Neural Knowledge Extraction From Cloud Service Incidents <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann</span>
+                            <span class="pub-meta">International Conference on Software Engineering (<b>ICSE</b>) 2021</span>
+                            <span class="pub-meta" style="color:a31d1d;">[Acceptance Rate = <b>34%</b>] & Nominated in the <b>Top-5</b> for the best paper award.</span>
+                        </div>
 
-                <div class="pub" style="border-right-color: rgba(80, 240, 40, 0.25);">
-                    <div>
-                        <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1877050920311820">
-                            <span class="pub-title" style="line-height:120%;">Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis <i class="rarr">&rarr;</i></span>
-                        </a>
-                        <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
-                        <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=19700182801&tip=sid&clean=0"> <b>Procedia Computer Science</b> , Volume 171, 2020 </a> • [H-index: 59] • Proceedings of CoCoNet'19</span>
+                        <div id="pub-tags">
+                            <img src="https://img.shields.io/badge/Learning%20Representation-e6e6e6">
+                            <img src="https://img.shields.io/badge/Weak%20Supervised%20NER-e6e6e6">
+                            <img src="https://img.shields.io/badge/Multi--task%20Learning-e6e6e6">
+                            <img src="https://img.shields.io/badge/Incident%20Management-e6e6e6">
+                            <button type="button" class="collapsible">                        
+                                <img src="https://img.shields.io/badge/Read%20More%20▼%20-white">
+                            </button>
+                        </div>
+                        <div class="pub-abstract"> 
+                            The move from boxed products to services and the widespread adoption of cloud computing has had a huge impact on the software development life cycle and DevOps processes. 
+                            Particularly, incident management has become critical for developing and operating large-scale services. 
+                            Prior work on incident management has heavily focused on the challenges with incident triaging and de-duplication. 
+                            In this work, we address the fundamental problem of structured knowledge extraction from service incidents. 
+                            We have built <b>SoftNER</b>, a framework for unsupervised knowledge extraction from service incidents. 
+                            We frame the knowledge extraction problem as a <b>Named-Entity Recognition</b> task for extracting factual information. 
+                            SoftNER leverages structural patterns like key-value pairs and tables for bootstrapping the training data. 
+                            Further, we build <b>a novel multi-task learning based BiLSTM-CRF</b> model which leverages not just the semantic context but also the data-types for named-entity extraction. 
+                            We have deployed SoftNER at Microsoft, a major cloud service provider and have evaluated it on more than 2 months of cloud incidents. 
+                            We show that the unsupervised machine learning pipeline has a high precision of 0.96. 
+                            Our multi-task learning based deep learning model also outperforms the state of the art NER models. 
+                            Lastly, using the knowledge extracted by SoftNER we are able to build significantly more accurate models for important downstream tasks like incident triaging.
+                        </div>
                     </div>
-                    <div id="pub-tags">
-                        <img src="https://img.shields.io/badge/Computer%20Vision-e6e6e6" style="padding-bottom:0.25em;">
-                        <img src="https://img.shields.io/badge/Connected%20Components-e6e6e6" style="padding-bottom:0.25em;">
-                    </div>
-                </div>
+                
+                <span id="pub-date">2020</span>
 
-                <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                    <div>
-                        <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-15-1084-7_59">
-                            <span class="pub-title">Multi Scale Template Matching To Denoise Epigraphical Estampages <i class="rarr">&rarr;</i></span>
-                        </a>
-                        <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
-                        <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=5100152904&tip=sid&clean=0"><b>Advances in Intelligent Systems and Computing</b>, Volume 1034, 2020</a> • [H-index: 34] • Proceedings of ICICC'19</span>
+                    <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
+                        <div>
+                            <a target="_blank" href="https://ieeexplore.ieee.org/document/9198433">
+                                <span class="pub-title">Exploration and Comparison of Modern AI Algorithms to Predict Drug Efficacy <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors">Anish Kasi*, <b>Manish Shetty</b>*, Roshan Neil*, Vidhya Murali, Prashanth Athri, Gowri Srinivasa</span>
+                            <span class="pub-meta">International Conference on Electronics, Computing and Communication Technologies (<b>CONECCT</b>) 2020</span>
+                        </div>
+                        <div id="pub-tags">
+                            <img src="https://img.shields.io/badge/Learning%20Representation-e6e6e6">
+                            <img src="https://img.shields.io/badge/Reinforcement%20Learning-e6e6e6">
+                        </div>
                     </div>
-                    <div id="pub-tags">
-                        <img src="https://img.shields.io/badge/Computer%20Vision-e6e6e6">
-                        <img src="https://img.shields.io/badge/Template%20Matching-e6e6e6">
+                
+                <span id="pub-date">2019</span>
+
+                    <div class="pub" style="border-right-color: rgba(80, 240, 40, 0.25);">
+                        <div>
+                            <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1877050920311820">
+                                <span class="pub-title" style="line-height:120%;">Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
+                            <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=19700182801&tip=sid&clean=0"> <b>Procedia Computer Science</b> , Volume 171, 2020 </a> • [H-index: 59] • Proceedings of CoCoNet'19</span>
+                        </div>
+                        <div id="pub-tags">
+                            <img src="https://img.shields.io/badge/Computer%20Vision-e6e6e6" style="padding-bottom:0.25em;">
+                            <img src="https://img.shields.io/badge/Connected%20Components-e6e6e6" style="padding-bottom:0.25em;">
+                        </div>
                     </div>
-                </div>
+
+                    <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
+                        <div>
+                            <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-15-1084-7_59">
+                                <span class="pub-title">Multi Scale Template Matching To Denoise Epigraphical Estampages <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
+                            <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=5100152904&tip=sid&clean=0"><b>Advances in Intelligent Systems and Computing</b>, Volume 1034, 2020</a> • [H-index: 34] • Proceedings of ICICC'19</span>
+                        </div>
+                        <div id="pub-tags">
+                            <img src="https://img.shields.io/badge/Computer%20Vision-e6e6e6">
+                            <img src="https://img.shields.io/badge/Template%20Matching-e6e6e6">
+                        </div>
+                    </div>
             </section>
 
             <section class="projects">
@@ -443,22 +446,22 @@
     
     <!-- Open abstract -->
     <script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
 
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.parentElement.nextElementSibling
-            // var content = this.nextElementSibling;
-            
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-        });
-    }
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.parentElement.nextElementSibling
+                // var content = this.nextElementSibling;
+                
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
     </script>
 
     <!-- Add github stats for projects -->

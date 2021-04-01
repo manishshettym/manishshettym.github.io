@@ -208,7 +208,7 @@ i.rarr {
 
 .pub-title {
   color:#a31d1d;
-  font-weight: lighter;
+  font-weight:500;
   /* font-size: 1.5rem; */
 }
 .pub-title:hover {
@@ -237,9 +237,14 @@ i.rarr {
 .pub span {
   display: block; }
 
+#pub-date{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .news ul {
   list-style-type: disc;
-  font-size: 1.5rem; }
+  font-size: 16px; }
   .news ul li {
     padding-left: 1rem; }
 
