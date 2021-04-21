@@ -2,24 +2,21 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,350,400,700");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,300");
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
 
 body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
-  font-family: 'EB Garamond';
-  font-size: 16px;
-  color: #292929;
-  /* font-family: 'Lato'; */
-  /* font-family: 'Ubuntu'; */
-  /* color: #333; */
-  font-weight: 400;}
+  font-family: Alegreya, Georgia, sans-serif;
+  }
 
 a {
   font-weight: 300;
 }
 
 table {
-  font-weight: 300;
+  font-size: 14px;
 }
 
 #date {

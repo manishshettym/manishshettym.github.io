@@ -15,6 +15,7 @@
         <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-core.min.js"></script>
         <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-graph.min.js"></script>
         <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-data-adapter.min.js"></script>
+        <!-- <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-venn.min.js"></script> -->
            
     </head>
     <style>
@@ -75,51 +76,50 @@
                         <a href="#tabs" onclick="switchTab('ns')">#News</a>
                         <a href="#tabs" onclick="switchTab('pb')">#Publications</a>
                         <a href="#interests">#Interests</a>
-                        <a href="#experience">#Experience</a>
+                        <a href="#experience" onclick="switchTab('ex')">#Experience</a>
                     </nav>
                 </div>
             </div>
                 
             <!-- BIOGRAPHY -->                  
             <p id="top" style="margin-top: 1rem; text-align: justify;">
-            Hi!👋Here is a little something about myself.
-            I'm a Research Fellow at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research - India</a> where I am fortunate to work with
-            <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a> on using <i>Machine Learning and Natural Language Processing for Software Engineering</i>. 
-            I have also had the opportunity to collaborate with <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a> & <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>.
-            
+                Hi!👋Here is a little something about myself.
+                I'm a Research Fellow at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research - India</a> where I am fortunate to work with
+                <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a> on using <i>Machine Learning and Natural Language Processing for Software Engineering</i>. 
+                I have also had the opportunity to collaborate with <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a> & <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>.
+            </p>
+
             <p style="margin-top: 0.7rem; text-align: justify;">
-            Previously, I graduated 🎓with a B.Tech(Hons.) in Computer Science and Engineering (<i>specialization in Data Science</i>) from PES University, Bangalore, India in 2020. 
-            I am grateful to have been advised by <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a>.
-            <button type="button" class="collapsible"><img src="https://img.shields.io/badge/Read%20More%20▼%20-white"></button> 
+                Previously, I graduated 🎓with a B.Tech(Hons.) in Computer Science and Engineering (<i>specialization in Data Science</i>) from PES University, Bangalore, India in 2020. 
+                I am grateful to have been advised by <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a>.
+                <button type="button" class="collapsible" style="color:blue">Read More >></button> 
             </p>
 
             <p style="margin-top: 0.7rem; text-align: justify; display: none;">
-            I enjoy physics, psychology, space programs, plant/animal scientific names, and the twists & turns of nature. 
-            When I am not working, I like to read books, play basketball, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies.</a>
-            My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <a href="https://www.csauthors.net/distance/manish-shetty/paul-erdos"><code>4</code></a>!
+                I enjoy physics, psychology, space programs, plant/animal scientific names, and the twists & turns of nature. 
+                When I am not working, I like to read books, play basketball, and take <a href="https://manishshettym.github.io/skies.html">pictures of skies.</a>
+                My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <a href="https://www.csauthors.net/distance/manish-shetty/paul-erdos"><code>4</code></a>!
             </p> 
         
             <!-- RESEARCH INTERESTS -->
             <h5 style="margin-top: 1rem;" id="interests">Research Interests</h5>
             <p style="margin-top: 1rem; text-align: justify;">
-                My research concerns a broad range of domains for <b>Machine Learning</b> methods, including <b>Natural Language Processing, Software Engineering, Information Extraction, and Systems</b>.
-                I'm currently working on structured knowledge extraction for <i>AI-assisted Software Engineering @ Microsoft Research</i>. 
+                My research concerns a broad range of domains for <b>Machine Learning</b> methods, including <b>Natural Language Processing, Software Engineering, and Systems</b>.
+                I'm currently working on structured knowledge extraction for Software Engineering @ MSR. 
 
-                <table style="border-collapse:separate; border:solid black 1px; border-radius:6px; margin: 3%; max-width: 650px;">
-                    <th style="text-align: center; background-color: rgba(126, 156, 244, 0.25);">ML + NLProc + Information Extraction</th>
-                    <th style="border-left: solid black 1px; text-align: center; background-color: rgba(180, 123, 228, 0.25);">Software Engineering + Systems</th>
+                <table style="border-collapse:separate; border:solid black 1px; border-radius:6px; margin-left: 10%; margin-top:3%; max-width: 550px;">
+                    <th style="text-align: center; background-color: rgba(126, 156, 244, 0.25);">Machine Learning & NLProc </th>
+                    <th style="border-left: solid black 1px; text-align: center; background-color: rgba(180, 123, 228, 0.25);">Software Engineering & Systems</th>
                     <tr>
                         <td style="border-top:solid black 1px; text-align: justify; padding: 1.5%; width: 50%;">
-                            <span class="underline--magical">Extraction and representation of language, information, and knowledge</span>
-                            for <span class="underline--magical">automated reasoning and inference</span>. </br>
+                            Extraction and representation of language, information, and knowledge for automated reasoning and inference.</br>
                             <a href="https://en.wikipedia.org/wiki/Information_extraction">#IE</a>&nbsp;
                             <a href="https://en.wikipedia.org/wiki/Natural_language_processing">#NLProc</a>&nbsp;
                             <a href="https://www.kdd.org/">#KDD</a>&nbsp;
                         </td>
                         <td style="border-left: solid black 1px; border-top:solid black 1px; text-align: justify; padding: 1.5%; width: 50%;"> 
-                            <span class="underline--magical">Fusion of ML and Systems,</span>
-                            and building <span class="underline--magical">data-driven systems</span>
-                            systems that aid software development processes</span>. </br>
+                            Fusion of ML and Systems, and building data-driven systems
+                            systems that aid software development processes.</br>
                             <a href="https://ml4se.github.io/">#ML4SE</a>&nbsp;
                             <a href="https://hazyresearch.stanford.edu/mlsys-seminar">#MLSys</a>&nbsp;
                             <a href="https://azure.microsoft.com/en-in/blog/advancing-azure-service-quality-with-artificial-intelligence-aiops/">#AIOps</a>
@@ -135,48 +135,22 @@
                 Humans have the ability to learn and capture new concepts, ideas, and skills quickly and effectively. We use knowledge learnt from one task to learn decisions for others. 
                 We also effectively process weak, noisy, and complex real world stimuli.
                 A long term goal and a parallel line of thought throughout my research is to build AI systems that can do the same. 
-                Some interesting related research orbits that I'm and/or would like to explore are:
-                <ul style="list-style-type: none; margin-top:0.25em; list-style-position: outside;">
-                <li style="padding-left: 2.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                    <i><b>Multi-task Learning</b></i> - Exploiting shared representation across related tasks. [<i>e.g. <a href="https://arxiv.org/abs/2007.05505">SoftNER</a></i>]
-                </li>
-                <li style="padding-left: 2.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                    <i><b>Knowledge Graphs</b></i> - Semantic information capture of abstract concepts/relations. [<i>e.g. <a href="https://arxiv.org/abs/2101.05961">Incident KGs</a></i>]
-                </li>
-                <li style="padding-left: 2.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                    <i><b>Meta Learning</b></i> - Learning to Learn [<i>coming soon ..</i>]
-                </li> 
-                <li style="padding-left: 2.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                    <i><b>Weak/Distant Supervision</b></i> - Leveraging noisy/minimal supervision for learning tasks. [<i>e.g. <a href="https://arxiv.org/abs/2007.05505">SoftNER</a></i>]
-                </li>
-                <li style="padding-left: 2.5em;"><i class="fa fa-superpowers" style="text-indent: -1.5em;"></i>
-                    <i><b>Neuro-Science 🔄AI</b></i> - Modelling the brain &larr;inspire&rarr; Robust AI algorithms.
-                </li>
-                </ul>
+                Some interesting related research orbits that I'm and/or would like to explore are --
+                <i>Multi-task Learning</i> (<i><a href="https://arxiv.org/abs/2007.05505">SoftNER</a></i>), 
+                <i>Weak/Distant Supervision</i> (<i><a href="https://arxiv.org/abs/2007.05505">SoftNER</a></i>),
+                <i>Knowledge Graphs</i>, and 
+                <i>Meta Learning</i> (coming soon ..).
             </p>
 
-            <p style="margin-top: 0.5rem; text-align: justify;">
+            <p style="margin-top: 1rem; text-align: justify;">
                 <b>If you'd like to collaborate, chat with me about AI, or just know about research in general, feel free to drop me an email.</b>
             </p>
 
             <div class="tabs" id="tabs">
                 <span class="tab pb-tab active" onclick="switchTab('pb')">Publications</span>
-                <span class="tab ns-tab" onclick="switchTab('ns')">News</span>
-                <span class="tab pr-tab" onclick="switchTab('pr')">Projects</span>
-                <span class="tab tw-tab" onclick="switchTab('tw')">Tweets</span>
+                <span class="tab ns-tab" onclick="switchTab('ns')">News & Tweets</span>
+                <span class="tab ex-tab" onclick="switchTab('ex')">Experience</span>
             </div>
-
-            <section class="news">
-                <ul style="list-style-type: none;">
-                    <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Feb '21]</b> Excited to be on the <a href="https://let-all.com/alt.html">mentorship workshop</a> @ <a href="http://algorithmiclearningtheory.org/alt2021/">ALT'21</a>!</li>
-                    <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jan '21]</b> Selected to be on the shadow PC for <a href="https://conf.researchr.org/home/msr-2021">MSR'21</a>! Stoked!!</li>
-                    <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jan '21]</b> The <a href="https://arxiv.org/abs/2007.05505">SoftNER Paper</a> was accepted at ICSE (SEIP) 2021!</li>
-                    <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Nov '20]</b> Enjoyed attending <a href="https://2020.esec-fse.org/">ESEC/FSE 2020</a> and meeting the SE community! </li>
-                    <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Oct '20]</b> Our new preprint <a href="https://arxiv.org/abs/2007.05505">Check it out!</a></li>
-                    <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jul '20]</b> Our paper featured in <b>VentureBeat</b>! <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">Check it out!</a></li>
-                    <li> <i class="fa fa-map-marker" style="padding: 0 5px 0;"></i><b>[Jun '20]</b> Filed my first patent - "Automatic Recognition of Entities Related to Cloud Incidents"!</li>
-                </ul>
-            </section>
 
             <section class="publications">
                 <div>
@@ -196,19 +170,28 @@
                         <center style="font-size: 1.2rem; font-weight: 100;">* &rarr; equal contributions</center>
                     </div>
                 </div>
-
+                
                 <div>
                     <!-- <span id="pub-date">2021</span> -->
-                
+                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
+                            <div>
+                                <a href="#">
+                                    <span class="pub-title">A Machine Learning Understading of Sepsis<i class="rarr">&rarr;</i></span>
+                                </a>
+                                <span class="pub-authors"><b>Manish Shetty</b>, Veena Menon, Prashanth Athri, Gowri Srinivasa</span>
+                                <span class="pub-meta">Under Submission</span>
+                            </div>
+                        </div>
+
                         <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.25);">
                             <div>
                                 <a target="_blank" href="https://arxiv.org/abs/2101.05961">
                                     <span class="pub-title">Mining Knowledge Graphs from Incident Reports<i class="rarr">&rarr;</i></span>
                                 </a>
                                 <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal</span>
-                                <span class="pub-meta">Under Submission</span>
+                                <span class="pub-meta">arXiv preprint</span>
                             </div>
-                            <div id="pub-tags">
+                            <!-- <div id="pub-tags">
                                 <img src="https://img.shields.io/badge/Knowledge%20Graphs%20-e6e6e6">
                                 <img src="https://img.shields.io/badge/Entity%20Relations%20-e6e6e6">
                                 <img src="https://img.shields.io/badge/Graph%20Cliques%20-e6e6e6">
@@ -216,7 +199,7 @@
                                 <button type="button" class="collapsible">                        
                                     <img src="https://img.shields.io/badge/Read%20More%20▼%20-white">
                                 </button>
-                            </div>
+                            </div> -->
                             <div class="pub-abstract">  
                                 Incident management is a critical part of the DevOps processes for developing and operating large-scale services in the cloud. 
                                 Incident reports filed by customers are largely unstructured making any automated diagnosis or mitigation non-trivial. 
@@ -239,10 +222,10 @@
                                 </a>
                                 <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann</span>
                                 <span class="pub-meta">International Conference on Software Engineering (<b>ICSE</b>) 2021</span>
-                                <span class="pub-meta" style="color:a31d1d;">[Acceptance Rate = <b>34%</b>] & Nominated in the <b>Top-5</b> for the best paper award.</span>
+                                <span class="pub-meta" style="color:blue">[Acceptance Rate = <b>34%</b>] & Nominated for the <b>Best Paper Award (Top-5).</b></span>
                             </div>
 
-                            <div id="pub-tags">
+                            <!-- <div id="pub-tags">
                                 <img src="https://img.shields.io/badge/Learning%20Representation-e6e6e6">
                                 <img src="https://img.shields.io/badge/Weak%20Supervised%20NER-e6e6e6">
                                 <img src="https://img.shields.io/badge/Multi--task%20Learning-e6e6e6">
@@ -250,7 +233,7 @@
                                 <button type="button" class="collapsible">                        
                                     <img src="https://img.shields.io/badge/Read%20More%20▼%20-white">
                                 </button>
-                            </div>
+                            </div> -->
                             <div class="pub-abstract"> 
                                 The move from boxed products to services and the widespread adoption of cloud computing has had a huge impact on the software development life cycle and DevOps processes. 
                                 Particularly, incident management has become critical for developing and operating large-scale services. 
@@ -277,10 +260,10 @@
                                 <span class="pub-authors">Anish Kasi*, <b>Manish Shetty</b>*, Roshan Neil*, Vidhya Murali, Prashanth Athri, Gowri Srinivasa</span>
                                 <span class="pub-meta">International Conference on Electronics, Computing and Communication Technologies (<b>CONECCT</b>) 2020</span>
                             </div>
-                            <div id="pub-tags">
+                            <!-- <div id="pub-tags">
                                 <img src="https://img.shields.io/badge/Learning%20Representation-e6e6e6">
                                 <img src="https://img.shields.io/badge/Reinforcement%20Learning-e6e6e6">
-                            </div>
+                            </div> -->
                         </div>
                 
                     <span id="pub-date">2019</span>
@@ -293,10 +276,10 @@
                                 <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
                                 <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=19700182801&tip=sid&clean=0"> <b>Procedia Computer Science</b> , Volume 171, 2020 </a> • [H-index: 59] • Proceedings of CoCoNet'19</span>
                             </div>
-                            <div id="pub-tags">
+                            <!-- <div id="pub-tags">
                                 <img src="https://img.shields.io/badge/Computer%20Vision-e6e6e6" style="padding-bottom:0.25em;">
                                 <img src="https://img.shields.io/badge/Connected%20Components-e6e6e6" style="padding-bottom:0.25em;">
-                            </div>
+                            </div> -->
                         </div>
 
                         <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
@@ -307,148 +290,132 @@
                                 <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
                                 <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=5100152904&tip=sid&clean=0"><b>Advances in Intelligent Systems and Computing</b>, Volume 1034, 2020</a> • [H-index: 34] • Proceedings of ICICC'19</span>
                             </div>
-                            <div id="pub-tags">
+                            <!-- <div id="pub-tags">
                                 <img src="https://img.shields.io/badge/Computer%20Vision-e6e6e6">
                                 <img src="https://img.shields.io/badge/Template%20Matching-e6e6e6">
-                            </div>
+                            </div> -->
                         </div>
 
                 </div>
- 
             </section>
 
-            <section class="projects">
-                <p id="projects"></p>
+            <section class="news">
+                <div style="float: left; width: 60%;">
+                    <ul style="list-style-type: none;">
+                        <li> <b>[Feb '21]</b> Excited to be on the <a href="https://let-all.com/alt.html">mentorship workshop</a> @ <a href="http://algorithmiclearningtheory.org/alt2021/">ALT'21</a>!</li>
+                        <li> <b>[Jan '21]</b> Selected to be on the shadow PC for <a href="https://conf.researchr.org/home/msr-2021">MSR'21</a>! Stoked!!</li>
+                        <li> <b>[Jan '21]</b> The <a href="https://arxiv.org/abs/2007.05505">SoftNER Paper</a> was accepted at ICSE (SEIP) 2021!</li>
+                        <li> <b>[Nov '20]</b> Enjoyed attending <a href="https://2020.esec-fse.org/">ESEC/FSE 2020</a></li>
+                        <li> <b>[Oct '20]</b> Our new preprint <a href="https://arxiv.org/abs/2007.05505">Check it out!</a></li>
+                        <li> <b>[Jul '20]</b> Our paper featured in <b>VentureBeat</b>! <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">Check it out!</a></li>
+                        <li> <b>[Jun '20]</b> Filed my first patent - "Automatic Recognition of Entities Related to Cloud Incidents"!</li>
+                    </ul>
+                </div>
+                <div style="float: right; width: 40%;">
+                    <a class="twitter-timeline" data-width="300" data-height="400" data-theme="light" href="https://twitter.com/manishshettym?ref_src=twsrc%5Etfw">Tweets by manishshettym</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
             </section>
 
-            <section class="tweets">
-                <a class="twitter-timeline" data-width="700" data-height="500" data-theme="dark" href="https://twitter.com/manishshettym?ref_src=twsrc%5Etfw">Tweets by manishshettym</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <section class="experience">
+                <h5 style="margin-top: 2rem;" id="experience"> Research Experience</h5>
+                <table style="margin-top: 1rem  ;"> 
+                    <tr>
+                        <td style="white-space:nowrap" id="date">Aug 2020 - Present</td>
+                        <td>
+                            <p>
+                                Research Fellow, Microsoft Research (India)</br>
+                                Working on <a href="https://www.microsoft.com/en-us/research/research-area/artificial-intelligence">AIOps</a>
+                                and advised by <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a>, <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a>,</br>
+                                and <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space:nowrap" id="date"> Jan 2020 - Jun 2020</td>
+                        <td>
+                            <p class="text-left">
+                                Research Intern, Microsoft Research (India)</br>
+                                Worked with Chetan Bansal on creating/developing <a href="https://arxiv.org/abs/2007.05505">SoftNER</a>.</br>
+                                <i class="fa fa-trophy"></i> Featured on VentureBeat! - <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">here</a>.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space:nowrap" id="date">Jul 2019 - Jun 2020</td>
+                        <td>
+                            <p class="text-left">
+                                Research Assistant, <a href="https://research.pes.edu/center-for-pattern-recognition/">Center for Pattern Recognition</a>, PES University </br>
+                                Worked with <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a> on ML powered drug discovery.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space:nowrap" id="date">Jun 2019 - Aug 2019</td>
+                        <td>
+                            <p class="text-left">
+                                Machine Learning Research Intern, Deloitte</br>
+                                Worked on ML/NLP assisted Risk Advisory for the <a href="https://www2.deloitte.com/in/en/pages/risk/solutions/cyber-risk-services.html">Cyber-Risk team</a>.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="white-space:nowrap" id="date">Jun 2018 - Feb 2019</td>
+                        <td>
+                            <p class="text-left">
+                                Research Intern, Center for Cloud Computing and Big Data, PES University</br>
+                                Worked on intelligent and energy aware VM provisioning algorithms.
+                        </td>
+                    </tr>
+                </table>
             </section>
 
-            <!-- RESEARCH EXPERIENCE -->
-            <h5 style="margin-top: 2rem;" id="experience"> Research Experience</h5>
-            <table style="margin-top: 1rem;"> 
-                <tr>
-                    <td style="white-space:nowrap" id="date">Aug 2020 - Present</td>
-                    <td>
-                        <p>
-                            Research Fellow, Microsoft Research (India)</br>
-                            Working on <a href="https://www.microsoft.com/en-us/research/research-area/artificial-intelligence">AIOps</a>
-                            and advised by <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a>, <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a>,</br>
-                            and <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="white-space:nowrap" id="date"> Jan 2020 - Jun 2020</td>
-                    <td>
-                        <p class="text-left">
-                            Research Intern, Microsoft Research (India)</br>
-                            Worked with Chetan Bansal on creating/developing <a href="https://arxiv.org/abs/2007.05505">SoftNER</a>.</br>
-                            <i class="fa fa-trophy"></i> Featured on VentureBeat! - <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">here</a>.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="white-space:nowrap" id="date">Jul 2019 - Jun 2020</td>
-                    <td>
-                        <p class="text-left">
-                            Research Assistant, <a href="https://research.pes.edu/center-for-pattern-recognition/">Center for Pattern Recognition</a>, PES University </br>
-                            Worked with <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a> on ML powered drug discovery.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="white-space:nowrap" id="date">Jun 2019 - Aug 2019</td>
-                    <td>
-                        <p class="text-left">
-                            Machine Learning Research Intern, Deloitte</br>
-                            Worked on ML/NLP assisted Risk Advisory for the <a href="https://www2.deloitte.com/in/en/pages/risk/solutions/cyber-risk-services.html">Cyber-Risk team</a>.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="white-space:nowrap" id="date">Jun 2018 - Feb 2019</td>
-                    <td>
-                        <p class="text-left">
-                            Research Intern, Center for Cloud Computing and Big Data, PES University</br>
-                            Worked on intelligent and energy aware VM provisioning algorithms.
-                    </td>
-                </tr>
-            </table>
-
-            <h5 style="margin-top:2rem; margin-bottom: 1em;">Current Affiliations</h5>
-            <p>
-                <img class="logo" src="images/msresearch.png" width="20%" alt="affiliated" style="border-radius: 50%;">
-                <img class="logo" src="images/pesucpr.jpeg" width="12%" alt="affiliated" style="margin-left: 2rem; border-radius: 40%;">
-                <img class="logo" src="images/office365.png" width="20%" alt="affiliated" style="margin-bottom: -2rem; margin-left: 2rem; border-radius: 50%;">
-            </p>
             <a id="back2Top" title="Back to top" href="#">&#x2191;</a>
         </div>
     </body>
 
     <!-- Switch tabs -->
     <script>
-    var pb = document.querySelector('.publications'),
-        ns = document.querySelector('.news'),
-        pr = document.querySelector('.projects');
-        tw = document.querySelector('.tweets');
+        var pb = document.querySelector('.publications'),
+            ns = document.querySelector('.news'),
+            ex = document.querySelector('.experience');
 
-    var pbt = document.querySelector('.pb-tab'),
-        nst = document.querySelector('.ns-tab'),
-        prt = document.querySelector('.pr-tab');
-        twt = document.querySelector('.tw-tab');
+        var pbt = document.querySelector('.pb-tab'),
+            nst = document.querySelector('.ns-tab'),
+            ext = document.querySelector('.ex-tab');
 
-    ns.style.display = 'none';
-    pr.style.display = 'none';
-    tw.style.display = 'none';
+        ns.style.display = 'none';
+        ex.style.display = 'none';
 
-    function switchTab(tab) {
-        switch (tab) {
-            case 'ns':
-                ns.style.display = 'block';
-                nst.className = 'tab ns-tab active';
-                pb.style.display = 'none';
-                pbt.className = 'tab pb-tab';
-                pr.style.display = 'none';
-                prt.className = 'tab pr-tab';
-                tw.style.display = 'none';
-                twt.className = 'tab tw-tab';
-                break;
-            case 'pb':
-                ns.style.display = 'none';
-                nst.className = 'tab ns-tab';
-                pb.style.display = 'block';
-                pbt.className = 'tab pb-tab active';
-                pr.style.display = 'none';
-                prt.className = 'tab pr-tab';
-                tw.style.display = 'none';
-                twt.className = 'tab tw-tab';
-                break;
-            case 'pr':
-                pr.style.display = 'block';
-                prt.className = 'tab pr-tab active';
-                ns.style.display = 'none';
-                nst.className = 'tab ns-tab';
-                pb.style.display = 'none';
-                pbt.className = 'tab pb-tab';
-                tw.style.display = 'none';
-                twt.className = 'tab tw-tab';
-                break;
-            case 'tw':
-                ns.style.display = 'none';
-                nst.className = 'tab ns-tab';
-                pb.style.display = 'none';
-                pbt.className = 'tab pb-tab';
-                pr.style.display = 'none';
-                prt.className = 'tab pr-tab';
-                tw.style.display = 'block';
-                twt.className = 'tab tw-tab active';
-                break;
+        function switchTab(tab) {
+            switch (tab) {
+                case 'ns':
+                    ns.style.display = 'block';
+                    nst.className = 'tab ns-tab active';
+                    pb.style.display = 'none';
+                    pbt.className = 'tab pb-tab';
+                    ex.style.display = 'none';
+                    ext.className = 'tab ex-tab';
+                    break;
+                case 'pb':
+                    ns.style.display = 'none';
+                    nst.className = 'tab ns-tab';
+                    pb.style.display = 'block';
+                    pbt.className = 'tab pb-tab active';
+                    ex.style.display = 'none';
+                    ext.className = 'tab ex-tab';
+                    break;
+                case 'ex':
+                    ns.style.display = 'none';
+                    nst.className = 'tab ns-tab';
+                    pb.style.display = 'none';
+                    pbt.className = 'tab pb-tab';
+                    ex.style.display = 'block';
+                    ext.className = 'tab ex-tab active';
+                    break;
+            }
         }
-    }
     </script>
-    
+        
     <!-- Open abstract -->
     <script>
         var coll = document.getElementsByClassName("collapsible");
@@ -467,12 +434,5 @@
                 }
             });
         }
-    </script>
-
-    <!-- Add github stats for projects -->
-    <script>
-        $(document).ready(function(){
-            $("#projects").loadRepositories("ManishShettyM");
-        });
     </script>
 </html>
