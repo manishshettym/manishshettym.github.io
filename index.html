@@ -153,211 +153,12 @@
             </div>
 
             <section class="publications">
-                <div>
-                    <div class="pub-type" style="float:left; margin-right: 0%; background:rgba(244, 126, 156, 0.25);">
-                        <center style="font-size: 1.4rem; font-weight: 300; ">Conference</center>
-                    </div>
-                    <div class="pub-type" style="float:left;margin-right: 0%; background:rgba(126, 156, 244, 0.25);">
-                        <center style="font-size: 1.4rem; font-weight: 300; ">Workshop</center>
-                    </div>
-                    <div class="pub-type" style="float: left; background:rgba(180, 123, 228, 0.25);">
-                        <center style="font-size: 1.4rem; font-weight: 300;">Preprint</center>
-                    </div>
-                    <div class="pub-type" style="float: left; background:rgba(80, 240, 40, 0.25);">
-                        <center style="font-size: 1.4rem; font-weight: 300;">Journal</center>
-                    </div>
-                    <div class="pub-type" style="float: left; border:none;">
-                        <center style="font-size: 1.2rem; font-weight: 100;">* &rarr; equal contributions</center>
-                    </div>
-                </div>
-                
-                <div>
-                    <!-- <span id="pub-date">2021</span> -->
-                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                            <div>
-                                <a href="#">
-                                    <span class="pub-title">A Machine Learning Understading of Sepsis<i class="rarr">&rarr;</i></span>
-                                </a>
-                                <span class="pub-authors"><b>Manish Shetty</b>, Veena Menon, Prashanth Athri, Gowri Srinivasa</span>
-                                <span class="pub-meta">Under Submission</span>
-                            </div>
-                        </div>
-
-                        <div class="pub" style="border-right-color: rgba(180, 123, 228, 0.25);">
-                            <div>
-                                <a target="_blank" href="https://arxiv.org/abs/2101.05961">
-                                    <span class="pub-title">Mining Knowledge Graphs from Incident Reports<i class="rarr">&rarr;</i></span>
-                                </a>
-                                <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal</span>
-                                <span class="pub-meta">arXiv preprint</span>
-                            </div>
-                            <!-- <div id="pub-tags">
-                                <img src="https://img.shields.io/badge/Knowledge%20Graphs%20-e6e6e6">
-                                <img src="https://img.shields.io/badge/Entity%20Relations%20-e6e6e6">
-                                <img src="https://img.shields.io/badge/Graph%20Cliques%20-e6e6e6">
-                                <img src="https://img.shields.io/badge/Clustering%20-e6e6e6">
-                                <button type="button" class="collapsible">                        
-                                    <img src="https://img.shields.io/badge/Read%20More%20▼%20-white">
-                                </button>
-                            </div> -->
-                            <div class="pub-abstract">  
-                                Incident management is a critical part of the DevOps processes for developing and operating large-scale services in the cloud. 
-                                Incident reports filed by customers are largely unstructured making any automated diagnosis or mitigation non-trivial. 
-                                It requires on-call engineers to parse verbose reports to understand the issue and locate key information. 
-                                Prior work has looked into extraction of key attributes or entities like error codes, tenant Ids, stack traces, etc. from incident and bug reports. 
-                                Although a flat list of entities is informative, to unlock the full potential of knowledge extraction, it is necessary to provide context to these entities. 
-                                For instance, the relations between the real-world concepts or objects that these entities represent in otherwise unstructured data is useful for downstream tasks like incident linking, triaging and mitigation. 
-                                With this additional context, <b>entities are transformed from "Strings" to "Things"</b>. 
-                                In this work, we present an approach to <b>mine and score binary entity relations</b> from co-occurring entity pairs. 
-                                We evaluate binary relations extracted and show that our approach has a high precision of 0.9. 
-                                Further, we <b>construct knowledge graphs</b> automatically and 
-                                show that the implicit knowledge in the graph can be used to mine and rank relevant entities for distinct incidents, by mapping entities to clusters of incident titles. 
-                            </div>
-                        </div>
-
-                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                            <div>
-                                <a target="_blank" href="https://arxiv.org/abs/2007.05505">
-                                    <span class="pub-title">Neural Knowledge Extraction From Cloud Service Incidents <i class="rarr">&rarr;</i></span>
-                                </a>
-                                <span class="pub-authors"><b>Manish Shetty</b>, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann</span>
-                                <span class="pub-meta">International Conference on Software Engineering (<b>ICSE</b>) 2021</span>
-                                <span class="pub-meta" style="color:blue">
-                                    [Acceptance Rate = <b>34%</b>] 
-                                    Nominated for the IEEE Software Distinguished Paper Award.
-                                    Featured on <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">VentureBeat</a>!     
-                                </span>
-                            </div>
-
-                            <!-- <div id="pub-tags">
-                                <img src="https://img.shields.io/badge/Learning%20Representation-e6e6e6">
-                                <img src="https://img.shields.io/badge/Weak%20Supervised%20NER-e6e6e6">
-                                <img src="https://img.shields.io/badge/Multi--task%20Learning-e6e6e6">
-                                <img src="https://img.shields.io/badge/Incident%20Management-e6e6e6">
-                                <button type="button" class="collapsible">                        
-                                    <img src="https://img.shields.io/badge/Read%20More%20▼%20-white">
-                                </button>
-                            </div> -->
-                            <div class="pub-abstract"> 
-                                The move from boxed products to services and the widespread adoption of cloud computing has had a huge impact on the software development life cycle and DevOps processes. 
-                                Particularly, incident management has become critical for developing and operating large-scale services. 
-                                Prior work on incident management has heavily focused on the challenges with incident triaging and de-duplication. 
-                                In this work, we address the fundamental problem of structured knowledge extraction from service incidents. 
-                                We have built <b>SoftNER</b>, a framework for unsupervised knowledge extraction from service incidents. 
-                                We frame the knowledge extraction problem as a <b>Named-Entity Recognition</b> task for extracting factual information. 
-                                SoftNER leverages structural patterns like key-value pairs and tables for bootstrapping the training data. 
-                                Further, we build <b>a novel multi-task learning based BiLSTM-CRF</b> model which leverages not just the semantic context but also the data-types for named-entity extraction. 
-                                We have deployed SoftNER at Microsoft, a major cloud service provider and have evaluated it on more than 2 months of cloud incidents. 
-                                We show that the unsupervised machine learning pipeline has a high precision of 0.96. 
-                                Our multi-task learning based deep learning model also outperforms the state of the art NER models. 
-                                Lastly, using the knowledge extracted by SoftNER we are able to build significantly more accurate models for important downstream tasks like incident triaging.
-                            </div>
-                        </div>
-                
-                    <span id="pub-date">2020</span>
-
-                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                            <div>
-                                <a target="_blank" href="https://ieeexplore.ieee.org/document/9198433">
-                                    <span class="pub-title">Exploration and Comparison of Modern AI Algorithms to Predict Drug Efficacy <i class="rarr">&rarr;</i></span>
-                                </a>
-                                <span class="pub-authors">Anish Kasi*, <b>Manish Shetty</b>*, Roshan Neil*, Vidhya Murali, Prashanth Athri, Gowri Srinivasa</span>
-                                <span class="pub-meta">International Conference on Electronics, Computing and Communication Technologies (<b>CONECCT</b>) 2020</span>
-                            </div>
-                            <!-- <div id="pub-tags">
-                                <img src="https://img.shields.io/badge/Learning%20Representation-e6e6e6">
-                                <img src="https://img.shields.io/badge/Reinforcement%20Learning-e6e6e6">
-                            </div> -->
-                        </div>
-                
-                    <span id="pub-date">2019</span>
-
-                        <div class="pub" style="border-right-color: rgba(80, 240, 40, 0.25);">
-                            <div>
-                                <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1877050920311820">
-                                    <span class="pub-title" style="line-height:120%;">Denoising and Segmentation of Epigraphical Estampages by Multi Scale Template Matching and Connected Component Analysis <i class="rarr">&rarr;</i></span>
-                                </a>
-                                <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
-                                <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=19700182801&tip=sid&clean=0"> <b>Procedia Computer Science</b> , Volume 171, 2020 </a> • [H-index: 59] • Proceedings of CoCoNet'19</span>
-                            </div>
-                            <!-- <div id="pub-tags">
-                                <img src="https://img.shields.io/badge/Computer%20Vision-e6e6e6" style="padding-bottom:0.25em;">
-                                <img src="https://img.shields.io/badge/Connected%20Components-e6e6e6" style="padding-bottom:0.25em;">
-                            </div> -->
-                        </div>
-
-                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.25);">
-                            <div>
-                                <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-15-1084-7_59">
-                                    <span class="pub-title">Multi Scale Template Matching To Denoise Epigraphical Estampages <i class="rarr">&rarr;</i></span>
-                                </a>
-                                <span class="pub-authors"><b>Manish Shetty</b>*, Anish Kasi*, Preeti P, Mamatha H.R.</span>
-                                <span class="pub-meta"> <a href="https://www.scimagojr.com/journalsearch.php?q=5100152904&tip=sid&clean=0"><b>Advances in Intelligent Systems and Computing</b>, Volume 1034, 2020</a> • [H-index: 34] • Proceedings of ICICC'19</span>
-                            </div>
-                            <!-- <div id="pub-tags">
-                                <img src="https://img.shields.io/badge/Computer%20Vision-e6e6e6">
-                                <img src="https://img.shields.io/badge/Template%20Matching-e6e6e6">
-                            </div> -->
-                        </div>
-
-                </div>
             </section>
 
-            <section class="news">
-                
+            <section class="news">          
             </section>
 
             <section class="experience">
-                <h5 style="margin-top: 2rem;" id="experience"> Research Experience</h5>
-                <table style="margin-top: 1rem  ;"> 
-                    <tr>
-                        <td style="white-space:nowrap" id="date">Aug 2020 - Present</td>
-                        <td>
-                            <p>
-                                Research Fellow, Microsoft Research (India)</br>
-                                Working on <a href="https://www.microsoft.com/en-us/research/research-area/artificial-intelligence">AIOps</a>
-                                and advised by <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a>, <a href="https://nachinagappan.github.io/">Dr. Nachi Nagappan</a>,</br>
-                                and <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="white-space:nowrap" id="date"> Jan 2020 - Jun 2020</td>
-                        <td>
-                            <p class="text-left">
-                                Research Intern, Microsoft Research (India)</br>
-                                Worked with Chetan Bansal on creating/developing <a href="https://arxiv.org/abs/2007.05505">SoftNER</a>.</br>
-                                <i class="fa fa-trophy"></i> Featured on VentureBeat! - <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">here</a>.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="white-space:nowrap" id="date">Jul 2019 - Jun 2020</td>
-                        <td>
-                            <p class="text-left">
-                                Research Assistant, <a href="https://research.pes.edu/center-for-pattern-recognition/">Center for Pattern Recognition</a>, PES University </br>
-                                Worked with <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a> on ML powered drug discovery.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="white-space:nowrap" id="date">Jun 2019 - Aug 2019</td>
-                        <td>
-                            <p class="text-left">
-                                Machine Learning Research Intern, Deloitte</br>
-                                Worked on ML/NLP assisted Risk Advisory for the <a href="https://www2.deloitte.com/in/en/pages/risk/solutions/cyber-risk-services.html">Cyber-Risk team</a>.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="white-space:nowrap" id="date">Jun 2018 - Feb 2019</td>
-                        <td>
-                            <p class="text-left">
-                                Research Intern, Center for Cloud Computing and Big Data, PES University</br>
-                                Worked on intelligent and energy aware VM provisioning algorithms.
-                        </td>
-                    </tr>
-                </table>
             </section>
 
             <a id="back2Top" title="Back to top" href="#">&#x2191;</a>
@@ -427,10 +228,13 @@
         }
     </script>
 
+    <!-- Load website sections -->
     <script> 
-    $(function(){
-        $(".news").load("news.html"); 
-    });
+        $(function(){
+            $(".news").load("sections/news.html");
+            $(".experience").load("sections/experience.html"); 
+            $(".publications").load("sections/publications.html");  
+        });
     </script> 
 
 </html>
