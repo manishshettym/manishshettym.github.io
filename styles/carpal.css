@@ -343,3 +343,7 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+@media (max-width: 990px){
+  .pub-img-div {display: none;}
+}
