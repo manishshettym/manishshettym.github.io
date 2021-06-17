@@ -346,4 +346,5 @@ there.
 
 @media (max-width: 990px){
   .pub-img-div {display: none;}
+  .pub-desc-div {width: 100%;}
 }
