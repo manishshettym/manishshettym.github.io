@@ -348,3 +348,7 @@ there.
   .pub-img-div {display: none;}
   .pub-desc-div {width: 100%;}
 }
+
+@media (min-width: 991px){
+  .pub-desc-div {width: 83%;}
+}
