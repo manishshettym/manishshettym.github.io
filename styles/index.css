@@ -3,12 +3,14 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,300");
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
 
 
 body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
-  font-family: Alegreya, Georgia, sans-serif;
+  /* font-family: Alegreya, Georgia, sans-serif; */
+  font-family: Gentium Basic;
   }
 
 a {
@@ -225,6 +227,13 @@ i.rarr {
   /* color: inherit; */
   font-style: oblique;
   }
+
+.tag {
+    padding-right: 2px;
+    font-weight: 400;
+    /* font-size: 1rem; */
+    color: #a31d1d;
+}
 
 img{
   vertical-align: middle;
