@@ -230,8 +230,7 @@
 
     <!-- Collapse a publications info -->
     <script>
-        $(".pub-collapse-button").load(function(){
-            console.log("HEYYY");
+        $(".pub-collapse-button").click(function(){
             if($(this).html() == "-"){
                 $(this).css("transform", "rotateY(180deg)");
                 $(this).css("background-color", "#3f51b5");   
