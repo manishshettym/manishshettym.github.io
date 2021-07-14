@@ -280,6 +280,24 @@ img{
   font-weight: bold;
 }
 
+.pub-collapse-button{
+  width: 14px;
+  height: 11px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0.5;
+  padding-top: 3px;
+  background-color: #a31d1d;
+  border-radius: 25%;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  left: 4px;
+  perspective: 1000px;
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+}
+
 .news ul {
   list-style-type: disc;
   font-size: 16px; }
