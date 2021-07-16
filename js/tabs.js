@@ -32,7 +32,7 @@ function switchTab(tab) {
         case 'pb':
             ns.style.display = 'none';
             nst.className = 'tab ns-tab';
-            pb.style.display = 'block';
+            pb.style.display = 'flex';
             pbt.className = 'tab pb-tab active';
             ex.style.display = 'none';
             ext.className = 'tab ex-tab';
