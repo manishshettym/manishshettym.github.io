@@ -22,6 +22,15 @@
         <script src="js/onclicksmoothscroll.js"></script>
         <script src="js/github-stats.js"></script>
         <script src="js/scramble.js"></script>
+        <script>
+            // Load website sections
+            $(function(){
+                        $(".news").load("sections/news.html");
+                        $(".experience").load("sections/experience.html"); 
+                        $(".publications").load("sections/publications.html");  
+                    });
+        </script>
+        
         <script src="js/tabs.js"></script>
         <script src="js/buttonfunctions.js"></script>
 

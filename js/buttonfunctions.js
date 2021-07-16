@@ -17,14 +17,6 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
-// Load website sections
-$(function(){
-    $(".news").load("sections/news.html");
-    $(".experience").load("sections/experience.html"); 
-    $(".publications").load("sections/publications.html");  
-});
-
-
 // TODO: Collapse a publications info
 $(".pub-collapse-button").click(function(){
     if($(this).html() == "-"){
