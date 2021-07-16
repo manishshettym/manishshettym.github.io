@@ -22,18 +22,9 @@
         <script src="js/onclicksmoothscroll.js"></script>
         <script src="js/github-stats.js"></script>
         <script src="js/scramble.js"></script>
-        <script>
-            // Load website sections
-            $(function(){
-                        $(".news").load("sections/news.html");
-                        $(".experience").load("sections/experience.html"); 
-                        $(".publications").load("sections/publications.html");  
-                    });
-        </script>
-        
         <script src="js/tabs.js"></script>
-        <script src="js/buttonfunctions.js"></script>
-
+        <script src="js/buttons.js"></script>
+        
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PXFXFQCM2S"></script>
         <script>
@@ -46,7 +37,6 @@
     </head>
 
     <body style="background-image:url(images/SubtleGreyBackground.jpg);">
-            
         <div class="container">
             <div class="dp-div">
                 <div class=dp-div-inner>
@@ -108,7 +98,7 @@
             <p style="margin-top: 0.7rem; text-align: justify;">
                 Previously, I graduated 🎓with a B.Tech(Hons.) in Computer Science and Engineering (<i>specialization in Data Science</i>) from PES University, Bangalore, India in 2020. 
                 I am grateful to have been advised by <a href="https://scholar.google.co.in/citations?user=xmJ1KmsAAAAJ&hl=en">Dr. Gowri Srinivasa</a>.
-                <button type="button" class="collapsible" style="color:blue">Read More >></button> 
+                <button type="button" class="collapsible" style="color:blue" onclick="collapse(this)">Read More >></button> 
             </p>
 
             <p style="margin-top: 0.7rem; text-align: justify; display: none;">

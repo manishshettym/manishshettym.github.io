@@ -1,16 +1,25 @@
-// Switch tabs 
-var pb = document.querySelector('.publications'),
-    ns = document.querySelector('.news'),
-    ex = document.querySelector('.experience');
+// Load website sections
+$(function () {
+    $(".news").load("sections/news.html");
+    $(".experience").load("sections/experience.html");
+    $(".publications").load("sections/publications.html");
 
-var pbt = document.querySelector('.pb-tab'),
-    nst = document.querySelector('.ns-tab'),
-    ext = document.querySelector('.ex-tab');
+    var ns = document.querySelector('.news'),
+        ex = document.querySelector('.experience');
 
-ns.style.display = 'none';
-ex.style.display = 'none';
+    ns.style.display = 'none';
+    ex.style.display = 'none';
+});
 
 function switchTab(tab) {
+    var pb = document.querySelector('.publications'),
+        ns = document.querySelector('.news'),
+        ex = document.querySelector('.experience');
+
+    var pbt = document.querySelector('.pb-tab'),
+        nst = document.querySelector('.ns-tab'),
+        ext = document.querySelector('.ex-tab');
+
     switch (tab) {
         case 'ns':
             ns.style.display = 'block';
