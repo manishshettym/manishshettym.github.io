@@ -21,6 +21,19 @@ table {
   font-size: 14px;
 }
 
+ul.unstyled, ol.unstyled { 
+  margin-left: 0;
+  list-style: none;
+}
+
+td {
+  vertical-align: top;
+}
+
+table td {
+  border: 0;
+}
+
 #date {
   font-style: oblique;
 }

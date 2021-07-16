@@ -17,6 +17,14 @@
         <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-data-adapter.min.js"></script>
         <!-- <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-venn.min.js"></script> -->
 
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/onclicksmoothscroll.js"></script>
+        <script src="js/github-stats.js"></script>
+        <script src="js/scramble.js"></script>
+        <script src="js/tabs.js"></script>
+        <script src="js/buttonfunctions.js"></script>
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PXFXFQCM2S"></script>
         <script>
@@ -26,20 +34,9 @@
 
             gtag('config', 'G-PXFXFQCM2S');
         </script>
-           
     </head>
-    <style>
-        ul.unstyled,ol.unstyled{margin-left:0;list-style:none}
-        td{vertical-align:top;}
-        table td {border: 0;}
-    </style>
-    <script src="js/scramble.js"></script>
-    <!-- <body style="background-color: #FFFFFF"> -->
+
     <body style="background-image:url(images/SubtleGreyBackground.jpg);">
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/onclicksmoothscroll.js"></script>
-        <script src="js/github-stats.js"></script>
             
         <div class="container">
             <div class="dp-div">
@@ -175,106 +172,4 @@
             <a id="back2Top" title="Back to top" href="#">&#x2191;</a>
         </div>
     </body>
-
-    <!-- Switch tabs -->
-    <script>
-        var pb = document.querySelector('.publications'),
-            ns = document.querySelector('.news'),
-            ex = document.querySelector('.experience');
-
-        var pbt = document.querySelector('.pb-tab'),
-            nst = document.querySelector('.ns-tab'),
-            ext = document.querySelector('.ex-tab');
-
-        ns.style.display = 'none';
-        ex.style.display = 'none';
-
-        function switchTab(tab) {
-            switch (tab) {
-                case 'ns':
-                    ns.style.display = 'block';
-                    nst.className = 'tab ns-tab active';
-                    pb.style.display = 'none';
-                    pbt.className = 'tab pb-tab';
-                    ex.style.display = 'none';
-                    ext.className = 'tab ex-tab';
-                    break;
-                case 'pb':
-                    ns.style.display = 'none';
-                    nst.className = 'tab ns-tab';
-                    pb.style.display = 'block';
-                    pbt.className = 'tab pb-tab active';
-                    ex.style.display = 'none';
-                    ext.className = 'tab ex-tab';
-                    break;
-                case 'ex':
-                    ns.style.display = 'none';
-                    nst.className = 'tab ns-tab';
-                    pb.style.display = 'none';
-                    pbt.className = 'tab pb-tab';
-                    ex.style.display = 'block';
-                    ext.className = 'tab ex-tab active';
-                    break;
-            }
-        }
-    </script>
-    
-    <!-- Collapsible button -->
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.parentElement.nextElementSibling
-                // var content = this.nextElementSibling;
-
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    </script>
-
-    <!-- Load website sections -->
-    <script> 
-        $(function(){
-            $(".news").load("sections/news.html");
-            $(".experience").load("sections/experience.html"); 
-            $(".publications").load("sections/publications.html");  
-        });
-    </script> 
-
-    <!-- TODO: Collapse a publications info -->
-    <script>
-        $(".pub-collapse-button").click(function(){
-            if($(this).html() == "-"){
-                $(this).css("transform", "rotateY(180deg)");
-                $(this).css("background-color", "#3f51b5");   
-                $(this).html("+");
-            }
-            else{
-                $(this).css("transform", "rotate(0deg)");
-                $(this).css("background-color", "#a31d1d");
-                $(this).html("-");
-            }
-
-            $(this).nextAll(".pub-abstract").slideToggle();
-
-            if($(this).parent().parent().nextAll(".pub-img-div").hasClass("human-toggled")){
-                $(this).parent().parent().nextAll(".pub-img-div").slideToggle();
-                $(this).parent().parent().nextAll(".pub-img-div").removeClass("human-toggled");                
-            }
-    
-            else if($(this).parent().parent().nextAll(".pub-img-div").css("display") != "none"){
-                $(this).parent().parent().nextAll(".pub-img-div").slideToggle();
-                $(this).parent().parent().nextAll(".pub-img-div").addClass("human-toggled");
-            }            
-            
-        });
-    </script>
-
 </html>
