@@ -176,8 +176,11 @@ h5 a:hover {
   color: #449a88;
 }
 
+.cv{
+  font-size: 90%;
+}
 .cv:hover {
-  color: #2ebd59; }
+  color: #2ebd59; 
 }
 
 .mail:hover {
