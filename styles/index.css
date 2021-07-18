@@ -172,6 +172,14 @@ h5 a:hover {
 .linkedin:hover {
   color: #0077b5; }
 
+.blog:hover {
+  color: #449a88;
+}
+
+.cv:hover {
+  color: #2ebd59; }
+}
+
 .mail:hover {
   color: #449a88; }
 
