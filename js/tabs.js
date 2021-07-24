@@ -1,23 +1,28 @@
 // Load website sections
 $(function () {
     $(".news").load("sections/news.html");
+    $(".service").load("sections/service.html");
     $(".experience").load("sections/experience.html");
     $(".publications").load("sections/publications.html");
 
     var ns = document.querySelector('.news'),
+        ac = document.querySelector('.service'),
         ex = document.querySelector('.experience');
 
     ns.style.display = 'none';
+    ac.style.display = 'none';
     ex.style.display = 'none';
 });
 
 function switchTab(tab) {
     var pb = document.querySelector('.publications'),
         ns = document.querySelector('.news'),
+        ac = document.querySelector('.service'),
         ex = document.querySelector('.experience');
 
     var pbt = document.querySelector('.pb-tab'),
         nst = document.querySelector('.ns-tab'),
+        act = document.querySelector('.ac-tab'),
         ext = document.querySelector('.ex-tab');
 
     switch (tab) {
@@ -28,6 +33,8 @@ function switchTab(tab) {
             pbt.className = 'tab pb-tab';
             ex.style.display = 'none';
             ext.className = 'tab ex-tab';
+            ac.style.display = 'none';
+            act.className = 'tab ac-tab';
             break;
         case 'pb':
             ns.style.display = 'none';
@@ -36,6 +43,8 @@ function switchTab(tab) {
             pbt.className = 'tab pb-tab active';
             ex.style.display = 'none';
             ext.className = 'tab ex-tab';
+            ac.style.display = 'none';
+            act.className = 'tab ac-tab';
             break;
         case 'ex':
             ns.style.display = 'none';
@@ -44,6 +53,18 @@ function switchTab(tab) {
             pbt.className = 'tab pb-tab';
             ex.style.display = 'block';
             ext.className = 'tab ex-tab active';
+            ac.style.display = 'none';
+            act.className = 'tab ac-tab';
+            break;
+        case 'ac':
+            ns.style.display = 'none';
+            nst.className = 'tab ns-tab';
+            pb.style.display = 'none';
+            pbt.className = 'tab pb-tab';
+            ex.style.display = 'none';
+            ext.className = 'tab ex-tab';
+            ac.style.display = 'block';
+            act.className = 'tab ac-tab active';
             break;
     }
 }
