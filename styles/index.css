@@ -5,10 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
 
-
 body {
   -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
+  line-height: 1.4;
   /* font-family: Alegreya, Georgia, sans-serif; */
   font-family: Gentium Basic;
   }
