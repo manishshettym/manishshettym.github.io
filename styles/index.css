@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -89,9 +90,9 @@ h5{
   transform-style: preserve-3d;
 }
 
-.dp-div:hover .dp-div-inner {
+/* .dp-div:hover .dp-div-inner {
   transform: rotateY(180deg);
-}
+} */
 
 .dp-front, .dp-back {
   position: absolute;
