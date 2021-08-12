@@ -55,7 +55,7 @@ h5{
 
 .container {
   max-width: 800px;
-  margin-top: 10vmin;
+  margin-top: 5vmin;
   margin-bottom: 10vmin; }
 
 .drawer {
@@ -69,10 +69,10 @@ h5{
 
 .dp {
   display: block;
-  width: 18rem;
+  width: 16rem;
   height: auto;
-  border-radius: 50%;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 40% 40% 50% 40%;
+  /* box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem; 
@@ -80,8 +80,8 @@ h5{
 
 .dp-div {
   background-color: transparent;
-  height: 220px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  height: 200px;
+  perspective: 1000px; /*Remove this if you don't want the 3D effect */
 }
 
 .dp-div-inner {
@@ -373,7 +373,7 @@ img{
 
 @media screen and (max-width: 900px) {
   .dp {
-    width: 20rem; }
+    width: 15rem; }
 
   .content {
     /* margin-left: 0 !important; */
