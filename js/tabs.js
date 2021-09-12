@@ -1,9 +1,5 @@
 // Load website sections
 $(function () {
-    $(".news").load("sections/news.html");
-    $(".service").load("sections/service.html");
-    $(".experience").load("sections/experience.html");
-
     var ac = document.querySelector('.service'),
         ex = document.querySelector('.experience');
 
