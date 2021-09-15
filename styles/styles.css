@@ -3,12 +3,32 @@
 body {
   padding:50px;
   font:15px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#444;
+  /* color:#444; */
+  color:#424242;
   font-weight:400;
+  background-color: #fbfbfb;
+  }
+
+.my_name {
+  font-family: league-gothic, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 60pt;
+  text-transform: uppercase;
+  color:#222;
+  padding-bottom: 10px;
+}
+
+.boxy {
+  border-style: solid; 
+  border-width: 0 0 0 3px; 
+  padding-left:10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
+  text-transform: uppercase;
+  font-family: league-gothic, sans-serif;
   margin:0 0 20px;
 }
 
@@ -21,18 +41,20 @@ h1, h2, h3 {
 }
 
 h1 {
-  color:rgb(72, 57, 130);
-  font: 16px/1.5 "Kanit", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size:32px;
 }
 
 h2 {
-  color:rgb(72, 57, 130);
   font-weight:500;
+  text-decoration:underline;
 }
 
-h3, h4, h5, h6 {
+h4 {
+  font-weight: 50;
+}
+
+h3, h5, h6 {
   color:#494949;
 }
 
@@ -198,6 +220,10 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
+  
+  #portrait{
+    display: none;
+  }
   
   div.wrapper {
     width:auto;
