@@ -1,9 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
   padding:50px;
-  font:15px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* color:#444; */
+  /* font:15px/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font:14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* color:#727272;; */
   color:#424242;
   font-weight:400;
   background-color: #fbfbfb;
@@ -72,7 +74,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:880px;
   margin:0 auto;
 }
 
@@ -192,7 +194,7 @@ header ul a strong {
 }
 
 section {
-  width:600px;
+  width:590px;
   float:right;
   padding-bottom:50px;
 }

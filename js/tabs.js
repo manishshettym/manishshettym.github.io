@@ -1,12 +1,3 @@
-// Load website sections
-$(function () {
-    var ac = document.querySelector('.service'),
-        ex = document.querySelector('.experience');
-
-    ac.style.display = 'none';
-    ex.style.display = 'none';
-});
-
 function switchTab(tab) {
     var ns = document.querySelector('.news'),
         ac = document.querySelector('.service'),
