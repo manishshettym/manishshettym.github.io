@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/darklightmode.css">
     <link rel="stylesheet" href="styles/pygment_trac.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -72,6 +73,10 @@
                         <a href="https://manishshettym.github.io/blog/" class="blog" style="color:#fd7e14; font-size: 90%;" title="Blog">
                             <i class="fab fa-blogger fa-2x headtag"></i>
                         </a>
+                        <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
+                            <span></span>
+                            <span></span>
+                        </button> 
                     </div>      
                 </div>
             </div>
@@ -388,6 +393,7 @@
 
     <!-- #OTHER SCRIPTS -->
     <!-- <script src="javascripts/scale.fix.js"></script> -->
+    
 
     <script>
         var ac = document.querySelector('.service'),
@@ -431,6 +437,22 @@
                     act.className = 'tab ac-tab active';
                     break;
             }
+        }
+    </script>
+    
+    <!-- DARK MODE -->
+    <script>
+        function toggle_light_mode() {
+            var app = document.getElementsByTagName("BODY")[0];
+
+            if (localStorage.lightMode == "dark") {
+                localStorage.lightMode = "light";
+                app.setAttribute("light-mode", "light");
+            } 
+            else {
+                localStorage.lightMode = "dark";
+                app.setAttribute("light-mode", "dark");
+            }		
         }
     </script>
 </body>
