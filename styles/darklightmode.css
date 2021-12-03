@@ -50,7 +50,7 @@ body {
 
 body[light-mode=dark] {
     background-color: #141516;
-    color: white;
+    color:#ced4e2;
 }
 
 body[light-mode="dark"] .light-mode-button span:nth-child(1){
