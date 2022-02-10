@@ -45,15 +45,16 @@
 
 body {
     /* background-color: #f6f6f6; */
-    transition: background-color .3s;
+    transition: background-color .1s;
 }
 
 body[light-mode=dark] {
-    background-color: #141516;
+    /* background-color: #141516; */
+    background-color: #152031;
     color:#ced4e2;
 }
 
-body[light-mode="dark"] .light-mode-button span:nth-child(1){
+body[light-mode=dark] .light-mode-button span:nth-child(1){
     background-color: #ced4e2;
     color: #141516;
 }
@@ -61,4 +62,13 @@ body[light-mode="dark"] .light-mode-button span:nth-child(1){
 body[light-mode=dark] .light-mode-button span:nth-child(2) {
     left: 15px;
     background-color: #141516;
+}
+
+body[light-mode=dark] .tabs {
+    border-bottom: 1px solid #ced4e2;
+}
+
+body[light-mode=dark] .tab.active {
+    border: 1px solid #ced4e2;
+    border-bottom: 1px solid #141516;;
 }
