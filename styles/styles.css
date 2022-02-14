@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
 body {
   padding:50px;
   /* font: 14px/1.4em 'Open Sans', sans-serif; */
+  /* font-family: 'Vollkorn', serif; */
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 14px;
   font-weight:400;
@@ -13,8 +15,6 @@ body {
   }
 
 .my_name {
-  /* font-family: 'Lato', sans-serif; */
-  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
   line-height: 40pt;
   font-size: 2.25rem;
@@ -29,10 +29,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* color:#222; */
-  /* text-transform: uppercase; */
-  font-family: 'Lato', sans-serif;
-  /* font-family: league-gothic, sans-serif; */
   margin:0 0 20px;
 }
 
@@ -389,6 +385,11 @@ sup { position: relative; top: 0.7em; height: 0.2em; margin-bottom: -0.2em;}
 }
 .linkedin:hover {
 color: #0077b5; }
+
+.github {
+  color:#211F1F; 
+  font-size: 90%;
+}
 
 .github:hover {
 color: black;

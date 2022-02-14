@@ -76,3 +76,7 @@ body[light-mode=dark] .tab.active {
     border: 1px solid #ced4e2;
     border-bottom: 1px solid #141516;;
 }
+
+body[light-mode=dark] .github {
+    color: white;
+}
