@@ -41,7 +41,7 @@
 <body light-mode="dark">
     <div class="wrapper">
 
-        <header style="margin-top: -1.5rem;">
+        <header style="margin-top: -1rem;">
 
             <div class="my_name"> Manish Shetty </div>
             <h5 style="margin-top: -1rem; font-weight: 50;">Research Fellow @ Microsoft Research</h5>
@@ -450,6 +450,8 @@
     
     <!-- DARK MODE -->
     <script>
+        localStorage.lightMode = "dark";
+        
         function toggle_light_mode() {
             var app = document.getElementsByTagName("BODY")[0];
 
