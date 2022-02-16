@@ -225,10 +225,6 @@ footer {
   bottom:50px;
 }
 
-#portrait {
-  box-shadow: 4px 4px 10px #7998eea1;
-}
-
 @media print, screen and (max-width: 960px) {
   
   #portrait{
