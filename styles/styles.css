@@ -356,6 +356,10 @@ footer {
   padding-right: 1rem;
 }
 
+.preprint {
+  background-color: #f2951b;
+}
+
 .pubthumb2 {
   width: 160px;
   border: 1px solid #444;
