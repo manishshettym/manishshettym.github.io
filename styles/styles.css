@@ -11,7 +11,7 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 14px;
   font-weight:400;
-  background-color: #fbfbfb;
+  background-color: #f8f8f8;
   }
 
 .my_name {
@@ -347,17 +347,22 @@ footer {
 
 .badge {
   display: inline-block;
-  background-color: #B509AC;
+  background-color:  #5438c5;
   color: #fff !important;
   border-radius: 0.125rem;
   -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  align-items: center;
 }
 
 .preprint {
-  background-color: #f2951b;
+  background-color: #474968;
+}
+
+.journal {
+  background-color: #8e2cca;
 }
 
 .pubthumb2 {
