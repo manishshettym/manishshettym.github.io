@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 
 body {
   padding:50px;
@@ -477,4 +478,31 @@ color: #1da1f2; }
   font-weight: bolder; 
   /* font-size: 105%;  */
   padding: 1%;
+}
+
+.news {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.news > div {
+  margin-top: 2%;
+}
+
+.news time {
+  display: inline-block;
+  width: 12%;
+  text-align: right;
+  font-style: italic;
+  font-weight: bold;
+  float: left;
+}
+
+.news time + div {
+  margin-left: 18%;
+}
+
+.news quote {
+  font-style:italic;
+  color:#333;
 }

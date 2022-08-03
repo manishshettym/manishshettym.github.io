@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/darklightmode.css">
     <link rel="stylesheet" href="styles/pygment_trac.css">
-    <!-- <link rel="stylesheet" href="styles/bg.css"> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -37,6 +36,19 @@
 
         gtag('config', 'G-PXFXFQCM2S');
     </script>
+
+    <!-- load pages -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script> 
+        $(function(){
+            $("#bio").load("bio.html");
+            $(".news").load("news.html");
+            $("#publist").load("publications.html");
+            $(".experience").load("experience.html");
+            $(".service").load("service.html");
+        });
+    </script> 
+
 </head>
 
 <body>
@@ -70,7 +82,7 @@
                         <a href="https://github.com/manishshettym" class="github" title="Github">
                             <i class="fab fa-github-square fa-2x headtag"></i>
                         </a> &nbsp;
-                        <a href="https://twitter.com/manishshettym" class="twitter" style="color:#1da1f2; font-size: 90%;" title="Twitter">
+                        <a href="https://twitter.com/slimshetty_" class="twitter" style="color:#1da1f2; font-size: 90%;" title="Twitter">
                             <i class="fab fa-twitter-square fa-2x headtag"></i>
                         </a> &nbsp;
                         <a href="https://manishshettym.github.io/blog/" class="blog" style="color:#fd7e14; font-size: 90%;" title="Blog">
@@ -89,28 +101,8 @@
         </header>
 
         <section>
-            <!-- <h2 id="biography">About Me</h2> -->
             
-            <p id="top">
-
-                Hi!👋 I’m a first-year PhD student at the <a href="https://www.berkeley.edu/">University of California, Berkeley</a>
-                and a member of the <a href="https://ps.berkeley.edu/">Programming Systems</a> group. 
-                I'm broadly interested in designing systems, powered by predictive intelligence, to improve 
-                the productivity of programmers and non-programmers interacting with data.
-            </p>
-
-            <p>
-                Previously, I spent 2+ wonderful years at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR) - India</a> 
-                on software engineering research with
-                <a href="https://www.microsoft.com/en-us/research/people/chetanb/">Chetan Bansal</a>, 
-                <a href="https://www.microsoft.com/en-us/research/people/sumann/">Dr. Suman Nath</a>, and
-                <a href="https://www.microsoft.com/en-us/research/people/tzimmer/">Dr. Tom Zimmermann</a>.
-            </p>
-
-            <!-- <p style="margin-top: 0.7rem; text-align: justify;">
-                When I am not working, I like to play/watch basketball, create electronic music, and develop my blog.</a>
-                FF: My <a href="https://www.oakland.edu/enp/">Erdös Number</a> is <a href="https://www.csauthors.net/distance/manish-shetty/paul-erdos"><code>4</code></a>!
-            </p>  -->
+            <div id="bio"></div>
             
             <h2 id="whats-up">Research Interests</h2>
             
@@ -130,7 +122,11 @@
                 If you'd like to collaborate or just chat with me about about research, feel free to drop me an email.
             </p>
 
-            <!-- ############################################# PUBS ######################################################## -->
+
+
+            <!-- #############################################  -->
+            <!-- ################### PUBS ####################  -->
+            <!-- ############################################## -->
 
             <h2 id="publications">Selected Publications</h2>
 
@@ -142,267 +138,32 @@
                 </div>
             </div>
 
-            <div id="publist">
-                
-                <!-- This year -->
-                <div class="pubcategory">
-                    <!-- <h3 class="category_title" style="letter-spacing: 2px; padding-left: 5px;">2021</h3> -->
-
-                    <div class="pubentry">
-                        <a class="thumblink pubthumb" href="http://arxiv.org/abs/2205.13457">
-                            <abbr class="badge preprint">arXiv</abbr>
-                        </a>
-                        <div class="pubtext">
-                            <a href="http://arxiv.org/abs/2205.13457">AutoTSG: Learning and Synthesis for Incident Troubleshooting</a>
-                            <div class="pubmetadata">
-                                <span class="authors">
-                                    <u>M. Shetty</u>, C. Bansal, S. Upadhyayula, A. Radhakrishna, A. Gupta
-                                </span>
-                                <br/>
-                                <span class="venue"> 
-                                    arXiv Preprint
-                                </span>
-                                <br/>
-                                <span class="pub-meta">
-                                    <!-- Acceptance Rate = % () -->
-                                    <!-- <br> -->
-                                    [<i class="fa fa-file-alt"></i> <a class="tag" href="https://arxiv.org/pdf/2205.13457.pdf">preprint</a>]
-                                    <!-- [<a class="tag" href="">slides</a>] -->
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pubentry">
-                        <a class="thumblink pubthumb" href="http://arxiv.org/abs/2109.14326">
-                            <abbr class="badge conference">ICSE</abbr>
-                        </a>
-                        <div class="pubtext">
-                            <a href="http://arxiv.org/abs/2109.14326">DeepAnalyze: Learning to Localize Crashes at Scale</a>
-                            <div class="pubmetadata">
-                                <span class="authors">
-                                    <u>M. Shetty</u>, C. Bansal, S. Nath, 
-                                    S. Bowles, H. Wang, O. Arman, S. Ahari
-                                </span>
-                                <br/>
-                                <span class="venue"> 
-                                    International Conference on Software Engineering 2022
-                                </span>
-                                <br/>
-                                <span class="pub-meta">
-                                    Acceptance Rate = 26% (197/751)
-                                    <br>
-                                    [<i class="fa fa-file-alt"></i> <a class="tag" href="https://arxiv.org/pdf/2109.14326.pdf">pdf</a>]
-                                    [<i class="fad fa-presentation"></i> <a class="tag" href="/pdf/slides/DeepAnalyze_ICSE_2022.pdf">slides</a>]
-                                    [<i class="fa fa-video"></i> <a class="tag" href="https://youtu.be/UqwcSTiIP_I">talk</a>]
-                                    [<i class="fa fa-video"></i> <a class="tag" href="https://youtu.be/aFZni_d-Sc0">icse-1</a>]
-                                    [<i class="fa fa-video"></i> <a class="tag" href="https://youtu.be/bT5B30qAaW0">icse-2</a>]
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pubentry">
-                        <a class="thumblink pubthumb" href="https://link.springer.com/article/10.1007/s10664-022-10159-w">
-                            <abbr class="badge journal">EMSE</abbr>
-                        </a>
-                        <div class="pubtext">
-                            <a href="https://link.springer.com/article/10.1007/s10664-022-10159-w">SoftNER: Mining Knowledge Graphs From Cloud Incidents</a>
-                            <div class="pubmetadata">
-                                <span class="authors">
-                                    <u>M. Shetty</u>, C. Bansal, S. Kumar, 
-                                    N. Rao, N. Nagappan
-                                </span>
-                                <br/>
-                                <span class="venue"> 
-                                    EMSE - Empirical Software Engineering (SEIP Special Issue)
-                                </span>
-                                <br/>
-                                <span class="pub-meta">
-                                    [<i class="fa fa-file-alt"></i> <a class="tag" href="https://arxiv.org/pdf/2101.05961.pdf">preprint</a>]
-                                    <!-- [<a class="tag" href="">slides</a>] -->
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pubentry">
-                        <a class="thumblink pubthumb" href="https://arxiv.org/abs/2007.05505">
-                            <abbr class="badge conference">ICSE</abbr>
-                        </a>
-                        <div class="pubtext">
-                            <a href="https://arxiv.org/abs/2007.05505">Neural Knowledge Extraction From Cloud Service Incidents</a>
-                            <div class="pubmetadata">
-                                <span class="authors">
-                                    <u>M. Shetty</u>, C. Bansal, S. Kumar, 
-                                    N. Rao, N. Nagappan, T. Zimmermann
-                                </span>
-                                <br/>
-                                <span class="venue"> 
-                                    International Conference on Software Engineering (SEIP) 2021
-                                </span>
-                                <br/>
-                                <span class="pub-meta">
-                                    Acceptance Rate = 33.8% (41/121)
-                                    <br>
-                                    <a href="" style="color: #D33682; font-weight: 500;"><em>Nominated</em> for the IEEE Software Distinguished Paper Award (5/41) </a>
-                                    <br>
-                                    [<i class="fa fa-file-alt"></i> <a class="tag" href="https://arxiv.org/abs/2007.05505">pdf</a>]
-                                    [<i class="fad fa-presentation"></i> <a class="tag" href="pdf/slides/SoftNER_ICSE_2021.pdf">slides</a>]
-                                    [<i class="fa fa-video"></i> <a class="tag" href="https://youtu.be/nObO7Q9NlcA">talk</a>]
-                                    [<i class="fas fa-newspaper"></i> 
-                                        <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">
-                                            Featured on <b>VentureBeat</b>
-                                        </a>]
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <!-- Last Year -->
-                <div class="pubcategory">
-                    <!-- <h3 class="category_title" style="letter-spacing: 2px; padding-left: 5px;">2020</h3> -->
-
-                    <div class="pubentry">
-                        <a class="thumblink pubthumb" href="https://ieeexplore.ieee.org/document/9629558">
-                            <abbr class="badge conference">EMBC</abbr>
-                        </a>
-                        <div class="pubtext">
-                            <a href="https://pubmed.ncbi.nlm.nih.gov/34891719/">A Machine Learning Understanding of Sepsis</a>
-                            <div class="pubmetadata">
-                                <span class="authors">
-                                    <u>M. Shetty</u>, G. Srinivasa, P. Athri
-                                </span>
-                                <br/>
-                                <span class="venue"> 
-                                    <b>EMBC '21</b> - <i>IEEE Engineering in Medicine and Biology Society</i> 
-                                </span>
-                                <br/>
-                                <span class="pub-meta">
-                                    [<i class="fa fa-file-alt"></i> <a class="tag" href="https://ieeexplore.ieee.org/document/9629558">pdf</a>]
-                                    [<i class="fas fa-code"></i> <a class="tag" href="https://bitbucket.org/GowriSrinivasa/interpretsepsis/src/master/">code</a>]
-                                    [<i class="fas fa-database"></i> <a class="tag" href="https://bitbucket.org/GowriSrinivasa/interpretsepsis/src/master/Data/">data</a>]
-                                    [<i class="fad fa-presentation"></i> <a class="tag" href="pdf/slides/Sepsis_EMBC_2021.pdf">slides</a>]
-                                    [<i class="fa fa-video"></i> <a class="tag" href="https://youtu.be/IJ-H7tK39ps">talk</a>]
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <div id="publist"></div>
             
-            <!-- ###################################### Tabs ############################################### -->
 
-            <h2 style="padding-top:1rem;">Other</h2>
+
+            <!-- ############################################# -->
+            <!-- #################### Tabs ################### -->
+            <!-- ############################################# -->
+
+            <h2 style="padding-top:1rem;"></h2>
             <div class="tabs" id="tabs">
                 <span class="tab ns-tab active" onclick="switchTab('ns')">News</span>
                 <span class="tab ac-tab" onclick="switchTab('ac')">Service</span>
                 <span class="tab ex-tab" onclick="switchTab('ex')">Experience</span>
             </div>
 
-            <section class="news">
-                <ul style="margin-left:-1rem; list-style:decimal;line-height: 1.5;">
-                    <li> <b>[May '22]</b> Preprint on <a href="https://arxiv.org/abs/2205.13457">AutoTSG</a> -- a framework for automation of troubleshooting guides.</li>
-                    <li> <b>[Mar '22]</b> Paper on extending <a href="https://arxiv.org/abs/2101.05961">SoftNER w/ Knowledge Graphs</a> accepted at EMSE!</li>
-                    <li> <b>[Dec '21]</b> Paper on <a href="http://arxiv.org/abs/2109.14326">DeepAnalyze</a> accepted at ICSE '22!</li>
-                    <li> <b>[Nov '21]</b> Recommended as Reviewer from <a href="https://iclr.cc/Conferences/2022">ICLR '22</a> mentee pool for excellent review!</li>
-                    <li> <b>[Jul '21]</b> Selected as a reviewer mentee @ <a href="https://iclr.cc/Conferences/2022">ICLR '22</a>!</li>
-                    <li> <b>[Jul '21]</b> Work on an ML interpretation of Sepsis was accepted @ <a href="https://embc.embs.org/2021/#">EMBC '21</a></li>
-                    <li> <b>[May '21]</b> <a href="https://arxiv.org/abs/2007.05505">SoftNER</a> accepted and presented @ 
-                        <a href="https://conf.researchr.org/details/icse-2021/icse-2021-Software-Engineering-in-Practice/8/Neural-Knowledge-Extraction-From-Cloud-Service-Incidents">ICSE (SEIP) '21</a></li>
-                    <li> <b>[Jan '21]</b> Selected to be on the Shadow PC @ <a href="https://conf.researchr.org/home/msr-2021">MSR '21</a></li>
-                    <li> <b>[Jan '21]</b> <a href="https://arxiv.org/abs/2007.05505">SoftNER</a> was accepted at ICSE (SEIP) '21!</li>
-                    <li> <b>[Jul '20]</b> Preprint featured in <b>VentureBeat</b> - <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">[article]</a></li>
-                </ul>    
-            </section>
-
-            <section class="service">
-                <ul style="font:small;">
-                    <li>2022 - Reviewer, ICLR 2022 (<span style="font-size: smaller;">
-                        <i class="fas fa-trophy"></i> Recommended from reviewer mentee
-                        pool for excellent review.</span>)
-                    </li>
-                    <li>2022 - Reviewer, IET Software.</li>
-                    <li>2021 - Shadow Program Committe, MSR 2021.</li>
-                    <li>2021 - Reviewer, JSERD.</li>
-                </ul>
-            </section>
-
-            <section class="experience">
-                <table style="font-size: small;"> 
-                    <tr>
-                        <td style="white-space:nowrap" id="date">Aug 2020 - Present</td>
-                        <td>
-                            <b>Research Fellow, Microsoft Research (India)</b></br>
-                            Working on <a href="https://www.microsoft.com/en-us/research/research-area/artificial-intelligence">AIOps</a> & ML4SE.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="white-space:nowrap" id="date"> Jan 2020 - Jun 2020</td>
-                        <td>
-                            <b>Research Intern, Microsoft Research (India)</b></br>
-                            Worked on ML4SE. Created/developed <a href="https://arxiv.org/abs/2007.05505">SoftNER</a>.</br>
-                            <!-- <i class="fa fa-trophy"></i> Featured on VentureBeat! - <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/">here</a>. -->
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="white-space:nowrap" id="date">Jul 2019 - Jun 2020</td>
-                        <td>
-                            <b>Research Assistant, <a href="https://research.pes.edu/center-for-pattern-recognition/">Center for Pattern Recognition</a>, PES University</b></br>
-                            Worked on ML powered drug discovery.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="white-space:nowrap" id="date">Jun 2019 - Aug 2019</td>
-                        <td>
-                            <b>Machine Learning Research Intern, Deloitte</b></br>
-                            Worked on algorithms/tools for the <a href="https://www2.deloitte.com/in/en/pages/risk/solutions/cyber-risk-services.html">Cyber-Risk team</a>.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="white-space:nowrap" id="date">Jun 2018 - Feb 2019</td>
-                        <td>
-                            <b>Research Intern, Center for Cloud Computing and Big Data</b>, PES University</br>
-                            Worked on intelligent and energy aware VM provisioning algorithms.
-                        </td>
-                    </tr>
-                </table>
-
-                <section class="" style="display:flex; flex-wrap: wrap; text-align: center!important; font-size: 10px;">
-                    <!-- <div style="position:relative; flex: 0 0 25; max-width: 95px; flex-direction: row; padding-right: 15px; padding-left: 15px;">
-                        <img src="images/ucb.png" alt="" style="height: 70px; padding-bottom: 5%;"><br>
-                        <span>UC Berkeley</span><br>
-                        <span>2022 - 2027</span>
-                    </div> -->
-                    <div style="position:relative; flex: 0 0 25; max-width: 95px; flex-direction: row; padding-right: 15px; padding-left: 15px;">
-                        <img src="images/msr.png" alt="" style="height: 70px; padding-bottom: 5%;"><br>
-                        <span>Microsoft Research</span><br>
-                        <span>2020 - 2022</span>
-                    </div>
-                    <div style="position:relative; flex: 0 0 25; max-width: 100px; flex-direction: row; padding-right: 15px; padding-left: 15px;">
-                        <img src="images/deloitte.png" alt="" style="height: 70px; padding-bottom: 5%;"><br>
-                        <span>Deloitte</span><br>
-                        <span>S2019</span>
-                    </div>
-                    <div style="position:relative; flex: 0 0 25; max-width: 95px; flex-direction: row; padding-right: 15px; padding-left: 15px;">
-                        <img src="images/pes.png" alt="" style="height: 70px; padding-bottom: 5%;"><br>
-                        <span>PES University</span><br>
-                        <span>2016 - 2020</span>
-                    </div>
-                </section>
-            </section>
+            <section class="news"></section>
+            <section class="service"></section>
+            <section class="experience"></section>
 
         </section>
 
     </div>
 
     <!-- #OTHER SCRIPTS -->
-    <!-- <script src="javascripts/scale.fix.js"></script> -->
-    
 
+    <!-- TAB CHANGES -->
     <script>
         var ac = document.querySelector('.service'),
             ex = document.querySelector('.experience');
