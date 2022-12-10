@@ -229,6 +229,10 @@ footer {
   #portrait{
     display: none;
   }
+
+  .pubthumb {
+    display: none;
+  }
   
   div.wrapper {
     width:auto;
