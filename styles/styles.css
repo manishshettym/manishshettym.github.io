@@ -74,7 +74,8 @@ a small {
 
 .wrapper {
   width:880px;
-  margin:0 auto;
+  margin:auto auto;
+  overflow: hidden;
 }
 
 blockquote {
@@ -138,8 +139,7 @@ img.icon {
 
 header {
   width:250px;
-  float:left;
-  position:fixed;
+  float:right;
 }
 
 header ul {
@@ -202,7 +202,7 @@ header ul a strong {
 
 section {
   width:590px;
-  float:right;
+  float:left;
   padding-bottom:50px;
 }
 
@@ -232,12 +232,12 @@ footer {
   
   div.wrapper {
     width:auto;
-    margin:0;
+    margin:auto;
   }
-
+  
   header, section, footer {
     float:none;
-    position:static;
+    /* position:static; */
     width:auto;
   }
   
@@ -337,9 +337,8 @@ footer {
 .pubthumb {
     width: 15%;
     /* border: 1px solid #444; */
-    font-size: 0.8rem;
+    font-size: 1rem;
     float: left;
-    margin-right: 10px;
     margin-top: 4px;
     margin-bottom: 4px;
 }
@@ -350,8 +349,9 @@ footer {
   border-radius: 0.125rem;
   -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-bottom: 0.1em;
   align-items: center;
 }
 
