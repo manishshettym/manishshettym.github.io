@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
 
 body {
   padding:50px;
   /* font-family: 'IBM Plex Sans', sans-serif; */
-  font-family: Alegreya,Georgia,serif;
-  font-size: 15px;
-  background-color: #f8f8f8;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  /* background-color: #f8f8f8; */
   }
 
 .my_name {
@@ -298,6 +299,10 @@ footer {
   }
 }
 
+.pubtitle {
+  font-weight: 700;
+}
+
 .pubtext {
     height: 64px;
     display: table-cell;
@@ -313,16 +318,16 @@ footer {
 }
 
 .authors {
-    font-size: small;
+    font-size: smaller;
 }
 
 .venue{
-  font-size: small;
+  font-size: smaller;
   font-style: italic;
 }
 
 .pub-meta{
-  font-size: small;
+  font-size: smaller;
 }
 
 .thumblink {
