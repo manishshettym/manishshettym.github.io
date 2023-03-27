@@ -55,13 +55,13 @@
     <div class="wrapper">
         <header>
 
-            <div class="my_name"> Manish Shetty </div>
+            <div class="my_name coolfont"> Manish Shetty </div>
             <h5 style="margin-top: -1rem; font-weight: 50;">CS PhD Student @ UC Berkeley</h5>
 
             <div>
                 <img src="images/dpForAll.jpg" class="dp" width="240" id="portrait">
                 <div style="margin-top: 0.5rem;">
-                    <p style="font-size: 95%;"> 
+                    <p class="coolfont" style="font-size: 95%;"> 
                         manishs@berkeley.edu
                     </p>
                     <div style="margin-top: -1rem; font-size: small;">
@@ -109,9 +109,9 @@
 
         <h2 style="padding-top:1rem;"></h2>
         <div class="tabs" id="tabs">
-            <span class="tab ns-tab active" onclick="switchTab('ns')">News</span>
-            <span class="tab ac-tab" onclick="switchTab('ac')">Service</span>
-            <span class="tab ex-tab" onclick="switchTab('ex')">Experience</span>
+            <span class="tab ns-tab active coolfont" onclick="switchTab('ns')">News</span>
+            <span class="tab ac-tab coolfont" onclick="switchTab('ac')">Service</span>
+            <span class="tab ex-tab coolfont" onclick="switchTab('ex')">Experience</span>
         </div>
 
         <section class="news" style="font-size: smaller;"></section>
@@ -141,27 +141,27 @@
             switch (tab) {
                 case 'ns':
                     ns.style.display = 'block';
-                    nst.className = 'tab ns-tab active';
+                    nst.className = 'tab ns-tab active coolfont';
                     ex.style.display = 'none';
-                    ext.className = 'tab ex-tab';
+                    ext.className = 'tab ex-tab coolfont';
                     ac.style.display = 'none';
-                    act.className = 'tab ac-tab';
+                    act.className = 'tab ac-tab coolfont';
                     break;
                 case 'ex':
                     ns.style.display = 'none';
-                    nst.className = 'tab ns-tab';
+                    nst.className = 'tab ns-tab coolfont';
                     ex.style.display = 'block';
-                    ext.className = 'tab ex-tab active';
+                    ext.className = 'tab ex-tab active coolfont';
                     ac.style.display = 'none';
-                    act.className = 'tab ac-tab';
+                    act.className = 'tab ac-tab coolfont';
                     break;
                 case 'ac':
                     ns.style.display = 'none';
-                    nst.className = 'tab ns-tab';
+                    nst.className = 'tab ns-tab coolfont';
                     ex.style.display = 'none';
-                    ext.className = 'tab ex-tab';
+                    ext.className = 'tab ex-tab coolfont';
                     ac.style.display = 'block';
-                    act.className = 'tab ac-tab active';
+                    act.className = 'tab ac-tab active coolfont';
                     break;
             }
         }
