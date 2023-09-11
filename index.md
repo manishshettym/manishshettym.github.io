@@ -24,6 +24,45 @@ developer and debugging tools for cloud reliability.
 *If you'd like to collaborate or chat with me, feel free to drop me an email.*
 </span>
 
+## News
+
+<div class="timeline">
+  <div class="outer">
+    <div class="card">
+      <div class="info">
+        <span><span class="title">Sept 2023. </span>
+        Passed the <a href="https://eecs.berkeley.edu/resources/grads/phd/prelims/exam-prep">Programming Languages Preliminary Exam </a> at UC Berkeley!</span>
+      </div>
+    </div>
+	<div class="card">
+      <div class="info">
+        <span><span class="title">Aug 2023. </span>
+        Submitted a paper to <b>ICSE 2024</b> on synthesizing API usage examples that is more representative/idiomatic than ChatGPT generated code!</span>
+      </div>
+    </div>
+	<div class="card">
+      <div class="info">
+        <span><span class="title">May 2023. </span>
+        Taught my first class: <a href="https://sites.google.com/berkeley.edu/cs164sp23/home">CS164: Compilers and Programming Languages</a> at UC Berkeley!</span>
+      </div>
+    </div>
+	<div class="card">
+      <div class="info">
+        <span><span class="title">Nov 2022. </span>
+        Our <a href="https://dl.acm.org/doi/10.1145/3542929.3563482">empirical study</a> @ Microsoft Research on production incidents in large-scale cloud services
+        received the <a href="https://twitter.com/ACMSoCC/status/1590128032886685696?s=20" style="color: #D33682; font-weight: 500;">Best Paper Award 🏆</a> at <b>SoCC 2022</b>. </span>
+      </div>
+    </div>
+	<div class="card">
+      <div class="info">
+        <span><span class="title">Aug 2022. </span>
+        Started my Ph.D. at UC Berkeley advised by <a href="https://people.eecs.berkeley.edu/~ksen">Prof. Koushik Sen</a> at the <a href="https://sky.cs.berkeley.edu/">Sky Lab</a>!</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 ## Publications
 
 <!-- **Programming by (Idiomatic) Examples** <br>
@@ -80,4 +119,53 @@ style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
 * JSERD 2021 (Reviewer)
 * IET Software 2022 (Reviewer)
 
-<br>
+
+<br><br>
+
+<style>
+/* Timeline Container */
+.timeline {
+  margin: 10px auto;
+  padding: 10px;
+  overflow:auto;
+  height: 180px;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 2px solid #333;
+}
+
+/* Card container */
+.card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 0 0 0 10px;
+  color: gray;
+  /* max-width: 90%; */
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title of the card */
+.title {
+  color: #FF0F00;
+  position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 2px solid #FF0F00;
+}
+</style>
