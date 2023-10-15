@@ -21,7 +21,7 @@ with
 developer and debugging tools for cloud reliability.
 
 <span style="font-size: small;">
-*If you'd like to collaborate or chat with me, feel free to drop me an manishs [at] berkeley.edu*
+*If you'd like to collaborate, drop me an email at: manishs@berkeley.edu*
 </span>
 
 ## News
