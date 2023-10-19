@@ -56,7 +56,7 @@ developer and debugging tools for cloud reliability.
     <div class="card">
         <div class="info">
           <span><span class="title">Aug 2022. </span>
-          Started my Ph.D. at UC Berkeley advised by <a href="https://people.eecs.berkeley.edu/~ksen">Prof. Koushik Sen</a> at the <a href="https://sky.cs.berkeley.edu/">Sky Lab</a>!</span>
+          Started my Ph.D. at UC Berkeley advised by <a href="https://people.eecs.berkeley.edu/~ksen">Prof. Koushik Sen</a>. Joining the <a href="https://sky.cs.berkeley.edu/">Sky Lab</a> and the Programming Systems group!</span>
         </div>
     </div>
   </div>
@@ -153,7 +153,7 @@ style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
 
 /* Title of the card */
 .title {
-  color: #FF0F00;
+  /* color: #FF0F00; */
   position: relative;
 }
 
@@ -165,7 +165,8 @@ style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
   height: 10px;
   background: white;
   border-radius: 999px;
-  left: -39px;
-  border: 2px solid #FF0F00;
+  left: -38px;
+  top: 3px;
+  border: 2px solid gray;
 }
 </style>
