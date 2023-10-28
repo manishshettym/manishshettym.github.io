@@ -14,15 +14,23 @@ body {
     margin: 0;
     font-family: "Inconsolata";
     height: 100%;
+    background-color: #fffff8;
+    line-height: 1.25;
 }
 
 a {
     text-decoration: none;
-    color: $accent;
+    // color: $accent;
+    color: rgb(44 49 55 / 79%);
+    text-decoration: none;
+    border-bottom: #aaa 0.1em dotted;
 }
 
-a:hover {
-    text-decoration: underline;
+a:hover,
+a:focus {
+    background: #fbf3f3;
+    transition-property: background;
+    transition-duration: 0.2s;
 }
 
 hr {

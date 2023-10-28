@@ -37,7 +37,7 @@ developer and debugging tools for cloud reliability.
     <div class="card">
       <div class="info">
         <span><span class="title">Sept 2023. </span>
-        Passed the <a href="https://eecs.berkeley.edu/resources/grads/phd/prelims/exam-prep">Programming Languages Preliminary Exam </a> at UC Berkeley!</span>
+        Passed the <a href="https://eecs.berkeley.edu/resources/grads/phd/prelims/exam-prep">Programming Languages Preliminary Exam</a> at UC Berkeley!</span>
       </div>
     </div>
     <div class="card">
@@ -71,17 +71,17 @@ preprint (coming soon) </span> <br> -->
 
 **How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service** <br> 
 <span style="font-size:85%">Supriyo Ghosh, Manish Shetty, Chetan Bansal, Suman Nath <br>
-**SoCC '22**: Proceedings of the 13th Symposium on Cloud Computing </span> <br>
+**SoCC 2022**: Proceedings of the 13th Symposium on Cloud Computing </span> <br>
 <a href="https://dl.acm.org/doi/10.1145/3542929.3563482">paper</a> / <a href="https://twitter.com/ACMSoCC/status/1590128032886685696?s=20" style="color: #D33682; font-weight: 500;">Best Paper Award 🏆</a>
 
 **AutoTSG: Learning and Synthesis for Incident Troubleshooting** <br>
 <span style="font-size:85%">Manish Shetty, Chetan Bansal, Sai Upadhyayula, Arjun Radhakrishna, Anurag Gupta <br>
-**FSE '22**: Proceedings of the 30th ACM Symposium on the Foundations of Software Engineering </span> <br>
+**FSE 2022**: Proceedings of the 30th ACM Symposium on the Foundations of Software Engineering </span> <br>
 <a href="https://arxiv.org/pdf/2205.13457.pdf">paper</a>
 
 **DeepAnalyze: Learning to Localize Crashes at Scale** <br>
 <span style="font-size:85%">Manish Shetty, Chetan Bansal, Suman Nath, Sean Bowles, Henry Wang, Ozgur Arman, Siamak Ahari <br>
-**ICSE '22**: Proceedings of the 44th International Conference on Software Engineering </span> <br>
+**ICSE 2022**: Proceedings of the 44th International Conference on Software Engineering </span> <br>
 <a href="https://arxiv.org/pdf/2109.14326.pdf">paper</a> / 
 <a href="/pdf/slides/DeepAnalyze_ICSE_2022.pdf">slides</a> / 
 <a href="https://youtu.be/UqwcSTiIP_I">talk-1</a> / 
@@ -91,7 +91,7 @@ preprint (coming soon) </span> <br> -->
 
 **Neural Knowledge Extraction From Cloud Service Incidents** <br>
 <span style="font-size:85%"> Manish Shetty, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann <br>
-**ICSE (SEIP) '21**: Proceedings of the 43rd International Conference on Software Engineering </span> <br>
+**ICSE 2021**: Proceedings of the 43rd International Conference on Software Engineering </span> <br>
 <a href="https://arxiv.org/abs/2007.05505">paper</a> / 
 <a href="pdf/slides/SoftNER_ICSE_2021.pdf">slides</a> / 
 <a href="https://youtu.be/nObO7Q9NlcA">talk</a> / 
@@ -101,7 +101,7 @@ style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
 
 ## Teaching
 
-[UC Berkeley](https://cs.berkeley.edu/):
+UC Berkeley:
 * Spring 2023 CS164: Programming Languages and Compilers (Head TA with [Koushik Sen](https://people.eecs.berkeley.edu/~ksen/)) <br>
 <a href="https://sites.google.com/berkeley.edu/cs164sp23/home">website</a> / <a href="./pdf/courses/cs164sp23-course-evals.pdf">course evaluations</a>
 
@@ -109,11 +109,14 @@ style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
 ## Service
 
 ### Conferences
+<aside markdown="1">
 * ISSTA 2023 (Sub-reviewer)
 * ICLR 2022 (Reviewer; <span style="font-size: smaller;">
         <i class="fas fa-trophy"></i> Recommended from reviewer mentee
         pool for excellent review</span>)
+* MSR 2022 (Shadow PC)
 * MSR 2021 (Shadow PC)
+</aside>
 
 ### Journals
 * JSERD 2021 (Reviewer)
@@ -129,6 +132,7 @@ style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
   padding: 10px;
   overflow:auto;
   height: 180px;
+  font-size: 95%;
 }
 
 /* Outer Layer with the timeline border */
@@ -153,7 +157,7 @@ style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
 
 /* Title of the card */
 .title {
-  /* color: #FF0F00; */
+  color: #0d1117c4;
   position: relative;
 }
 
@@ -163,10 +167,17 @@ style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
   position: absolute;
   width: 10px;
   height: 10px;
-  background: white;
+  background: #fffff8;
   border-radius: 999px;
   left: -38px;
   top: 3px;
   border: 2px solid gray;
 }
+
+/* remove underline for a tag with id author-name */
+a#author-name {
+  text-decoration: none;
+  border-bottom: none;
+}
+
 </style>
