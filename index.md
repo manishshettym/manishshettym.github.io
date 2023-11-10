@@ -65,9 +65,11 @@ developer and debugging tools for cloud reliability.
 
 ## Publications
 
-<!-- **Programming by (Idiomatic) Examples** <br>
+**CodeScholar: Growing Idiomatic Code Examples** <br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
-preprint (coming soon) </span> <br> -->
+Under submission. </span> <br>
+<a href="/pdf/preprints/CodeScholar_OOPSLA_24.pdf">preprint</a> /
+<a href="https://github.com/tart-proj/codescholar">code</a>
 
 **How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service** <br> 
 <span style="font-size:85%">Supriyo Ghosh, Manish Shetty, Chetan Bansal, Suman Nath <br>
