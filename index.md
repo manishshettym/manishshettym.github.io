@@ -66,7 +66,7 @@ developer and debugging tools for cloud reliability.
 ## Publications
 
 **DSPy Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
-<span style="font-size:85%">Arnav Singhvi*, Manish Shetty*, Shangyin Tan*, Christopher Potts, Koushik Sen, Matei Zaharia, Omar Khattab<br>
+<span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts, Koushik Sen, Matei Zaharia, Omar Khattab<br>
 Report, 2023. </span> <br>
 <a href="/pdf/preprints/DSPy_Assert.pdf">preprint</a> /
 <a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a>
