@@ -5,14 +5,13 @@ layout: default
 ## About Me
 
 <img class="profile-picture" src="./images/dpForAll.png">
-I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the <a href="https://ps.berkeley.edu/">Programming Systems</a> group and the <a href="https://sky.cs.berkeley.edu/">Sky Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>.
+I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the <a href="https://ps.berkeley.edu/">Programming Systems</a> group and the <a href="https://sky.cs.berkeley.edu/">Sky Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>. I broadly research techniques and design systems for expressive and reliable programming.
 
 
 ## Research Interest
 
-I am interested in Programming Languages and Software Engineering, specifically, in tools
-for expressive and reliable programming. Currently, my work draws inspiration from the
-deep connections between programs and graphs. Programs as graphs unlocks ideas for synthesis guided by graph structure. Declarative computational graphs as programs unlocks ideas for self-refining pipelines.
+I am interested in Programming Languages and Software Engineering, specifically, in developer tools
+for expressive and reliable programming in the age of Language Models (LM). Currently, my work draws inspiration from the deep & old connections between programs and graphs. Graph abstractions unlock program synthesis guided by structure. Similarly, abstracting computational graphs with LMs as programs enables expressive programming and debugging with LMs. My work is motivated by these insights.
 
 Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> 
 with
