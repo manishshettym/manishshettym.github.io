@@ -6,12 +6,13 @@ layout: default
 
 <img class="profile-picture" src="./images/dpForAll.png">
 I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the <a href="https://ps.berkeley.edu/">Programming Systems</a> group and the <a href="https://sky.cs.berkeley.edu/">Sky Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>.
-I broadly research techniques and design systems to quickly analyze and synthesize programs.
 
 
 ## Research Interest
 
-I am interested in Programming Languages and Software Engineering, specifically, in techniques for efficient and reliable program analysis and synthesis. Currently my work draws from the connections between programs and graphs, and combines ideas from graph theory and representation learning to study programs and their automated synthesis.
+I am interested in Programming Languages and Software Engineering, specifically, in tools
+for expressive and reliable programming. Currently, my work draws inspiration from the
+deep connections between programs and graphs. Programs as graphs unlocks ideas for synthesis guided by graph structure. Declarative computational graphs as programs unlocks ideas for self-refining pipelines.
 
 Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> 
 with
@@ -69,11 +70,12 @@ developer and debugging tools for cloud reliability.
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts, Koushik Sen, Matei Zaharia, Omar Khattab<br>
 Report, 2023. </span> <br>
 <a href="/pdf/preprints/DSPy_Assert.pdf">preprint</a> /
-<a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a>
+<a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a> /
+<a href="/blog/scrivings/dspy-assertions-a-pr-reviews-pov/">blog</a>
 
 **CodeScholar: Growing Idiomatic Code Examples** <br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
-Under submission, 2023 </span> <br>
+Under submission @ OOPSLA, 2024 </span> <br>
 <a href="/pdf/preprints/CodeScholar_OOPSLA_24.pdf">preprint</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
