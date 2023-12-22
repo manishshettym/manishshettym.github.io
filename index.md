@@ -117,20 +117,12 @@ UC Berkeley:
 
 ## Service
 
-### Conferences
 <aside markdown="1">
-* ISSTA 2023 (Sub-reviewer)
-* ICLR 2022 (Reviewer; <span style="font-size: smaller;">
-        <i class="fas fa-trophy"></i> Recommended from reviewer mentee
-        pool for excellent review</span>)
-* MSR 2022 (Shadow PC)
-* MSR 2021 (Shadow PC)
+* 2024: PLDI (Sub-reviewer); PLDI (Artifact Evaluation)
+* 2023: ISSTA (Sub-reviewer)
+* 2022: ICLR (Reviewer); MSR (Shadow PC)
+* 2021: MSR (Shadow PC)
 </aside>
-
-### Journals
-* JSERD 2021 (Reviewer)
-* IET Software 2022 (Reviewer)
-
 
 <br><br>
 
