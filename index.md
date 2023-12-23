@@ -67,14 +67,14 @@ developer and debugging tools for cloud reliability.
 
 **DSPy Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts, Koushik Sen, Matei Zaharia, Omar Khattab<br>
-Report, 2023. </span> <br>
+Preprint, 2023. </span> <br>
 <a href="https://arxiv.org/abs/2312.13382">preprint</a> /
 <a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a> /
 <a href="/blog/scrivings/dspy-assertions-a-pr-reviews-pov/">blog</a>
 
 **CodeScholar: Growing Idiomatic Code Examples** <br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
-Under submission @ OOPSLA, 2024 </span> <br>
+Preprint, 2023 </span> <br>
 <a href="/pdf/preprints/CodeScholar_OOPSLA_24.pdf">preprint</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
