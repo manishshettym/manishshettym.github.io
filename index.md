@@ -70,7 +70,7 @@ Preprint, 2023. </span> <br>
 **CodeScholar: Growing Idiomatic Code Examples** <br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
 Preprint, 2023 </span> <br>
-<a href="/pdf/preprints/CodeScholar_OOPSLA_24.pdf">preprint</a> /
+<a href="https://arxiv.org/abs/2312.15157">preprint</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
 **How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service** <br> 
