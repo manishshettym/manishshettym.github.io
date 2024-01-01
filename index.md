@@ -22,13 +22,13 @@ Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Micr
 ## News
 
 <div class="timeline">
-<!-- <div class="card">
-      <div class="info">
-        <span><span class="title">Oct 2023. </span>
-        Submitted a paper to <b>OOPSLA 2024</b> on synthesizing API usage examples that are more representative/idiomatic than ChatGPT generated code!</span>
-      </div>
-  </div> -->
   <div class="outer">
+    <div class="card">
+      <div class="info">
+        <span><span class="title">Jan 2024. </span>
+        Interning (returning) with the <a href="https://www.microsoft.com/en-us/research/group/systems-innovation/">Systems Innovation</a> group at Microsoft Research in Summer'24! Exploring next-generation AI Assisted System Reliability.</span>
+      </div>
+    </div>
     <div class="card">
       <div class="info">
         <span><span class="title">Sept 2023. </span>
