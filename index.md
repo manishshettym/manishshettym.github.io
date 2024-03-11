@@ -62,10 +62,10 @@ Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Micr
 
 **R2E: Turning any GitHub Repository into a Programming Agent Test Environment** <br>
 <span style="font-size:85%">Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
-Preprint, 2023. </span> <br>
-<!-- <a href="">preprint</a> /
-<a href="">code</a> /
-<a href="">blog</a> -->
+**LLMAgents Workshop @ ICLR 2024**. </span> <br>
+<a href="">preprint</a>
+<!-- <a href="">code</a> / -->
+<!-- <a href="">blog</a> -->
 
 **DSPy Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts, Koushik Sen, Matei Zaharia, Omar Khattab<br>
