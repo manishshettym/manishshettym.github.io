@@ -63,21 +63,23 @@ Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Micr
 **R2E: Turning any GitHub Repository into a Programming Agent Test Environment** <br>
 <span style="font-size:85%">Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 **LLMAgents Workshop @ ICLR 2024**. </span> <br>
-<a href="">preprint</a>
+<a href="">paper (available on request)</a>
 <!-- <a href="">code</a> / -->
 <!-- <a href="">blog</a> -->
 
 **DSPy Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts, Koushik Sen, Matei Zaharia, Omar Khattab<br>
-Preprint, 2023. </span> <br>
-<a href="https://arxiv.org/abs/2312.13382">preprint</a> /
+Under Submission, 2023. </span> <br>
+<a href="https://arxiv.org/abs/2312.13382">paper</a> /
 <a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a> /
+<a href="https://twitter.com/lateinteraction/status/1735326551393161563">tweet-1</a> /
+<a href="https://twitter.com/lateinteraction/status/1755337965751198042">tweet-2</a> /
 <a href="/blog/scrivings/dspy-assertions-a-pr-reviews-pov/">blog</a>
 
 **CodeScholar: Growing Idiomatic Code Examples** <br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
-Preprint, 2023 </span> <br>
-<a href="https://arxiv.org/abs/2312.15157">preprint</a> /
+arXiv, 2023 </span> <br>
+<a href="https://arxiv.org/abs/2312.15157">paper</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
 **How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service** <br> 
@@ -109,6 +111,7 @@ Preprint, 2023 </span> <br>
 <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/"
 style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
 <!-- <a href="" style="color: #D33682;">Distinguished paper award nomination </a> -->
+
 
 ## Teaching
 
