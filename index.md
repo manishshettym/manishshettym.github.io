@@ -11,7 +11,7 @@ I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the
 ## Research Interest
 
 I am interested in Programming Languages and Software Engineering, specifically, in tools for program synthesis and analysis.
-Currently, my work is motivated by abstractions for programs that simplify reasoning about programs by introducing either structure (graphs) or abstract semantics (language) to code. 
+Currently, my work is motivated by abstractions for programs that simplify reasoning about code by introducing either structure (graphs) or abstract semantics (language). 
 This interest naturally touches language models (LLM) and ML4Code as means to learn and enrich these abstractions.
 
 Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a href="https://www.microsoft.com/en-us/research/theme/systems/">Programming Languages and Systems Group</a> on developer and debugging tools for system reliability.
