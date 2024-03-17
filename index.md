@@ -10,8 +10,9 @@ I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the
 
 ## Research Interest
 
-I am interested in Programming Languages and Software Engineering, specifically, in developer tools
-for expressive and reliable programming in the age of Language Models (LM). Currently, my work draws inspiration from the deep & old connections between programs and graphs. Graph abstractions unlock program synthesis guided by structure. Similarly, abstracting computational graphs with LMs as programs enables expressive programming and debugging with LMs. My work is motivated by these insights.
+I am interested in Programming Languages and Software Engineering, specifically, in tools for program synthesis and analysis.
+Currently, my work is motivated by abstractions for programs that simplify reasoning about programs by introducing either structure (graphs) or abstract semantics (language) to code. 
+This interest naturally touches language models (LLM) and ML4Code as means to learn and enrich these abstractions.
 
 Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a href="https://www.microsoft.com/en-us/research/theme/systems/">Programming Languages and Systems Group</a> on developer and debugging tools for system reliability.
 
