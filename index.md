@@ -26,6 +26,13 @@ Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Micr
   <div class="outer">
     <div class="card">
       <div class="info">
+        <span><span class="title">Mar 2024. </span>
+        Honored to have received the 2024 <a href="https://gsi.berkeley.edu/programs-services/award-programs/ogsi/">Outstanding Graduate Student Instructor Award</a> at UC Berkeley
+        </span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info">
         <span><span class="title">Jan 2024. </span>
         Interning (returning) with the <a href="https://www.microsoft.com/en-us/research/group/systems-innovation/">Systems Innovation</a> group at Microsoft Research in Summer'24! Exploring next-generation AI Assisted System Reliability.</span>
       </div>
