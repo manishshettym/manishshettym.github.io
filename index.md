@@ -27,7 +27,7 @@ Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Micr
     <div class="card">
       <div class="info">
         <span><span class="title">Mar 2024. </span>
-        Honored to have received the 2024 <a href="https://gsi.berkeley.edu/programs-services/award-programs/ogsi/">Outstanding Graduate Student Instructor Award</a> at UC Berkeley
+        🏆 Honored to have received the 2024 <a href="https://gsi.berkeley.edu/programs-services/award-programs/ogsi/">Outstanding Graduate Student Instructor Award</a> at UC Berkeley
         </span>
       </div>
     </div>
@@ -40,7 +40,7 @@ Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Micr
     <div class="card">
       <div class="info">
         <span><span class="title">Sept 2023. </span>
-        Passed the <a href="https://eecs.berkeley.edu/resources/grads/phd/prelims/exam-prep">Programming Languages Preliminary Exam</a> at UC Berkeley!</span>
+        ✔︎ Passed the <a href="https://eecs.berkeley.edu/resources/grads/phd/prelims/exam-prep">Programming Languages Preliminary Exam</a> at UC Berkeley!</span>
       </div>
     </div>
     <div class="card">
@@ -52,7 +52,7 @@ Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Micr
     <div class="card">
         <div class="info">
           <span><span class="title">Nov 2022. </span>
-          Our <a href="https://dl.acm.org/doi/10.1145/3542929.3563482">empirical study</a> @ Microsoft Research on production incidents in large-scale cloud services
+          🏆 Our <a href="https://dl.acm.org/doi/10.1145/3542929.3563482">empirical study</a> @ Microsoft Research on production incidents in large-scale cloud services
           received the <a href="https://twitter.com/ACMSoCC/status/1590128032886685696?s=20" style="color: #D33682; font-weight: 500;">Best Paper Award 🏆</a> at <b>SoCC 2022</b>. </span>
         </div>
     </div>
