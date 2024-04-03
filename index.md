@@ -91,10 +91,10 @@ arXiv, 2023 </span> <br>
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
 
-**Large-scale Performance Characterization of Distributed Graph Processing Frameworks** <br>
+<!-- **Large-scale Performance Characterization of Distributed Graph Processing Frameworks** <br>
 <span style="font-size:85%">Altan Haan<sup>*</sup>, Manish Shetty<sup>*</sup><br>
 technical report, 2023 </span> <br>
-<a href="/pdf/preprints/graph-study.pdf">paper</a>
+<a href="/pdf/preprints/graph-study.pdf">paper</a> -->
 <!-- <a href="">code</a> / -->
 <!-- <a href="">blog</a> -->
 
