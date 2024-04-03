@@ -90,6 +90,14 @@ arXiv, 2023 </span> <br>
 <a href="https://arxiv.org/abs/2312.15157">paper</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
+
+**Large-scale Performance Characterization of Distributed Graph Processing Frameworks** <br>
+<span style="font-size:85%">Altan Haan<sup>*</sup>, Manish Shetty<sup>*</sup><br>
+technical report, 2023 </span> <br>
+<a href="/pdf/preprints/graph-study.pdf">paper</a>
+<!-- <a href="">code</a> / -->
+<!-- <a href="">blog</a> -->
+
 **How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service** <br> 
 <span style="font-size:85%">Supriyo Ghosh, Manish Shetty, Chetan Bansal, Suman Nath <br>
 **SoCC 2022**: Proceedings of the 13th Symposium on Cloud Computing </span> <br>
