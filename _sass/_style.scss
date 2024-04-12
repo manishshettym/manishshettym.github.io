@@ -16,6 +16,7 @@ body {
     height: 100%;
     background-color: #fffff8;
     line-height: 1.25;
+    font-size: large;
 }
 
 a {
@@ -48,6 +49,7 @@ hr {
     font-size: 30px;
     color: #272727;
     display: inline-block;
+    font-weight: bolder;
 }
 
 .navbar {
@@ -154,3 +156,67 @@ hr {
 
 @import "typography";
 @import "tables";
+
+
+/* Extra */
+
+.editor-container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    // border: 1px solid hsl(207, 13%, 25%);
+    // background-color: hsl(207, 13%, 15%);
+}
+
+.editor {
+    max-width: 250px;
+    min-width: 50px;
+    margin: 8px;
+}
+
+.tabs {
+    display: flex;
+    background-color: hsl(207, 13%, 15%);
+    padding: 10px 15px 5px 15px;
+    border: 1px solid hsl(207, 13%, 25%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #bfbfbf;
+    font-size: 1em;
+}
+
+.code {
+    display: flex;
+    background-color: hsl(207, 13%, 10%);
+    padding: 10px;
+    font-size: 0.8em;
+    border: 1px solid hsl(207, 13%, 25%);
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.lines {
+    margin-left: 5px;
+    color: white;
+}
+
+.dollar {
+    color: #50fa7b;
+}
+
+.editor-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.editor {
+    flex: 1 0 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .editor {
+        flex: 1;
+    }
+}
