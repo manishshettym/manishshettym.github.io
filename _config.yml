@@ -44,8 +44,8 @@ nav:
    link: "https://github.com/manishshettym"
  - name: "Google Scholar"
    link: "https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en"
- - name: "Blog"
-   link: "/blog"
+ - name: "Notes"
+   link: "/vigilant-memory"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
