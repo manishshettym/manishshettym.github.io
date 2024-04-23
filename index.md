@@ -97,7 +97,7 @@ developer and debugging tools for system reliability.
 <span style="font-size:85%">Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Tianjun Zhang, King Han, Koushik Sen, Ion
   Stoica<br>
   **LLMAgents Workshop @ ICLR 2024**. </span> <br>
-<a href="">paper (available on request)</a>
+<a href="https://openreview.net/forum?id=xsytkViOsd">preprint</a>
 <!-- <a href="">code</a> / -->
 <!-- <a href="">blog</a> -->
 
