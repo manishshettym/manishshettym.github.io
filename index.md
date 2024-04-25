@@ -34,7 +34,7 @@ developer and debugging tools for system reliability.
     <div class="card">
       <div class="info">
         <span><span class="title">Apr 2024. </span>
-          🎖️ Honored to have received the <a href="https://www2.eecs.berkeley.edu/Students/Awards/12/">Tong Leong Lim
+          🏆 Honored to have received the <a href="https://www2.eecs.berkeley.edu/Students/Awards/12/">Tong Leong Lim
             Pre-Doctoral Prize</a> at UC Berkeley
         </span>
       </div>
@@ -160,7 +160,13 @@ technical report, 2023 </span> <br>
 <!-- <a href="" style="color: #D33682;">Distinguished paper award nomination </a> -->
 
 
+## Awards
 
+<aside markdown="1">
+* 2024: Tong Leong Lim Pre-Doctoral Prize, UC Berkeley
+* 2024: Outstanding Graduate Student Instructor Award, UC Berkeley
+* 2022: Best Paper Award, SoCC 2022
+</aside>
 
 
 ## Teaching
