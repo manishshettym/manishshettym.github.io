@@ -1,7 +1,7 @@
 **R2E: Turning any GitHub Repository into a Programming Agent Environment** <br>
 <span style="font-size:85%">Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Tianjun Zhang, King Han, Koushik Sen, Ion
   Stoica<br>
-  **LLMAgents Workshop @ ICLR 2024**. </span> <br>
+  **ICML 2024**: Proceedings of the 41st International Conference on Machine Learning | <br> *ICLR 2024 @ [LLMAgents Workshop](https://llmagents.github.io/)* </span> <br>
 <a href="https://openreview.net/forum?id=xsytkViOsd">preprint</a>
 <!-- <a href="">code</a> / -->
 <!-- <a href="">blog</a> -->
