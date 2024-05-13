@@ -4,9 +4,10 @@ Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>,
 Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 **ICML 2024**: Proceedings of the 41st International Conference on Machine Learning <br> 
 ICLR 2024 @ [LLMAgents Workshop](https://llmagents.github.io/) </span> <br>
-<a href="https://openreview.net/forum?id=xsytkViOsd">preprint</a>
-<!-- <a href="">code</a> / -->
-<!-- <a href="">blog</a> -->
+<a href="https://r2e.dev/pdfs/paper.pdf">papers</a>
+<a href="https://openreview.net/forum?id=xsytkViOsd">ICLR reviews</a>
+<a href="https://github.com/r2e-project/r2e">code</a> /
+<a href="https://r2e.dev/">blog</a>
 
 
 
