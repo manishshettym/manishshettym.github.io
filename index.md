@@ -168,4 +168,12 @@ developer and debugging tools for system reliability.
     text-decoration: none;
     border-bottom: none;
   }
+
+  .badge {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
 </style>
