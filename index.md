@@ -15,9 +15,9 @@ design systems for expressive and reliable programming.
 
 I am interested in Programming Languages and Software Engineering, specifically, in tools for program synthesis and
 analysis.
-Currently, my work is motivated by abstractions for programs that simplify reasoning about code by introducing either
-structure (graphs) or abstract semantics (language).
-This interest naturally touches language models (LLM) and ML4Code as means to learn and enrich these abstractions.
+Currently, my work is motivated by abstractions for programs that aid systems to reason about code by introducing either
+structure (graphs) or semantics (language constructs).
+This interest naturally touches language models (LLM) and ML4Code as means to learn/use these abstractions.
 
 Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a
   href="https://www.microsoft.com/en-us/research/theme/systems/">Programming Languages and Systems Group</a> on
@@ -168,4 +168,12 @@ developer and debugging tools for system reliability.
     text-decoration: none;
     border-bottom: none;
   }
+
+  .badge {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
 </style>

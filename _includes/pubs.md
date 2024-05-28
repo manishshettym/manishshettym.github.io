@@ -4,18 +4,17 @@ Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>,
 Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 **ICML 2024**: Proceedings of the 41st International Conference on Machine Learning <br> 
 ICLR 2024 @ [LLMAgents Workshop](https://llmagents.github.io/) </span> <br>
-<a href="https://r2e.dev/pdfs/paper.pdf">papers</a>
-<a href="https://openreview.net/forum?id=xsytkViOsd">ICLR reviews</a>
+<a href="https://r2e.dev/pdfs/paper.pdf">paper</a> / 
 <a href="https://github.com/r2e-project/r2e">code</a> /
-<a href="https://r2e.dev/">blog</a>
+<a href="https://r2e.dev/">website</a>
 
 
 
-**DSPy Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
+**LM Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts,
   Koushik Sen, Matei Zaharia, Omar Khattab<br>
-  Under Submission, 2023. </span> <br>
-<a href="https://arxiv.org/abs/2312.13382">paper</a> /
+  Under Submission, 2024. </span> <br>
+<a href="/pdf/preprints/lm-assert.pdf">preprint</a> /
 <a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a> /
 <a href="https://twitter.com/lateinteraction/status/1735326551393161563">tweet-1</a> /
 <a href="https://twitter.com/lateinteraction/status/1755337965751198042">tweet-2</a> /
