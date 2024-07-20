@@ -9,11 +9,21 @@ ICLR 2024 @ [LLMAgents Workshop](https://llmagents.github.io/) </span> <br>
 <a href="https://r2e.dev/">website</a>
 
 
+**Building AI Agents for Autonomous Clouds: Challenges and Design Principles** <br>
+<span style="font-size:85%">
+Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan<br>
+**Vision Paper** (Under Submission)</span> <br>
+<a href="https://arxiv.org/abs/2407.12165">paper</a> 
+<!-- /  -->
+<!-- <a href="https://github.com/r2e-project/r2e">code</a> / -->
+<!-- <a href="https://r2e.dev/">website</a> -->
+
+
 
 **LM Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts,
   Koushik Sen, Matei Zaharia, Omar Khattab<br>
-  Under Submission, 2024. </span> <br>
+**Preprint, 2024**</span> <br>
 <a href="/pdf/preprints/lm-assert.pdf">preprint</a> /
 <a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a> /
 <a href="https://twitter.com/lateinteraction/status/1735326551393161563">tweet-1</a> /
@@ -25,7 +35,7 @@ ICLR 2024 @ [LLMAgents Workshop](https://llmagents.github.io/) </span> <br>
 
 **CodeScholar: Growing Idiomatic Code Examples** <br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
-  arXiv, 2023 </span> <br>
+**Preprint 2023** </span> <br>
 <a href="https://arxiv.org/abs/2312.15157">paper</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
