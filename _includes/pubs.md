@@ -12,7 +12,7 @@ ICLR 2024 @ [LLMAgents Workshop](https://llmagents.github.io/) </span> <br>
 **Building AI Agents for Autonomous Clouds: Challenges and Design Principles** <br>
 <span style="font-size:85%">
 Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan<br>
-**Vision Paper** (Under Submission)</span> <br>
+**Vision Paper, 2024** (Under Submission)</span> <br>
 <a href="https://arxiv.org/abs/2407.12165">paper</a> 
 <!-- /  -->
 <!-- <a href="https://github.com/r2e-project/r2e">code</a> / -->
@@ -23,8 +23,8 @@ Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xucha
 **LM Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts,
   Koushik Sen, Matei Zaharia, Omar Khattab<br>
-**Preprint, 2024**</span> <br>
-<a href="/pdf/preprints/lm-assert.pdf">preprint</a> /
+**Preprint, 2024** (Under Submission)</span> <br>
+<a href="/pdf/preprints/lm-assert.pdf">paper</a> /
 <a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a> /
 <a href="https://twitter.com/lateinteraction/status/1735326551393161563">tweet-1</a> /
 <a href="https://twitter.com/lateinteraction/status/1755337965751198042">tweet-2</a> /
@@ -35,7 +35,7 @@ Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xucha
 
 **CodeScholar: Growing Idiomatic Code Examples** <br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
-**Preprint 2023** </span> <br>
+**Preprint, 2023** </span> <br>
 <a href="https://arxiv.org/abs/2312.15157">paper</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
