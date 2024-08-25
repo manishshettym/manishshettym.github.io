@@ -1,6 +1,8 @@
 <aside markdown="1">
-  * 2024: PLDI (Reviewer + Artifact Eval); NeurIPS (Reviewer); ASE (PC)
-  * 2023: ISSTA (Sub-reviewer)
-  * 2022: ICLR (Reviewer); MSR (Shadow PC)
-  * 2021: MSR (Shadow PC)
+  * **ICLR**: 2022 (PC), 2025 (PC)
+  * **NeurIPS**: 2024 (PC)
+  * **PLDI**: 2024 (Reviewer),  2024 (AE)
+  * **ASE**: 2024 (PC)
+  * **ISSTA**: 2023 (Reviewer)
+  * **MSR**: 2022 (Shadow PC), 2021 (Shadow PC)
 </aside>
