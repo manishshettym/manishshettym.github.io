@@ -5,23 +5,20 @@ layout: default
 ## About Me
 
 <img class="profile-picture" src="./images/dpForAll.png">
-I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the <a
-  href="https://ps.berkeley.edu/">Programming Systems</a> group and the <a href="https://sky.cs.berkeley.edu/">Sky
-  Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>. I broadly research techniques and
-design systems for expressive and reliable programming.
+I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the 
+<a href="https://ps.berkeley.edu/">Programming Systems</a> group and the <a href="https://sky.cs.berkeley.edu/">Sky
+Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>. I broadly research techniques at
+the intersection of Programming Languages, Software Engineering, and AI.
 
-
-## Research Interest
-
-I am interested in Programming Languages and Software Engineering, specifically, in tools for program synthesis and
-analysis.
-Currently, my work is motivated by abstractions for programs that aid systems to reason about code by introducing either
-structure (graphs) or semantics (language constructs).
-This interest naturally touches language models (LLM) and ML4Code as means to learn/use these abstractions.
+My research involves **improving software reliability in the age of large-language models (LLM) and Agents**.
+I approach this from two angles: (1) building better evaluation platforms and 
+(2) introducing guardrails such as search and assertions. A key piece of my work
+is *breathing life into static codebases*, enabling program analysis and training better code LLMs
+with execution awareness.
 
 Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a
   href="https://www.microsoft.com/en-us/research/theme/systems/">Programming Languages and Systems Group</a> on
-developer and debugging tools for system reliability.
+developer and debugging tools for cloud reliability.
 
 <span style="font-size: small;">
   *If you'd like to collaborate, drop me an email at: manishs@berkeley.edu*
