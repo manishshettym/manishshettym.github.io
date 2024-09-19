@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## About Me
+<!-- ## About Me -->
 
 <img class="profile-picture" src="./images/dpForAll.png">
 I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the 
@@ -10,10 +10,11 @@ I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the
 Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>. I broadly research techniques at
 the intersection of Programming Languages, Software Engineering, and AI.
 
-My research involves **improving software reliability in the age of large-language models (LLM) and Agents**.
-I approach this from two angles: (1) building better evaluation platforms and 
-(2) introducing guardrails such as search and assertions. A key piece of my work
-is *breathing life into static codebases*, enabling program analysis and training better code LLMs
+
+I work on *software reliability in the age of large-language models (LLMs)*.
+I approach this from two angles: (1) building evaluation platforms and 
+(2) introducing guardrails like search and assertions. A key piece of this
+is *breathing life into static codebases*, enabling program analysis and training better LLMs
 with execution awareness.
 
 Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a
@@ -118,7 +119,7 @@ developer and debugging tools for cloud reliability.
     padding: 10px;
     overflow: auto;
     height: 210px;
-    font-size: 95%;
+    font-size: 90%;
   }
 
   /* Outer Layer with the timeline border */
