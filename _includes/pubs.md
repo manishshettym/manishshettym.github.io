@@ -20,7 +20,7 @@ Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 **Building AI Agents for Autonomous Clouds: Challenges and Design Principles** <br>
 <span style="font-size:85%">
 Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan<br>
-**SoCC 2024**: To appear at the 14th Symposium on Cloud Computing </span> <br>
+**SoCC 2024**: Proceedings of the 14th Symposium on Cloud Computing </span> <br>
 <a href="https://arxiv.org/abs/2407.12165">paper</a> / <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-november-11-2024/"
   style="color: #D33682; font-weight: 500;"> featured on <b>Microsoft Research Blog</b> </a>
 <!-- /  -->
