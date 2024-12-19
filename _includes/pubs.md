@@ -1,9 +1,17 @@
+**Syzygy: Dual Code-Test C to Rust Translation using LLMs and Dynamic Analysis** <br>
+<span style="font-size:85%">
+Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Adwait Godbole<sup>*</sup>,
+Sanjit Seshi, Koushik Sen<br>
+[LLM4Code Workshop](https://llmagents.github.io/) @ ICSE 2025  </span> <br>
+<a href="https://syzygy-project.github.io/assets/paper.pdf">paper</a> / 
+<a href="https://syzygy-project.github.io/">website</a>
+
 **R2E: Turning any GitHub Repository into a Programming Agent Environment** <br>
 <span style="font-size:85%">
 Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, 
 Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 **ICML 2024**: Proceedings of the 41st International Conference on Machine Learning <br> 
-ICLR 2024 @ [LLMAgents Workshop](https://llmagents.github.io/) </span> <br>
+[LLMAgents Workshop](https://llmagents.github.io/) @ ICLR 2024 </span> <br>
 <a href="https://r2e.dev/pdfs/paper.pdf">paper</a> / 
 <a href="https://github.com/r2e-project/r2e">code</a> /
 <a href="https://r2e.dev/">website</a>
