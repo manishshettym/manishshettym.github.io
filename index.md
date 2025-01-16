@@ -7,19 +7,13 @@ layout: default
 <img class="profile-picture" src="./images/dpForAll.png">
 I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the 
 <a href="https://ps.berkeley.edu/">Programming Systems</a> group and the <a href="https://sky.cs.berkeley.edu/">Sky
-Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>. I broadly research techniques at
-the intersection of Programming Languages, Software Engineering, and AI.
+Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>. I broadly research techniques at the intersection of PL/SE and AI.
 
+My research involves improving the capabilities and reliability of *large-language models for software engineering* tasks. 
+I approach this as (1) constructing model evaluations and (2) introducing symbolic techniques like search.
+A key piece of this is *breathing life into static codebases*, enabling program analysis and execution awareness.
 
-I work on *software reliability in the age of large-language models (LLMs)*.
-I approach this from two angles: (1) building evaluation platforms and 
-(2) introducing guardrails like search and assertions. A key piece of this
-is *breathing life into static codebases*, enabling program analysis and training better LLMs
-with execution awareness.
-
-Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a
-  href="https://www.microsoft.com/en-us/research/theme/systems/">Programming Languages and Systems Group</a> on
-developer and debugging tools for cloud reliability.
+Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a href="https://www.microsoft.com/en-us/research/theme/systems/">Programming Languages and Systems Group</a> on developer and debugging tools for cloud reliability.
 
 <span style="font-size: small;">
   *If you'd like to collaborate, drop me an email at: manishs@berkeley.edu*
@@ -105,10 +99,6 @@ developer and debugging tools for cloud reliability.
 ## Service
 
 {% include service.md %}
-
-## Projects
-
-{% include projects.html %}
 
 <br><br>
 
