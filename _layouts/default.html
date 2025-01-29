@@ -75,6 +75,14 @@
                     {% endif %}
                 </li>
                 {% endfor %}
+                <li class="alignable pull-left nav-list">
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="darkModeToggle" class="toggle-input">
+                        <label for="darkModeToggle" class="toggle-label">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </li>
             </ul>
         </div>
         <div style="clear:both"></div>
@@ -105,6 +113,26 @@
             ga('send', 'pageview');
         </script>
         {% endif %}
+        <script>
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            
+            // Check for saved preference
+            if (localStorage.getItem('darkMode') === 'true') {
+                document.body.classList.add('dark-mode');
+                darkModeToggle.checked = true;
+            }
+
+            // Toggle dark mode
+            darkModeToggle.addEventListener('change', function() {
+                if (this.checked) {
+                    document.body.classList.add('dark-mode');
+                    localStorage.setItem('darkMode', 'true');
+                } else {
+                    document.body.classList.remove('dark-mode');
+                    localStorage.setItem('darkMode', 'false');
+                }
+            });
+        </script>
 </body>
 <footer>
 </footer>

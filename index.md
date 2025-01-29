@@ -134,7 +134,6 @@ Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Micr
 
   /* Title of the card */
   .title {
-    color: #0d1117c4;
     position: relative;
   }
 

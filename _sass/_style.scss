@@ -225,3 +225,79 @@ hr {
         flex: 1;
     }
 }
+
+
+/* Add at the bottom of your existing _styles.scss */
+
+/* Dark Mode Toggle */
+.toggle-switch {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    background-color: #fffff8;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    width: 35px;
+    height: 18px;
+    border-radius: 34px;
+    border: 1px solid #2c3137c9;
+}
+
+.toggle-slider {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    bottom: 2px;
+    background-color: black;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    border-radius: 50%;
+}
+
+.toggle-input:checked + .toggle-label {
+    background: #444;
+}
+
+.toggle-input:checked + .toggle-label .toggle-slider {
+    transform: translateX(17px);
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode a {
+    color: #8ab4f8;
+    border-bottom-color: #404040;
+}
+
+body.dark-mode a:hover,
+body.dark-mode a:focus {
+    background: #2d2d2d;
+}
+
+body.dark-mode #author-name {
+    color: #e0e0e0;
+}
+
+body.dark-mode hr {
+    border-top-color: #404040;
+}
+
+@media (max-width: 480px) {
+    .toggle-switch {
+        display: none;
+    }
+}
