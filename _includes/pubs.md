@@ -12,10 +12,16 @@ Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>,
 Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 **ICML 2024**: Proceedings of the 41st International Conference on Machine Learning <br> 
 [LLMAgents Workshop](https://llmagents.github.io/) @ ICLR 2024 </span> <br>
-<a href="https://r2e.dev/pdfs/paper.pdf">paper</a> / 
-<a href="https://github.com/r2e-project/r2e">code</a> /
+<a href="https://www.microsoft.com/en-us/research/uploads/prod/2024/10/arxiv_AIOpsLab.pdf">paper</a> / 
+<a href="https://github.com/microsoft/AIOpsLab">code</a> /
 <a href="https://r2e.dev/">website</a>
 
+**AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds** <br>
+<span style="font-size:85%"> Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, and Saravan Rajmohan <br>
+**MLSys 2025**: To appear at the 9th Annual Conference on Machine Learning and Systems </span> <br>
+<a href="https://arxiv.org/abs/2007.05505">paper</a> /
+<a href="https://github.com/r2e-project/r2e">code</a> /
+<a href="https://r2e.dev/">website</a>
 
 **Building AI Agents for Autonomous Clouds: Challenges and Design Principles** <br>
 <span style="font-size:85%">
