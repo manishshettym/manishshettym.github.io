@@ -1,7 +1,7 @@
 <span class="pubtitle">Syzygy: Dual Code-Test C to Rust Translation using LLMs and Dynamic Analysis</span><br>
 <span style="font-size:85%">
 Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Adwait Godbole<sup>*</sup>,
-Sanjit Seshi, Koushik Sen<br>
+Sanjit Seshia, Koushik Sen<br>
 [LLM4Code Workshop](https://llm4code.github.io/) @ ICSE 2025  </span> <br>
 <a href="https://syzygy-project.github.io/assets/paper.pdf">paper</a> / 
 <a href="https://syzygy-project.github.io/">website</a>
@@ -15,6 +15,13 @@ Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 <a href="https://r2e.dev/pdfs/paper.pdf">paper</a> / 
 <a href="https://github.com/r2e-project/r2e">code</a> /
 <a href="https://r2e.dev/">website</a>
+
+**AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds** <br>
+<span style="font-size:85%"> Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, and Saravan Rajmohan <br>
+**MLSys 2025**: To appear at the 9th Annual Conference on Machine Learning and Systems </span> <br>
+<a href="https://www.microsoft.com/en-us/research/uploads/prod/2024/10/arxiv_AIOpsLab.pdf">paper</a> /
+<a href="https://github.com/microsoft/AIOpsLab">code</a> /
+<a href="https://microsoft.github.io/AIOpsLab/">website</a>
 
 
 <span class="pubtitle">Building AI Agents for Autonomous Clouds: Challenges and Design Principles</span><br>
