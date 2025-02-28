@@ -16,7 +16,7 @@ Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 <a href="https://github.com/r2e-project/r2e">code</a> /
 <a href="https://r2e.dev/">website</a>
 
-**AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds** <br>
+<span class="pubtitle">AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds<span> <br>
 <span style="font-size:85%"> Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, and Saravan Rajmohan <br>
 **MLSys 2025**: To appear at the 9th Annual Conference on Machine Learning and Systems </span> <br>
 <a href="https://www.microsoft.com/en-us/research/uploads/prod/2024/10/arxiv_AIOpsLab.pdf">paper</a> /
@@ -29,7 +29,7 @@ Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan<br>
 **SoCC 2024**: Proceedings of the 14th Symposium on Cloud Computing </span> <br>
 <a href="https://arxiv.org/abs/2407.12165">paper</a> / <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-november-11-2024/"
-  style="color: #D33682; font-weight: 500;"> featured on Microsoft Research Blog</a>
+  style="color: #D33682; "> featured on Microsoft Research Blog</a>
 <!-- /  -->
 <!-- <a href="https://github.com/r2e-project/r2e">code</a> / -->
 <!-- <a href="https://r2e.dev/">website</a> -->
@@ -71,7 +71,7 @@ technical report, 2023 </span> <br>
 <span style="font-size:85%">Supriyo Ghosh, Manish Shetty, Chetan Bansal, Suman Nath <br>
   **SoCC 2022**: Proceedings of the 13th Symposium on Cloud Computing </span> <br>
 <a href="https://dl.acm.org/doi/10.1145/3542929.3563482">paper</a> / <a
-  href="https://twitter.com/ACMSoCC/status/1590128032886685696?s=20" style="color: #D33682; font-weight: 500;">Best
+  href="https://twitter.com/ACMSoCC/status/1590128032886685696?s=20" style="color: #D33682; ">Best
   Paper Award 🏆</a>
 
 
@@ -104,5 +104,5 @@ technical report, 2023 </span> <br>
 <a href="pdf/slides/SoftNER_ICSE_2021.pdf">slides</a> /
 <a href="https://youtu.be/nObO7Q9NlcA">talk</a> /
 <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/"
-  style="color: #D33682; font-weight: 500;"> featured on VentureBeat</a>
+  style="color: #D33682; "> featured on VentureBeat</a>
 <!-- <a href="" style="color: #D33682;">Distinguished paper award nomination </a> -->
