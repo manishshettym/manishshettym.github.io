@@ -5,19 +5,26 @@ layout: default
 <!-- ## About Me -->
 
 <img class="profile-picture" src="./images/dpForAll.png">
-I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the 
-<a href="https://ps.berkeley.edu/">Programming Systems</a> group and the <a href="https://sky.cs.berkeley.edu/">Sky
-Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>. I broadly research techniques at the intersection of PL/SE and AI.
+<div>
+<div id="intro-unit">
+I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the <a href="https://sky.cs.berkeley.edu/">Sky
+Lab</a> advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>.
+</div>
 
-My research involves improving the capabilities and reliability of *large-language models for software engineering* tasks. 
-I approach this as (1) constructing model evaluations and (2) introducing symbolic techniques like search.
-A key piece of this is *breathing life into static codebases*, enabling program analysis and execution awareness.
+<div id="intro-unit">
+My work involves improving the capabilities and reliability of <i>large-language models for software engineering</i> tasks. 
+I approach this as (1) stronger model evaluations and (2) scaling with symbolic techniques like search.
+A key piece of this is <i>breathing life into static codebases</i>, enabling program analysis and execution.
+</div>
 
-Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a href="https://www.microsoft.com/en-us/research/theme/systems/">Programming Languages and Systems Group</a> on developer and debugging tools for cloud reliability.
+<div id="intro-unit">
+Previously, I worked at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (MSR)</a> in the <a href="https://www.microsoft.com/en-us/research/theme/systems/">Programming Languages and Systems Group</a>.
+</div>
 
-<span style="font-size: small;">
-  *If you'd like to collaborate, drop me an email at: manishs@berkeley.edu*
-</span>
+<div id="intro-unit" style="font-size: smaller;">
+  If you'd like to collaborate, drop me an email at: manishs@berkeley.edu
+</div>
+</div>
 
 ## News
 

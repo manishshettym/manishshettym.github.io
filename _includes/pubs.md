@@ -1,4 +1,4 @@
-**Syzygy: Dual Code-Test C to Rust Translation using LLMs and Dynamic Analysis** <br>
+<span class="pubtitle">Syzygy: Dual Code-Test C to Rust Translation using LLMs and Dynamic Analysis</span><br>
 <span style="font-size:85%">
 Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Adwait Godbole<sup>*</sup>,
 Sanjit Seshi, Koushik Sen<br>
@@ -6,7 +6,7 @@ Sanjit Seshi, Koushik Sen<br>
 <a href="https://syzygy-project.github.io/assets/paper.pdf">paper</a> / 
 <a href="https://syzygy-project.github.io/">website</a>
 
-**R2E: Turning any GitHub Repository into a Programming Agent Environment** <br>
+<span class="pubtitle">R2E: Turning any GitHub Repository into a Programming Agent Environment</span><br>
 <span style="font-size:85%">
 Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, 
 Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
@@ -17,19 +17,19 @@ Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 <a href="https://r2e.dev/">website</a>
 
 
-**Building AI Agents for Autonomous Clouds: Challenges and Design Principles** <br>
+<span class="pubtitle">Building AI Agents for Autonomous Clouds: Challenges and Design Principles</span><br>
 <span style="font-size:85%">
 Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan<br>
 **SoCC 2024**: Proceedings of the 14th Symposium on Cloud Computing </span> <br>
 <a href="https://arxiv.org/abs/2407.12165">paper</a> / <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-november-11-2024/"
-  style="color: #D33682; font-weight: 500;"> featured on <b>Microsoft Research Blog</b> </a>
+  style="color: #D33682; font-weight: 500;"> featured on Microsoft Research Blog</a>
 <!-- /  -->
 <!-- <a href="https://github.com/r2e-project/r2e">code</a> / -->
 <!-- <a href="https://r2e.dev/">website</a> -->
 
 
 
-**LM Assertions: Computational Constraints for Self-Refining LM Pipelines** <br>
+<span class="pubtitle">LM Assertions: Computational Constraints for Self-Refining LM Pipelines</span><br>
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts,
   Koushik Sen, Matei Zaharia, Omar Khattab<br>
 **Preprint, 2024** (Under Submission)</span> <br>
@@ -42,7 +42,7 @@ Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xucha
 
 
 
-**CodeScholar: Growing Idiomatic Code Examples** <br>
+<span class="pubtitle">CodeScholar: Growing Idiomatic Code Examples</span><br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
 **Tech Report, 2023** </span> <br>
 <a href="https://arxiv.org/abs/2312.15157">paper</a> /
@@ -51,7 +51,7 @@ Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xucha
 
 
 
-<!-- **Large-scale Performance Characterization of Distributed Graph Processing Frameworks** <br>
+<!-- <span class="pubtitle">Large-scale Performance Characterization of Distributed Graph Processing Frameworks</span><br>
 <span style="font-size:85%">Altan Haan<sup>*</sup>, Manish Shetty<sup>*</sup><br>
 technical report, 2023 </span> <br>
 <a href="/pdf/preprints/graph-study.pdf">paper</a> -->
@@ -60,7 +60,7 @@ technical report, 2023 </span> <br>
 
 
 
-**How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service** <br>
+<span class="pubtitle">How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service</span><br>
 <span style="font-size:85%">Supriyo Ghosh, Manish Shetty, Chetan Bansal, Suman Nath <br>
   **SoCC 2022**: Proceedings of the 13th Symposium on Cloud Computing </span> <br>
 <a href="https://dl.acm.org/doi/10.1145/3542929.3563482">paper</a> / <a
@@ -69,14 +69,14 @@ technical report, 2023 </span> <br>
 
 
 
-**AutoTSG: Learning and Synthesis for Incident Troubleshooting** <br>
+<span class="pubtitle">AutoTSG: Learning and Synthesis for Incident Troubleshooting</span><br>
 <span style="font-size:85%">Manish Shetty, Chetan Bansal, Sai Upadhyayula, Arjun Radhakrishna, Anurag Gupta <br>
   **FSE 2022**: Proceedings of the 30th ACM Symposium on the Foundations of Software Engineering </span> <br>
 <a href="https://arxiv.org/pdf/2205.13457.pdf">paper</a>
 
 
 
-**DeepAnalyze: Learning to Localize Crashes at Scale** <br>
+<span class="pubtitle">DeepAnalyze: Learning to Localize Crashes at Scale</span><br>
 <span style="font-size:85%">Manish Shetty, Chetan Bansal, Suman Nath, Sean Bowles, Henry Wang, Ozgur Arman, Siamak Ahari
   <br>
   **ICSE 2022**: Proceedings of the 44th International Conference on Software Engineering </span> <br>
@@ -89,7 +89,7 @@ technical report, 2023 </span> <br>
 
 
 
-**Neural Knowledge Extraction From Cloud Service Incidents** <br>
+<span class="pubtitle">Neural Knowledge Extraction From Cloud Service Incidents</span><br>
 <span style="font-size:85%"> Manish Shetty, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas
   Zimmermann <br>
   **ICSE 2021**: Proceedings of the 43rd International Conference on Software Engineering </span> <br>
@@ -97,5 +97,5 @@ technical report, 2023 </span> <br>
 <a href="pdf/slides/SoftNER_ICSE_2021.pdf">slides</a> /
 <a href="https://youtu.be/nObO7Q9NlcA">talk</a> /
 <a href="https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/"
-  style="color: #D33682; font-weight: 500;"> featured on <b>VentureBeat</b> </a>
+  style="color: #D33682; font-weight: 500;"> featured on VentureBeat</a>
 <!-- <a href="" style="color: #D33682;">Distinguished paper award nomination </a> -->
