@@ -1,3 +1,11 @@
+<span class="pubtitle">Challenges and Paths Towards AI for Software Engineering</span><br>
+<span style="font-size:85%">
+Alex Gu, Naman Jain<sup>*</sup>, Wen-Ding Li<sup>*</sup>, Manish Shetty<sup>*</sup>, Yijia Shao, Ziyang Li, Diyi Yang, <br> 
+Kevin Ellis, Koushik Sen, Armando Solar-Lezama<br>
+Position Paper, 2025 </span> <br>
+<a href="https://tinyurl.com/ai4code">paper</a>
+
+
 <span class="pubtitle">Syzygy: Dual Code-Test C to Rust Translation using LLMs and Dynamic Analysis</span><br>
 <span style="font-size:85%">
 Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Adwait Godbole<sup>*</sup>,
@@ -8,15 +16,14 @@ Sanjit Seshia, Koushik Sen<br>
 
 <span class="pubtitle">R2E: Turning any GitHub Repository into a Programming Agent Environment</span><br>
 <span style="font-size:85%">
-Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, 
-Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
+Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 **ICML 2024**: Proceedings of the 41st International Conference on Machine Learning <br> 
 [LLMAgents Workshop](https://llmagents.github.io/) @ ICLR 2024 </span> <br>
 <a href="https://r2e.dev/pdfs/paper.pdf">paper</a> / 
 <a href="https://github.com/r2e-project/r2e">code</a> /
 <a href="https://r2e.dev/">website</a>
 
-<span class="pubtitle">AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds<span> <br>
+<span class="pubtitle">AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds</span> <br>
 <span style="font-size:85%"> Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, and Saravan Rajmohan <br>
 **MLSys 2025**: To appear at the 9th Annual Conference on Machine Learning and Systems </span> <br>
 <a href="https://www.microsoft.com/en-us/research/uploads/prod/2024/10/arxiv_AIOpsLab.pdf">paper</a> /
@@ -39,7 +46,7 @@ Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xucha
 <span class="pubtitle">LM Assertions: Computational Constraints for Self-Refining LM Pipelines</span><br>
 <span style="font-size:85%">Arnav Singhvi<sup>*</sup>, Manish Shetty<sup>*</sup>, Shangyin Tan<sup>*</sup>, Chris Potts,
   Koushik Sen, Matei Zaharia, Omar Khattab<br>
-**Preprint, 2024** (Under Submission)</span> <br>
+**ArXiv, 2024**</span> <br>
 <a href="/pdf/preprints/lm-assert.pdf">paper</a> /
 <a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a> /
 <a href="https://twitter.com/lateinteraction/status/1735326551393161563">tweet-1</a> /
@@ -51,7 +58,7 @@ Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xucha
 
 <span class="pubtitle">CodeScholar: Growing Idiomatic Code Examples</span><br>
 <span style="font-size:85%">Manish Shetty, Koushik Sen, Ion Stoica <br>
-**Tech Report, 2023** </span> <br>
+**ArXiv, 2023** </span> <br>
 <a href="https://arxiv.org/abs/2312.15157">paper</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
 
