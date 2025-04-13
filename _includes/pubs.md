@@ -1,3 +1,11 @@
+<span class="pubtitle">R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents</span><br>
+<span style="font-size:85%">
+Naman Jain<sup>*</sup>, Jaskirat Singh<sup>*</sup>, Manish Shetty, Liang Zheng, Koushik Sen, Ion Stoica<br>
+Preprint, 2025 </span> <br>
+<a href="https://arxiv.org/abs/2504.07164">paper</a> / 
+<a href="https://r2e-gym.github.io/">website</a>
+
+
 <span class="pubtitle">Challenges and Paths Towards AI for Software Engineering</span><br>
 <span style="font-size:85%">
 Alex Gu, Naman Jain<sup>*</sup>, Wen-Ding Li<sup>*</sup>, Manish Shetty<sup>*</sup>, Yijia Shao, Ziyang Li, Diyi Yang, <br> 
