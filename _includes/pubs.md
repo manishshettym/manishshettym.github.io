@@ -10,7 +10,7 @@ Preprint, 2025 </span> <br>
 <span style="font-size:85%">
 Alex Gu, Naman Jain<sup>*</sup>, Wen-Ding Li<sup>*</sup>, Manish Shetty<sup>*</sup>, Yijia Shao, Ziyang Li, Diyi Yang, <br> 
 Kevin Ellis, Koushik Sen, Armando Solar-Lezama<br>
-Position Paper, 2025 </span> <br>
+**ICML 2025**: To Appear at the 41st International Conference on Machine Learning (Position Paper)<br> 
 <a href="https://tinyurl.com/ai4code">paper</a>
 
 
@@ -33,7 +33,7 @@ Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Tianjun Zhang, King Han, Kous
 
 <span class="pubtitle">AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds</span> <br>
 <span style="font-size:85%"> Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, and Saravan Rajmohan <br>
-**MLSys 2025**: To appear at the 9th Annual Conference on Machine Learning and Systems </span> <br>
+**MLSys 2025**: Proceedings of the 9th Annual Conference on Machine Learning and Systems </span> <br>
 <a href="https://www.microsoft.com/en-us/research/uploads/prod/2024/10/arxiv_AIOpsLab.pdf">paper</a> /
 <a href="https://github.com/microsoft/AIOpsLab">code</a> /
 <a href="https://microsoft.github.io/AIOpsLab/">website</a>
