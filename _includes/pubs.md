@@ -10,7 +10,7 @@ Preprint, 2025 </span> <br>
 <span style="font-size:85%">
 Alex Gu, Naman Jain<sup>*</sup>, Wen-Ding Li<sup>*</sup>, Manish Shetty<sup>*</sup>, Yijia Shao, Ziyang Li, Diyi Yang, <br> 
 Kevin Ellis, Koushik Sen, Armando Solar-Lezama<br>
-**ICML 2025**: To Appear at the 41st International Conference on Machine Learning (Position Paper)<br> 
+**ICML 2025**: To Appear at the 42nd International Conference on Machine Learning (Position Paper)<br> 
 <a href="https://tinyurl.com/ai4code">paper</a>
 
 
@@ -26,7 +26,7 @@ Sanjit Seshia, Koushik Sen<br>
 <span style="font-size:85%">
 Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
 **ICML 2024**: Proceedings of the 41st International Conference on Machine Learning <br> 
-[LLMAgents Workshop](https://llmagents.github.io/) @ ICLR 2024 </span> <br>
+<!-- [LLMAgents Workshop](https://llmagents.github.io/) @ ICLR 2024 </span> <br> /  -->
 <a href="https://r2e.dev/pdfs/paper.pdf">paper</a> / 
 <a href="https://github.com/r2e-project/r2e">code</a> /
 <a href="https://r2e.dev/">website</a>
