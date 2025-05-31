@@ -1,3 +1,13 @@
+<span class="pubtitle">GSO: Challenging Software Optimization Tasks for Evaluating SWE-Agents</span><br>
+<span style="font-size:85%">
+Manish Shetty, Naman Jain, Jinjian Liu, Vijay Kethanaboyina, Koushik Sen, Ion Stoica<br>
+Preprint, 2025 </span> <br>
+<a href="https://arxiv.org/abs/2505.23671">paper</a> / 
+<a href="https://gso-bench.github.io/">website</a> /
+<a href="https://huggingface.co/datasets/gso-bench/gso">dataset</a> /
+<a href="https://github.com/gso-bench/gso">code</a>
+
+
 <span class="pubtitle">R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents</span><br>
 <span style="font-size:85%">
 Naman Jain<sup>*</sup>, Jaskirat Singh<sup>*</sup>, Manish Shetty, Liang Zheng, Koushik Sen, Ion Stoica<br>
