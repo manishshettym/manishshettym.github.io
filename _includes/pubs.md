@@ -11,7 +11,7 @@ Preprint, 2025 </span> <br>
 <span class="pubtitle">R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents</span><br>
 <span style="font-size:85%">
 Naman Jain<sup>*</sup>, Jaskirat Singh<sup>*</sup>, Manish Shetty, Liang Zheng, Koushik Sen, Ion Stoica<br>
-Preprint, 2025 </span> <br>
+**COLM 2025**: To Appear at the 2nd Conference on Language Modeling<br> 
 <a href="https://arxiv.org/abs/2504.07164">paper</a> / 
 <a href="https://r2e-gym.github.io/">website</a>
 
@@ -20,7 +20,7 @@ Preprint, 2025 </span> <br>
 <span style="font-size:85%">
 Alex Gu, Naman Jain<sup>*</sup>, Wen-Ding Li<sup>*</sup>, Manish Shetty<sup>*</sup>, Yijia Shao, Ziyang Li, Diyi Yang, <br> 
 Kevin Ellis, Koushik Sen, Armando Solar-Lezama<br>
-**ICML 2025**: To Appear at the 42nd International Conference on Machine Learning (Position Paper)<br> 
+**ICML 2025**: Proceedings of the 42nd International Conference on Machine Learning (Position Paper)<br> 
 <a href="https://tinyurl.com/ai4code">paper</a>
 
 
