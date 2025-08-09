@@ -24,7 +24,7 @@ body {
     background-color: #fffff8;
     line-height: 1.25;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: justify;
 }
 
@@ -53,7 +53,7 @@ hr {
 
 h1, h2, h3 {
     font-family: "EB Garamond", serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /*
@@ -61,16 +61,14 @@ h1, h2, h3 {
  */
 
 .pubtitle{
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #author-name {
     font-family: "EB Garamond", serif;
-    font-weight: 500;
     font-size: 30px;
     color: #272727;
     display: inline-block;
-    font-weight: bolder;
 }
 
 .navbar {
@@ -320,6 +318,40 @@ body.dark-mode hr {
 
 @media (max-width: 480px) {
     .toggle-switch {
+        display: none;
+    }
+}
+
+/* Intro section layout: 20% image, 80% text */
+.content .intro-section {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 40px;
+    align-items: start;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+/* Make sure the image fills its 20% column and doesn't float */
+.content .intro-section .profile-picture {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    float: none;
+    display: block;
+}
+
+/* Ensure the right column uses full width */
+.content .intro-text #intro-unit {
+    max-width: 100%;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 650px) {
+    .content .intro-section {
+        grid-template-columns: 1fr;
+    }
+    .content .intro-section .profile-picture {
         display: none;
     }
 }

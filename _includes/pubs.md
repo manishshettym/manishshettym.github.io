@@ -68,8 +68,7 @@ Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xucha
 <a href="/pdf/preprints/lm-assert.pdf">paper</a> /
 <a href="https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py">code</a> /
 <a href="https://twitter.com/lateinteraction/status/1735326551393161563">tweet-1</a> /
-<a href="https://twitter.com/lateinteraction/status/1755337965751198042">tweet-2</a> /
-<a href="/blog/scrivings/dspy-assertions-a-pr-reviews-pov/">blog</a>
+<a href="https://twitter.com/lateinteraction/status/1755337965751198042">tweet-2</a>
 
 
 
@@ -79,16 +78,6 @@ Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xucha
 **ArXiv, 2023** </span> <br>
 <a href="https://arxiv.org/abs/2312.15157">paper</a> /
 <a href="https://github.com/tart-proj/codescholar">code</a>
-
-
-
-
-<!-- <span class="pubtitle">Large-scale Performance Characterization of Distributed Graph Processing Frameworks</span><br>
-<span style="font-size:85%">Altan Haan<sup>*</sup>, Manish Shetty<sup>*</sup><br>
-technical report, 2023 </span> <br>
-<a href="/pdf/preprints/graph-study.pdf">paper</a> -->
-<!-- <a href="">code</a> / -->
-<!-- <a href="">blog</a> -->
 
 
 
