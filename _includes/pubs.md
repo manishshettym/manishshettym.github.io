@@ -1,7 +1,7 @@
 <span class="pubtitle">GSO: Challenging Software Optimization Tasks for Evaluating SWE-Agents</span><br>
 <span style="font-size:85%">
 Manish Shetty, Naman Jain, Jinjian Liu, Vijay Kethanaboyina, Koushik Sen, Ion Stoica<br>
-Preprint, 2025 </span> <br>
+**NeurIPS 2025**: To Appear at the Thirty-ninth Annual Conference on Neural Information Processing Systems (D&B Track)<br> 
 <a href="https://arxiv.org/abs/2505.23671">paper</a> / 
 <a href="https://gso-bench.github.io/">website</a> /
 <a href="https://huggingface.co/datasets/gso-bench/gso">dataset</a> /
