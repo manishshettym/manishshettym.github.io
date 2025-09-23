@@ -2,6 +2,13 @@
   <div class="outer">
     <div class="card">
       <div class="info">
+        <span><span class="title">Sep 2025. </span>
+          ✔︎ Passed the <a href="https://eecs.berkeley.edu/book/phd/quals/">PhD Qualifying Exam</a> at UC Berkeley!
+        </span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info">
         <span><span class="title">May 2025. </span>
           Interning at <a
             href="https://deepmind.google/">Google DeepMind</a>! Working on Gemini post-training for 
@@ -25,18 +32,17 @@
         </span>
       </div>
     </div>
-    <div class="card">
+    <!-- <div class="card">
       <div class="info">
         <span><span class="title">Jan 2024. </span>
           Interning at <a
             href="https://www.microsoft.com/en-us/research/group/systems-innovation/">Microsoft Research</a> in Summer'24! Exploring agentic evals for AI for DevOps.</span>
       </div>
-    </div>
+    </div> -->
     <div class="card">
       <div class="info">
         <span><span class="title">Sept 2023. </span>
-          ✔︎ Passed the <a href="https://eecs.berkeley.edu/resources/grads/phd/prelims/exam-prep">Programming Languages
-            Preliminary Exam</a> at UC Berkeley!</span>
+          ✔︎ Passed the <a href="https://eecs.berkeley.edu/resources/grads/phd/prelims/exam-prep">PhD Preliminary Exam</a> at UC Berkeley!</span>
       </div>
     </div>
     <div class="card">
