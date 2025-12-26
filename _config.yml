@@ -36,13 +36,15 @@ plugins:
 nav:
 #  - name: "About"
 #    link: "/"
+ - name: "CV"
+   link: "/pdf/ManishShetty_CV.pdf"
  - name: "Email"
    link: "mailto:manishs@berkeley.edu"
  - name: "𝕏"
    link: "https://twitter.com/slimshetty_"
  - name: "GitHub"
    link: "https://github.com/manishshettym"
- - name: "Google Scholar"
+ - name: "Scholar"
    link: "https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en"
 
 # Exclude from processing.
