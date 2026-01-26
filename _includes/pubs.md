@@ -1,18 +1,28 @@
+<span class="pubtitle">Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces</span><br>
+<span style="font-size:85%">
+Mike A. Merrill, Alexander G. Shaw, ..., Manish Shetty, ..., Ludwig Schmidt<br>
+**ICLR 2026**: Proceedings of the 14th International Conference on Learning Representations<br>
+<a href="https://arxiv.org/abs/2601.11868">paper</a> /
+<a href="https://tbench.ai/">website</a>
+
+
 <span class="pubtitle">GSO: Challenging Software Optimization Tasks for Evaluating SWE-Agents</span><br>
 <span style="font-size:85%">
 Manish Shetty, Naman Jain, Jinjian Liu, Vijay Kethanaboyina, Koushik Sen, Ion Stoica<br>
-**NeurIPS 2025**: Proceedings of the 39th Annual Conference on Neural Information Processing Systems (D&B Track)<br> 
-<a href="https://arxiv.org/abs/2505.23671">paper</a> / 
+**NeurIPS 2025**: Proceedings of the 39th Annual Conference on Neural Information Processing Systems (D&B Track)<br>
+<a href="https://arxiv.org/abs/2505.23671">paper</a> /
 <a href="https://gso-bench.github.io/">website</a> /
 <a href="https://github.com/gso-bench/gso">code</a> /
-<a href="https://gso-blog.notion.site">blog</a>
+<a href="https://gso-blog.notion.site">blog</a> /
+<a href="https://epoch.ai/benchmarks/eci"
+  style="color: #D33682; "> included in EpochAI's ECI</a>
 
 
 <span class="pubtitle">R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents</span><br>
 <span style="font-size:85%">
 Naman Jain<sup>*</sup>, Jaskirat Singh<sup>*</sup>, Manish Shetty, Liang Zheng, Koushik Sen, Ion Stoica<br>
-**COLM 2025**: Proceedings of the 2nd Conference on Language Modeling<br> 
-<a href="https://arxiv.org/abs/2504.07164">paper</a> / 
+**COLM 2025**: Proceedings of the 2nd Conference on Language Modeling<br>
+<a href="https://arxiv.org/abs/2504.07164">paper</a> /
 <a href="https://r2e-gym.github.io/">website</a>
 
 
