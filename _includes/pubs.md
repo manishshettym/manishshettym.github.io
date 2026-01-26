@@ -1,3 +1,11 @@
+<span class="pubtitle">Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces</span><br>
+<span style="font-size:85%">
+Mike A. Merrill, Alexander G. Shaw, ..., Manish Shetty, ..., Ludwig Schmidt<br>
+**ICLR 2026**: Proceedings of the 14th International Conference on Learning Representations<br>
+<a href="https://arxiv.org/abs/2601.11868">paper</a> /
+<a href="https://tbench.ai/">website</a>
+
+
 <span class="pubtitle">GSO: Challenging Software Optimization Tasks for Evaluating SWE-Agents</span><br>
 <span style="font-size:85%">
 Manish Shetty, Naman Jain, Jinjian Liu, Vijay Kethanaboyina, Koushik Sen, Ion Stoica<br>
