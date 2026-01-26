@@ -1,7 +1,7 @@
 <span class="pubtitle">Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces</span><br>
 <span style="font-size:85%">
 Mike A. Merrill, Alexander G. Shaw, ..., Manish Shetty, ..., Ludwig Schmidt<br>
-**ICLR 2026**: Proceedings of the 14th International Conference on Learning Representations<br>
+**ICLR 2026**: Proceedings of the 14th International Conference on Learning Representations</span><br>
 <a href="https://arxiv.org/abs/2601.11868">paper</a> /
 <a href="https://tbench.ai/">website</a>
 
@@ -9,7 +9,7 @@ Mike A. Merrill, Alexander G. Shaw, ..., Manish Shetty, ..., Ludwig Schmidt<br>
 <span class="pubtitle">GSO: Challenging Software Optimization Tasks for Evaluating SWE-Agents</span><br>
 <span style="font-size:85%">
 Manish Shetty, Naman Jain, Jinjian Liu, Vijay Kethanaboyina, Koushik Sen, Ion Stoica<br>
-**NeurIPS 2025**: Proceedings of the 39th Annual Conference on Neural Information Processing Systems (D&B Track)<br>
+**NeurIPS 2025**: Proceedings of the 39th Annual Conference on Neural Information Processing Systems (D&B Track)</span><br>
 <a href="https://arxiv.org/abs/2505.23671">paper</a> /
 <a href="https://gso-bench.github.io/">website</a> /
 <a href="https://github.com/gso-bench/gso">code</a> /
@@ -21,7 +21,7 @@ Manish Shetty, Naman Jain, Jinjian Liu, Vijay Kethanaboyina, Koushik Sen, Ion St
 <span class="pubtitle">R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents</span><br>
 <span style="font-size:85%">
 Naman Jain<sup>*</sup>, Jaskirat Singh<sup>*</sup>, Manish Shetty, Liang Zheng, Koushik Sen, Ion Stoica<br>
-**COLM 2025**: Proceedings of the 2nd Conference on Language Modeling<br>
+**COLM 2025**: Proceedings of the 2nd Conference on Language Modeling</span><br>
 <a href="https://arxiv.org/abs/2504.07164">paper</a> /
 <a href="https://r2e-gym.github.io/">website</a>
 
@@ -30,7 +30,7 @@ Naman Jain<sup>*</sup>, Jaskirat Singh<sup>*</sup>, Manish Shetty, Liang Zheng, 
 <span style="font-size:85%">
 Alex Gu, Naman Jain<sup>*</sup>, Wen-Ding Li<sup>*</sup>, Manish Shetty<sup>*</sup>, Yijia Shao, Ziyang Li, Diyi Yang, <br> 
 Kevin Ellis, Koushik Sen, Armando Solar-Lezama<br>
-**ICML 2025**: Proceedings of the 42nd International Conference on Machine Learning (Position Paper)<br> 
+**ICML 2025**: Proceedings of the 42nd International Conference on Machine Learning (Position Paper)</span><br> 
 <a href="https://tinyurl.com/ai4code">paper</a>
 
 
@@ -38,14 +38,14 @@ Kevin Ellis, Koushik Sen, Armando Solar-Lezama<br>
 <span style="font-size:85%">
 Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Adwait Godbole<sup>*</sup>,
 Sanjit Seshia, Koushik Sen<br>
-**LLM4Code @ ICSE 2025**: Proceedings of the 2nd International Workshop on Large Language Models for Code <br>
+**LLM4Code @ ICSE 2025**: Proceedings of the 2nd International Workshop on Large Language Models for Code </span><br>
 <a href="https://syzygy-project.github.io/assets/paper.pdf">paper</a> / 
 <a href="https://syzygy-project.github.io/">website</a>
 
 <span class="pubtitle">R2E: Turning any GitHub Repository into a Programming Agent Environment</span><br>
 <span style="font-size:85%">
 Manish Shetty<sup>*</sup>, Naman Jain<sup>*</sup>, Tianjun Zhang, King Han, Koushik Sen, Ion Stoica<br>
-**ICML 2024**: Proceedings of the 41st International Conference on Machine Learning <br> 
+**ICML 2024**: Proceedings of the 41st International Conference on Machine Learning </span><br> 
 <!-- [LLMAgents Workshop](https://llmagents.github.io/) @ ICLR 2024 </span> <br> /  -->
 <a href="https://r2e.dev/pdfs/paper.pdf">paper</a> / 
 <a href="https://github.com/r2e-project/r2e">code</a> /
