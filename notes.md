@@ -10,7 +10,8 @@ title: Notes
   <p class="blog-description">On papers, ideas, and things I'm thinking about.</p>
 </div>
 
-{% assign tags = site.posts | map: "tags" | compact | flatten | uniq | sort %}
+{% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" %}
+{% assign tags = visible_posts | map: "tags" | compact | flatten | uniq | sort %}
 {% if tags.size > 0 %}
 <div class="tag-filter">
   <span class="tag-label">Filter:</span>
