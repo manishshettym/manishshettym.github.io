@@ -1,5 +1,16 @@
+---
+layout: default
+title: Papers
+---
+
+<div class="page-content">
+
+<div class="blog-header">
+  <h1>Papers</h1>
+  <p class="blog-description">Research publications and preprints.</p>
+</div>
+
 {% for pub in site.data.papers %}
-{% if pub.featured %}
 <div class="pub-compact">
   <div class="pub-row">
     <span class="pub-title">{{ pub.title }}</span>
@@ -15,7 +26,6 @@
     {% if pub.highlight %} / <a href="{{ pub.highlight_url }}" style="color: #D33682;">{{ pub.highlight }}</a>{% endif %}
   </div>
 </div>
-{% endif %}
 {% endfor %}
 
-<p style="margin-top: 20px;"><a href="/papers">See all papers →</a></p>
+</div>

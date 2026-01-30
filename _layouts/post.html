@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="post-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      <span class="reading-time">
+        {% assign words = content | number_of_words %}
+        {% if words < 200 %}
+          1 min read
+        {% else %}
+          {{ words | divided_by: 200 }} min read
+        {% endif %}
+      </span>
+    </div>
+  </header>
+
+  <div class="post-content" id="post-content">
+    {{ content }}
+  </div>
+
+  <nav class="toc" id="toc">
+    <div class="toc-title">Contents</div>
+    <ul class="toc-list" id="toc-list"></ul>
+  </nav>
+
+  <footer class="post-footer">
+    <a href="{{ site.baseurl }}/notes">&larr; Back to notes</a>
+  </footer>
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const content = document.getElementById('post-content');
+  const tocList = document.getElementById('toc-list');
+  const toc = document.getElementById('toc');
+  const headings = content.querySelectorAll('h2, h3');
+
+  // Table of Contents
+  if (headings.length < 2) {
+    toc.style.display = 'none';
+  } else {
+    headings.forEach(function(heading, index) {
+      if (!heading.id) {
+        heading.id = 'section-' + index;
+      }
+
+      const li = document.createElement('li');
+      li.className = 'toc-item toc-' + heading.tagName.toLowerCase();
+
+      const a = document.createElement('a');
+      a.href = '#' + heading.id;
+      a.textContent = heading.textContent;
+      a.className = 'toc-link';
+
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+
+    const tocLinks = document.querySelectorAll('.toc-link');
+
+    function highlightToc() {
+      let current = '';
+      headings.forEach(function(heading) {
+        const rect = heading.getBoundingClientRect();
+        if (rect.top <= 100) {
+          current = heading.id;
+        }
+      });
+
+      tocLinks.forEach(function(link) {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', highlightToc);
+    highlightToc();
+  }
+
+  // Sidenotes: convert footnotes to margin notes
+  const footnoteRefs = content.querySelectorAll('sup[id^="fnref"]');
+  const footnotesSection = content.querySelector('.footnotes');
+
+  if (footnoteRefs.length > 0 && footnotesSection && window.innerWidth > 1100) {
+    footnoteRefs.forEach(function(ref, index) {
+      const link = ref.querySelector('a');
+      if (!link) return;
+
+      const footnoteId = link.getAttribute('href').substring(1);
+      const footnote = document.getElementById(footnoteId);
+      if (!footnote) return;
+
+      // Create sidenote
+      const sidenote = document.createElement('span');
+      sidenote.className = 'sidenote';
+      sidenote.innerHTML = '<span class="sidenote-number">' + (index + 1) + '</span> ' +
+        footnote.innerHTML.replace(/<a[^>]*class="reversefootnote"[^>]*>.*?<\/a>/gi, '').trim();
+
+      // Insert after the paragraph containing the reference
+      const paragraph = ref.closest('p');
+      if (paragraph) {
+        paragraph.style.position = 'relative';
+        paragraph.appendChild(sidenote);
+      }
+    });
+
+    // Hide original footnotes section
+    footnotesSection.style.display = 'none';
+  }
+});
+</script>

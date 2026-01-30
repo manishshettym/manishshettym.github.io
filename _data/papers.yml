@@ -1,0 +1,104 @@
+- title: "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+  authors: "Mike A. Merrill, Alexander G. Shaw, ..., Manish Shetty, ..., Ludwig Schmidt"
+  venue: "ICLR 2026"
+  paper: "https://arxiv.org/abs/2601.11868"
+  website: "https://tbench.ai/"
+  featured: true
+
+- title: "GSO: Challenging Software Optimization Tasks for Evaluating SWE-Agents"
+  authors: "Manish Shetty, Naman Jain, Jinjian Liu, Vijay Kethanaboyina, Koushik Sen, Ion Stoica"
+  venue: "NeurIPS 2025"
+  paper: "https://arxiv.org/abs/2505.23671"
+  website: "https://gso-bench.github.io/"
+  code: "https://github.com/gso-bench/gso"
+  blog: "https://gso-blog.notion.site"
+  highlight: "included in EpochAI's ECI"
+  highlight_url: "https://epoch.ai/benchmarks/eci"
+  featured: true
+
+- title: "R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents"
+  authors: "Naman Jain*, Jaskirat Singh*, Manish Shetty, Liang Zheng, Koushik Sen, Ion Stoica"
+  venue: "COLM 2025"
+  paper: "https://arxiv.org/abs/2504.07164"
+  website: "https://r2e-gym.github.io/"
+  featured: true
+
+- title: "Challenges and Paths Towards AI for Software Engineering"
+  authors: "Alex Gu, Naman Jain*, Wen-Ding Li*, Manish Shetty*, Yijia Shao, Ziyang Li, Diyi Yang, Kevin Ellis, Koushik Sen, Armando Solar-Lezama"
+  venue: "ICML 2025"
+  paper: "https://tinyurl.com/ai4code"
+  featured: true
+
+- title: "Syzygy: Dual Code-Test C to Rust Translation using LLMs and Dynamic Analysis"
+  authors: "Manish Shetty*, Naman Jain*, Adwait Godbole*, Sanjit Seshia, Koushik Sen"
+  venue: "ICSE 2025"
+  paper: "https://syzygy-project.github.io/assets/paper.pdf"
+  website: "https://syzygy-project.github.io/"
+  featured: true
+
+- title: "R2E: Turning any GitHub Repository into a Programming Agent Environment"
+  authors: "Manish Shetty*, Naman Jain*, Tianjun Zhang, King Han, Koushik Sen, Ion Stoica"
+  venue: "ICML 2024"
+  paper: "https://r2e.dev/pdfs/paper.pdf"
+  code: "https://github.com/r2e-project/r2e"
+  website: "https://r2e.dev/"
+  featured: true
+
+- title: "AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds"
+  authors: "Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, Saravan Rajmohan"
+  venue: "MLSys 2025"
+  paper: "https://www.microsoft.com/en-us/research/uploads/prod/2024/10/arxiv_AIOpsLab.pdf"
+  code: "https://github.com/microsoft/AIOpsLab"
+  website: "https://microsoft.github.io/AIOpsLab/"
+  featured: true
+
+- title: "Building AI Agents for Autonomous Clouds: Challenges and Design Principles"
+  authors: "Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan"
+  venue: "SoCC 2024"
+  paper: "https://arxiv.org/abs/2407.12165"
+  highlight: "featured on Microsoft Research Blog"
+  highlight_url: "https://www.microsoft.com/en-us/research/blog/research-focus-week-of-november-11-2024/"
+  featured: true
+
+- title: "LM Assertions: Computational Constraints for Self-Refining LM Pipelines"
+  authors: "Arnav Singhvi*, Manish Shetty*, Shangyin Tan*, Chris Potts, Koushik Sen, Matei Zaharia, Omar Khattab"
+  venue: "ArXiv 2024"
+  paper: "/pdf/preprints/lm-assert.pdf"
+  code: "https://github.com/stanfordnlp/dspy/blob/main/dspy/primitives/assertions.py"
+  featured: false
+
+- title: "CodeScholar: Growing Idiomatic Code Examples"
+  authors: "Manish Shetty, Koushik Sen, Ion Stoica"
+  venue: "ArXiv 2023"
+  paper: "https://arxiv.org/abs/2312.15157"
+  code: "https://github.com/tart-proj/codescholar"
+  featured: false
+
+- title: "How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service"
+  authors: "Supriyo Ghosh, Manish Shetty, Chetan Bansal, Suman Nath"
+  venue: "SoCC 2022"
+  paper: "https://dl.acm.org/doi/10.1145/3542929.3563482"
+  highlight: "Best Paper Award"
+  featured: false
+
+- title: "AutoTSG: Learning and Synthesis for Incident Troubleshooting"
+  authors: "Manish Shetty, Chetan Bansal, Sai Upadhyayula, Arjun Radhakrishna, Anurag Gupta"
+  venue: "FSE 2022"
+  paper: "https://arxiv.org/pdf/2205.13457.pdf"
+  featured: false
+
+- title: "DeepAnalyze: Learning to Localize Crashes at Scale"
+  authors: "Manish Shetty, Chetan Bansal, Suman Nath, Sean Bowles, Henry Wang, Ozgur Arman, Siamak Ahari"
+  venue: "ICSE 2022"
+  paper: "https://arxiv.org/pdf/2109.14326.pdf"
+  slides: "/pdf/slides/DeepAnalyze_ICSE_2022.pdf"
+  featured: false
+
+- title: "Neural Knowledge Extraction From Cloud Service Incidents"
+  authors: "Manish Shetty, Chetan Bansal, Sumit Kumar, Nikitha Rao, Nachiappan Nagappan, Thomas Zimmermann"
+  venue: "ICSE 2021"
+  paper: "https://arxiv.org/abs/2007.05505"
+  slides: "/pdf/slides/SoftNER_ICSE_2021.pdf"
+  highlight: "featured on VentureBeat"
+  highlight_url: "https://venturebeat.com/2020/07/14/microsofts-softner-ai-uses-unsupervised-learning-to-help-triage-cloud-service-outages/"
+  featured: false

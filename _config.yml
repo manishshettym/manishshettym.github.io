@@ -33,19 +33,17 @@ theme: minima
 plugins:
   - jekyll-feed
 
-nav:
-#  - name: "About"
-#    link: "/"
- - name: "CV"
-   link: "/pdf/ManishShetty_CV.pdf"
- - name: "Email"
-   link: "mailto:manishs@berkeley.edu"
- - name: "𝕏"
-   link: "https://twitter.com/slimshetty_"
- - name: "GitHub"
-   link: "https://github.com/manishshettym"
- - name: "Scholar"
-   link: "https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en"
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+permalink: /notes/:title/
+
+nav: []
 
 # Exclude from processing.
 # The following items will not be processed, by default.

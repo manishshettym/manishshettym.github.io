@@ -23,6 +23,10 @@ layout: default
     <div id="intro-unit">
     From 2020 to 2022, I was a research fellow at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>.
     </div>
+
+    <div id="intro-unit">
+    <a href="mailto:manishs@berkeley.edu">Email</a> · <a href="/pdf/ManishShetty_CV.pdf">CV</a> · <a href="https://scholar.google.com/citations?user=Fcu7r3YAAAAJ&hl=en">Scholar</a> · <a href="https://github.com/manishshettym">GitHub</a> · <a href="/notes">Notes</a> · <a href="https://twitter.com/slimshetty_">𝕏</a>
+    </div>
 </div>
 </div>
 
