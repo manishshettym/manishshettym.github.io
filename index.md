@@ -10,8 +10,7 @@ layout: default
   </div>
   <div class="intro-text">
     <div id="intro-unit">
-    I am a PhD student at <a href="https://www.berkeley.edu/">UC Berkeley</a> in the <a href="https://sky.cs.berkeley.edu/">Sky
-    Lab</a> studying AI4Code.
+    I am a PhD student at UC Berkeley in the Sky Lab studying AI4Code.
     </div>
 
     <div id="intro-unit">I work on turning language models into capable software agents.</div>
@@ -21,7 +20,7 @@ layout: default
     </div>
 
     <div id="intro-unit">
-    From 2020 to 2022, I was a research fellow at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>.
+    From 2020 to 2022, I was a research fellow at Microsoft Research.
     </div>
 
     <div id="intro-unit">

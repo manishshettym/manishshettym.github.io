@@ -10,9 +10,7 @@
     <div class="card">
       <div class="info">
         <span><span class="title">May 2025. </span>
-          Interning at <a
-            href="https://deepmind.google/">Google DeepMind</a>! Working on Gemini post-training for 
-            <a href="https://deepmind.google/models/project-mariner/"> computer-use tasks </a>. </span>
+          Interning at Google DeepMind! Working on Gemini post-training for computer-use tasks. </span>
       </div>
     </div>
     <div class="card">
@@ -48,8 +46,7 @@
     <div class="card">
       <div class="info">
         <span><span class="title">May 2023. </span>
-          Taught my first class: <a href="https://sites.google.com/berkeley.edu/cs164sp23/home">CS164: Compilers and
-            Programming Languages</a> at UC Berkeley!</span>
+          Taught my first class: CS164: Compilers and Programming Languages at UC Berkeley!</span>
       </div>
     </div>
     <div class="card">
@@ -64,8 +61,7 @@
     <div class="card">
       <div class="info">
         <span><span class="title">Aug 2022. </span>
-          Started my Ph.D. at UC Berkeley advised by <a href="https://people.eecs.berkeley.edu/~ksen">Prof. Koushik
-            Sen</a>. Joining the <a href="https://sky.cs.berkeley.edu/">Sky Lab</a> and the Programming Systems
+          Started my Ph.D. at UC Berkeley advised by Prof. Koushik Sen. Joining the Sky Lab and the Programming Systems
           group!</span>
       </div>
     </div>
