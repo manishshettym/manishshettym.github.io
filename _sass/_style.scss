@@ -21,7 +21,7 @@ body {
     font-family: "Alegreya Sans", sans-serif;
     font-optical-sizing: auto;
     height: 100%;
-    background-color: #fdfcfa;
+    background-color: #f8f6f1;
     line-height: 1.25;
     font-size: 18px;
     font-weight: 300;
@@ -67,18 +67,18 @@ h1, h2, h3 {
 /* Publication list - two-column layout */
 .pub-compact {
     display: grid;
-    grid-template-columns: 90px 1fr;
-    gap: 0 20px;
-    margin-bottom: 28px;
+    grid-template-columns: 85px 1fr;
+    gap: 0 7px;
+    margin-bottom: 24px;
     align-items: baseline;
 }
 
 .pub-venue {
-    font-size: 0.85em;
+    font-size: 0.8em;
     font-weight: 500;
     color: #9b5d5d;
     white-space: nowrap;
-    padding-top: 2px;
+    padding-top: 1px;
 }
 
 body.dark-mode .pub-venue {
@@ -88,7 +88,7 @@ body.dark-mode .pub-venue {
 .pub-details {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 2px;
 }
 
 .pub-title {
@@ -109,7 +109,7 @@ body.dark-mode .pub-title {
 }
 
 .pub-authors {
-    font-size: 0.85em;
+    font-size: 0.75em;
     color: #666;
     line-height: 1.4;
 }

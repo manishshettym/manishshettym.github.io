@@ -22,7 +22,7 @@ title: Papers
       {% if pub.code %} / <a href="{{ pub.code }}">code</a>{% endif %}
       {% if pub.blog %} / <a href="{{ pub.blog }}">blog</a>{% endif %}
       {% if pub.slides %} / <a href="{{ pub.slides }}">slides</a>{% endif %}
-      {% if pub.highlight %} / <a href="{{ pub.highlight_url }}" style="color: #D33682;">{{ pub.highlight }}</a>{% endif %}
+      {% if pub.highlight %} / <a href="{{ pub.highlight_url }}" style="color: #9b5d5d;">{{ pub.highlight }}</a>{% endif %}
     </div>
   </div>
 </div>
