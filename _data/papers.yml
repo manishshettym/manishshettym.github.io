@@ -31,7 +31,7 @@
 
 - title: "Syzygy: Dual Code-Test C to Rust Translation using LLMs and Dynamic Analysis"
   authors: "Manish Shetty*, Naman Jain*, Adwait Godbole*, Sanjit Seshia, Koushik Sen"
-  venue: "ICSE 2025"
+  venue: "LLM4Code 2025"
   paper: "https://syzygy-project.github.io/assets/paper.pdf"
   website: "https://syzygy-project.github.io/"
   featured: true

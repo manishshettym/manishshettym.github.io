@@ -67,14 +67,14 @@ h1, h2, h3 {
 /* Publication list - two-column layout */
 .pub-compact {
     display: grid;
-    grid-template-columns: 85px 1fr;
-    gap: 0 7px;
+    grid-template-columns: 100px 1fr;
+    gap: 0 8px;
     margin-bottom: 24px;
     align-items: baseline;
 }
 
 .pub-venue {
-    font-size: 0.8em;
+    font-size: 0.75em;
     font-weight: 500;
     color: #9b5d5d;
     white-space: nowrap;
@@ -93,7 +93,7 @@ body.dark-mode .pub-venue {
 
 .pub-title {
     font-weight: 400;
-    font-size: 0.95em;
+    font-size: 0.9em;
     color: #2c3137;
     border-bottom: none;
     line-height: 1.35;
@@ -126,6 +126,7 @@ body.dark-mode .pub-authors {
 .pub-links a {
     color: #555;
     margin-right: 4px;
+    font-size: inherit;
 }
 
 .pub-links a:hover {
