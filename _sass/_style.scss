@@ -694,6 +694,7 @@ body.dark-mode .post-subtitle {
     left: 40px;
     width: 200px;
     font-size: 0.9em;
+    text-align: left;
 }
 
 body.dark-mode .toc {
@@ -721,8 +722,19 @@ body.dark-mode .toc-title {
     margin-bottom: 8px;
 }
 
+.toc-item.toc-h2 .toc-number {
+    color: #999;
+    margin-right: 4px;
+    font-size: 0.9em;
+    font-variant-numeric: tabular-nums;
+}
+
+body.dark-mode .toc-item.toc-h2 .toc-number {
+    color: #666;
+}
+
 .toc-item.toc-h3 {
-    padding-left: 10px;
+    padding-left: 18px;
 }
 
 .toc-link {
@@ -892,7 +904,11 @@ body.dark-mode .post-footer {
     border-top-color: #333;
 }
 
-/* Sidenotes - in right margin */
+/* Sidenotes - in right margin, positioned relative to .post-content */
+.post-content {
+    position: relative;
+}
+
 .sidenote {
     position: absolute;
     right: -260px;
@@ -919,8 +935,19 @@ body.dark-mode .sidenote-number {
     color: #ccc;
 }
 
+/* Footnotes - match sidenote sizing */
+.post-content .footnotes {
+    font-size: 0.8em;
+    line-height: 1.4;
+    color: #666;
+}
+
+body.dark-mode .post-content .footnotes {
+    color: #999;
+}
+
 /* Responsive: hide TOC and show regular footnotes on smaller screens */
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
     .toc {
         display: none;
     }

@@ -43,7 +43,7 @@ It is a power function: $Y = A \cdot K^{\alpha} \cdot L^{1-\alpha}$, where:
 
 - Y = total output (bread, GDP)
 - A = total factor productivity (how good you are at combining inputs)
-- α (alpha) = capital's share of output
+- $\alpha$ = capital's share of output
 
 Some properties of this function:
 
@@ -62,11 +62,11 @@ Some properties of this function:
 
 3. **Inputs are complementary**: Since the inputs are multiplied, both K and L must contribute. K=1000 and L=0 $\implies$ Y=0. Unlike the linear model, you cannot substitute one for another here.
 
-> A quick pause here on how this relates to studying AI progress. Cobb-Douglas embeds a crucial assumption that *you can't just pile up one input and expect the output to keep growing*. If AI is purely "capital" (K), then Cobb-Douglas says that no matter how much AI you deploy, you'll hit diminishing returns unless you also increase human labor (L). [^2] **Unless you change the rules a bit, as we'll explore next**.
+> A quick pause here on how this relates to studying AI progress.
+> If AI is purely "capital" (K), then Cobb-Douglas says that no matter how much AI you deploy, you'll hit diminishing returns unless you also increase human labor (L). **Unless you change the rules a bit, as we'll explore next**.
 
----
 
-## Technical Properties of Production Functions
+## Properties of Production Functions
 
 In what follows, we'll explore two properties of production functions that could help growth circumvent the diminishing returns bottleneck.
 
@@ -80,7 +80,7 @@ In what follows, we'll explore two properties of production functions that could
 
 #### A case for unbounded growth with AI
 
-Of these, the increasing returns case is the most consequential because it opens the door to a feedback loop for accelerating growth. **If you have increasing returns to accumulable inputs, you can have unbounded growth**. An accumulable input is one that you can invest in and grow, such as physical capital (factories, machines, etc.) or the talk-of-the-town: AI workers. Human labor, on the other hand, is not accumulable. [^3]
+Of these, the increasing returns case is the most consequential because it opens the door to a feedback loop for accelerating growth. **If you have increasing returns to accumulable inputs, you can have unbounded growth**. An accumulable input is one that you can invest in and grow, such as physical capital (factories, machines, etc.) or the talk-of-the-town: AI workers. Human labor, on the other hand, is not accumulable. [^2]
 
 In standard Cobb-Douglas, the non-accumulable input (human labor L) acts as a bottleneck on growth as we discussed earlier. We get diminishing returns to capital alone, so growth settles to a steady rate that's governed by how fast technology improves (A).
 
@@ -88,7 +88,7 @@ However, one can argue that *AI makes labor accumulable*. If you model AI as a w
 
 ### Elasticity of substitution
 
-**Definition**: Elasticity measures how sensitive one variable is to changes in another (ratio of their % changes).[^5] The form we care about is the **elasticity of substitution** $\sigma$: if the relative price of K vs. L changes, how much does the ratio K/L shift (holding output constant)? In other words, how easily can you swap one input for the other at constant output?
+**Definition**: Elasticity measures how sensitive one variable is to changes in another (ratio of their % changes).[^3] The form we care about is the **elasticity of substitution** $\sigma$: if the relative price of K vs. L changes, how much does the ratio K/L shift (holding output constant)? In other words, how easily can you swap one input for the other at constant output?
 
 - $\sigma = 0$ (perfect complements): one input cannot substitute for the other.[^4]
 - $\sigma = 1$ (unit elasticity): moderate substitution between inputs.
@@ -98,20 +98,17 @@ However, one can argue that *AI makes labor accumulable*. If you model AI as a w
 
 Cobb-Douglas bakes in $\sigma = 1$. For AI, this is the assumption about how easily AI labor can replace human labor. If $\sigma$ is low, even very cheap AI can't displace humans because the inputs are complementary. If $\sigma$ is high, cheap AI rapidly takes over human tasks.
 
----
+## Taking Stock
 
 So far we've covered some basic building blocks: production functions and that the choice of their functional form encodes strong assumptions. We then explored Cobb-Douglas, a common functional form that is used to model AI progress. We then explored two properties that could help circumvent the diminishing returns bottleneck: returns to scale and elasticity of substitution ($\sigma$).
 
 However, to forecast AI progress and takeoff, it turns out that deciding $\sigma$ is key. To let it vary, we would need a more flexible functional form. To see how growth feeds back on itself (e.g., AI producing better AI), we'll need dynamic production functions. We'll explore these ideas in the next post.
 
----
 
 [^1]: For instance, if $\alpha = 0.3$, then for K in [2, 10, 100], we get nearly $1.2\times$, $2\times$, and $4\times$ increase in contribution to output, respectively.
 
-[^2]: Aside, there could be other reasons for modest returns. Tyler Cowen argues for ~0.5% GDP growth per year from a different angle: slow adoption in large sectors (government, healthcare, education) and how fast humans can adopt the technology as the bottleneck to implementation.
+[^2]: One can posit this particularly due to slow population growth and demographic transitions.
 
-[^3]: One can posit this particularly due to slow population growth and demographic transitions.
+[^3]: Elasticity is just a unit-free way to ask "if I wiggle this thing, how much does that other thing move?" The classic example is price elasticity of demand: if coffee goes up 10% in price and you buy 20% less, the elasticity is 2. You're quite sensitive to price. Elasticity of substitution applies the same idea to two production inputs.
 
 [^4]: Also called "Leontief" after Wassily Leontief, who won the Nobel Prize in Economics for his work on input-output models. Inputs in this context must be used in fixed proportions. A neat example is shoes: extra left shoes are worthless unless a matching right shoe exists.
-
-[^5]: Elasticity is just a unit-free way to ask "if I wiggle this thing, how much does that other thing move?" The classic example is price elasticity of demand: if coffee goes up 10% in price and you buy 20% less, the elasticity is 2. You're quite sensitive to price. Elasticity of substitution applies the same idea to two production inputs.

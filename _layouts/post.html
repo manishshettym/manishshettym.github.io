@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (headings.length < 2) {
     toc.style.display = 'none';
   } else {
+    var h2Count = 0;
     headings.forEach(function(heading, index) {
       if (!heading.id) {
         heading.id = 'section-' + index;
@@ -58,8 +59,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const a = document.createElement('a');
       a.href = '#' + heading.id;
-      a.textContent = heading.textContent;
       a.className = 'toc-link';
+
+      if (heading.tagName.toLowerCase() === 'h2') {
+        h2Count++;
+        const numSpan = document.createElement('span');
+        numSpan.className = 'toc-number';
+        numSpan.textContent = h2Count + ' ';
+        a.appendChild(numSpan);
+      }
+
+      a.appendChild(document.createTextNode(heading.textContent));
 
       li.appendChild(a);
       tocList.appendChild(li);
@@ -89,34 +99,73 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Sidenotes: convert footnotes to margin notes
-  const footnoteRefs = content.querySelectorAll('sup[id^="fnref"]');
-  const footnotesSection = content.querySelector('.footnotes');
+  // Deferred until after MathJax renders so positions are accurate
+  function initSidenotes() {
+    const footnoteRefs = content.querySelectorAll('sup[id^="fnref"]');
+    const footnotesSection = content.querySelector('.footnotes');
 
-  if (footnoteRefs.length > 0 && footnotesSection && window.innerWidth > 1100) {
-    footnoteRefs.forEach(function(ref, index) {
-      const link = ref.querySelector('a');
-      if (!link) return;
+    if (footnoteRefs.length > 0 && footnotesSection && window.innerWidth > 1300) {
+      const contentRect = content.getBoundingClientRect();
 
-      const footnoteId = link.getAttribute('href').substring(1);
-      const footnote = document.getElementById(footnoteId);
-      if (!footnote) return;
+      footnoteRefs.forEach(function(ref, index) {
+        const link = ref.querySelector('a');
+        if (!link) return;
 
-      // Create sidenote
-      const sidenote = document.createElement('span');
-      sidenote.className = 'sidenote';
-      sidenote.innerHTML = '<span class="sidenote-number">' + (index + 1) + '</span> ' +
-        footnote.innerHTML.replace(/<a[^>]*class="reversefootnote"[^>]*>.*?<\/a>/gi, '').trim();
+        const footnoteId = link.getAttribute('href').substring(1);
+        const footnote = document.getElementById(footnoteId);
+        if (!footnote) return;
 
-      // Insert after the paragraph containing the reference
-      const paragraph = ref.closest('p');
-      if (paragraph) {
-        paragraph.style.position = 'relative';
-        paragraph.appendChild(sidenote);
+        // Create sidenote
+        const sidenote = document.createElement('span');
+        sidenote.className = 'sidenote';
+        sidenote.innerHTML = '<span class="sidenote-number">' + (index + 1) + '</span> ' +
+          footnote.innerHTML.replace(/<a[^>]*class="reversefootnote"[^>]*>.*?<\/a>/gi, '').trim();
+
+        // Position relative to .post-content, aligned with the footnote reference
+        const refRect = ref.getBoundingClientRect();
+        sidenote.style.top = (refRect.top - contentRect.top) + 'px';
+
+        content.appendChild(sidenote);
+      });
+
+      // Resolve overlapping sidenotes by pushing them down
+      var sidenotes = content.querySelectorAll('.sidenote');
+      var gap = 12;
+      for (var i = 1; i < sidenotes.length; i++) {
+        var prevRect = sidenotes[i - 1].getBoundingClientRect();
+        var currRect = sidenotes[i].getBoundingClientRect();
+        var overlap = prevRect.bottom + gap - currRect.top;
+        if (overlap > 0) {
+          var currentTop = parseFloat(sidenotes[i].style.top) || 0;
+          sidenotes[i].style.top = (currentTop + overlap) + 'px';
+        }
       }
-    });
 
-    // Hide original footnotes section
-    footnotesSection.style.display = 'none';
+      // Hide original footnotes section
+      footnotesSection.style.display = 'none';
+    }
   }
+
+  // Wait for MathJax to finish typesetting before positioning sidenotes
+  function afterMathJax(callback) {
+    if (window.MathJax && MathJax.startup && MathJax.startup.promise) {
+      MathJax.startup.promise.then(callback);
+    } else {
+      // MathJax async script hasn't loaded yet; poll until it does
+      var poll = setInterval(function() {
+        if (window.MathJax && MathJax.startup && MathJax.startup.promise) {
+          clearInterval(poll);
+          clearTimeout(fallback);
+          MathJax.startup.promise.then(callback);
+        }
+      }, 100);
+      // Fallback if MathJax never loads (no math on page)
+      var fallback = setTimeout(function() {
+        clearInterval(poll);
+        callback();
+      }, 3000);
+    }
+  }
+  afterMathJax(initSidenotes);
 });
 </script>
