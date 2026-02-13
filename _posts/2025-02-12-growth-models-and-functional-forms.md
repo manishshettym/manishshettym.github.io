@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Production Functions and their Forms"
+title: "Building Blocks to AI Timelines"
+subtitle: "Part 1: Production Functions and their Forms"
 date: 2025-02-12
 description: "Notes and intuitions on economic growth models, functional forms, and how they connect to forecasting AI progress. Part of a series on economics basics for AI forecasting."
 tags:
