@@ -859,6 +859,28 @@ body.dark-mode .post-content blockquote {
     margin: 2em 0;
 }
 
+.post-content figure {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.post-content figure img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.post-content figcaption {
+    font-size: 0.85em;
+    color: #888;
+    margin-top: 0.6em;
+    font-style: italic;
+}
+
+body.dark-mode .post-content figcaption {
+    color: #aaa;
+}
+
 /* MathJax: inline math same size as body text; display math centered */
 .post-content mjx-container:not([display="true"]) {
     font-size: 0.9em !important;

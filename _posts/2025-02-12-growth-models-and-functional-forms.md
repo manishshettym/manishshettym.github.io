@@ -111,5 +111,4 @@ However, to forecast AI progress and takeoff, it turns out that deciding $\sigma
 [^2]: One can posit this particularly due to slow population growth and demographic transitions.
 
 [^3]: Elasticity is just a unit-free way to ask "if I wiggle this thing, how much does that other thing move?" The classic example is price elasticity of demand: if coffee goes up 10% in price and you buy 20% less, the elasticity is 2. You're quite sensitive to price. Elasticity of substitution applies the same idea to two production inputs.
-
 [^4]: Also called "Leontief" after Wassily Leontief, who won the Nobel Prize in Economics for his work on input-output models. Inputs in this context must be used in fixed proportions. A neat example is shoes: extra left shoes are worthless unless a matching right shoe exists.
