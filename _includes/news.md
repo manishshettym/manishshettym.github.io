@@ -2,15 +2,16 @@
   <div class="outer">
     <div class="card">
       <div class="info">
-        <span><span class="title">Sep 2025. </span>
-          ✔︎ Passed the <a href="https://eecs.berkeley.edu/book/phd/quals/">PhD Qualifying Exam</a> at UC Berkeley!
+        <span><span class="title">Mar 2026. </span>
+          ✔︎ Gave my <a href="https://events.berkeley.edu/eecs/event/317515-dissertation-talk-scaling-environments-and">PhD Dissertation Talk</a> at UC Berkeley.
         </span>
       </div>
     </div>
     <div class="card">
       <div class="info">
-        <span><span class="title">May 2025. </span>
-          Interning at Google DeepMind! Working on Gemini post-training for computer-use tasks. </span>
+        <span><span class="title">Sep 2025. </span>
+          ✔︎ Passed the <a href="https://eecs.berkeley.edu/book/phd/quals/">PhD Qualifying Exam</a> at UC Berkeley.
+        </span>
       </div>
     </div>
     <div class="card">

@@ -10,13 +10,11 @@ layout: default
   </div>
   <div class="intro-text">
     <div id="intro-unit">
-    I am a PhD student at UC Berkeley in the Sky Lab studying AI4Code.
+    I am a Researcher at <a href="https://metr.org">METR</a> measuring capabilities of frontier AI.
     </div>
 
-    <div id="intro-unit">I work on turning language models into capable software agents.</div>
-
     <div id="intro-unit">
-    My focus has been building <a href="https://gso-bench.github.io">benchmarks</a> ("evals") and <a href="https://r2e-gym.github.io/">environments</a> that either stage long-horizon and challenging coding tasks or elicit more from models by scaling compute. My work spans the software lifecycle: <a href="https://r2e.dev">code completion</a>, <a href="https://gso-bench.github.io"> optimization</a>, <a href="https://syzygy-project.github.io/">translation</a>, and <a href="https://github.com/microsoft/AIOpsLab">deployment</a>.
+    My PhD at UC Berkeley involved building <a href="https://gso-bench.github.io">evals</a> and <a href="https://r2e-gym.github.io/">environments</a> to elicit and measure AI capabilities on software engineering tasks. My work spanned tasks across the software lifecycle: <a href="https://r2e.dev">code completion</a>, <a href="https://gso-bench.github.io">optimization</a>, <a href="https://syzygy-project.github.io/">translation</a>, and <a href="https://github.com/microsoft/AIOpsLab">deployment</a>.
     </div>
 
     <div id="intro-unit">
