@@ -27,9 +27,6 @@ layout: default
 </div>
 </div>
 
-## News
-
-{% include news.md %}
 
 ## Papers
 
@@ -40,13 +37,6 @@ layout: default
 {% include awards.md %}
 
 
-## Teaching
-
-{% include teaching.md %}
-
-## Service
-
-{% include service.md %}
 
 <br><br>
 
