@@ -56,7 +56,7 @@
           🏆 Our <a href="https://dl.acm.org/doi/10.1145/3542929.3563482">empirical study</a> @ Microsoft Research on
           production incidents in large-scale cloud services
           received the <a href="https://twitter.com/ACMSoCC/status/1590128032886685696?s=20"
-            style="color: #9b5d5d; font-weight: 500;">Best Paper Award 🏆</a> at <b>SoCC 2022</b>. </span>
+            style="color: #a85a3a; font-weight: 500;">Best Paper Award 🏆</a> at <b>SoCC 2022</b>. </span>
       </div>
     </div>
     <div class="card">

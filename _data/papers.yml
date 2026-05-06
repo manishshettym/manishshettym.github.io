@@ -1,3 +1,9 @@
+- title: "Scaling Environments and Verifiers for Software Engineering Agents"
+  authors: "Manish Shetty · PhD, UC Berkeley · May 2026"
+  venue: "Dissertation"
+  website: "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-52.html"
+  featured: true
+
 - title: "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
   authors: "Mike A. Merrill, Alexander G. Shaw, ..., Manish Shetty, ..., Ludwig Schmidt"
   venue: "ICLR 2026"
@@ -50,7 +56,7 @@
   paper: "https://www.microsoft.com/en-us/research/uploads/prod/2024/10/arxiv_AIOpsLab.pdf"
   code: "https://github.com/microsoft/AIOpsLab"
   website: "https://microsoft.github.io/AIOpsLab/"
-  featured: true
+  featured: false
 
 - title: "Building AI Agents for Autonomous Clouds: Challenges and Design Principles"
   authors: "Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan"
@@ -58,7 +64,7 @@
   paper: "https://arxiv.org/abs/2407.12165"
   highlight: "featured on Microsoft Research Blog"
   highlight_url: "https://www.microsoft.com/en-us/research/blog/research-focus-week-of-november-11-2024/"
-  featured: true
+  featured: false
 
 - title: "LM Assertions: Computational Constraints for Self-Refining LM Pipelines"
   authors: "Arnav Singhvi*, Manish Shetty*, Shangyin Tan*, Chris Potts, Koushik Sen, Matei Zaharia, Omar Khattab"

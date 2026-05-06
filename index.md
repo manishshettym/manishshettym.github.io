@@ -28,7 +28,7 @@ layout: default
 </div>
 
 
-## Papers
+## Research
 
 {% include pubs.md %}
 

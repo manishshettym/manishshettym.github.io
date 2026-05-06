@@ -32,14 +32,14 @@ a {
     text-decoration: none;
     // color: $accent;
     font-size: medium;
-    color: #2c3137c9;
+    color: #2c2520;
     text-decoration: none;
-    border-bottom: #aaa 0.1em dotted;
+    border-bottom: #c4b698 0.1em dotted;
 }
 
 a:hover,
 a:focus {
-    background: #fbf3f3;
+    background: #f3ebe0;
     transition-property: background;
     transition-duration: 0.2s;
 }
@@ -76,13 +76,13 @@ h1, h2, h3 {
 .pub-venue {
     font-size: 0.75em;
     font-weight: 500;
-    color: #9b5d5d;
+    color: #a85a3a;
     white-space: nowrap;
     padding-top: 1px;
 }
 
 body.dark-mode .pub-venue {
-    color: #c49090;
+    color: #d68567;
 }
 
 .pub-details {
@@ -387,7 +387,7 @@ body.dark-mode .pub-links a:hover {
     width: 35px;
     height: 18px;
     border-radius: 34px;
-    border: 1px solid #2c3137c9;
+    border: 1px solid #2c2520;
 }
 
 .toggle-slider {
@@ -417,7 +417,7 @@ body.dark-mode {
 }
 
 body.dark-mode a {
-    color: #8ab4f8;
+    color: #c47559;
     border-bottom-color: #404040;
 }
 
@@ -545,9 +545,9 @@ body.dark-mode .tag:hover {
 }
 
 body.dark-mode .tag.active {
-    background: #8ab4f8;
+    background: #c47559;
     color: #1a1a1a;
-    border-color: #8ab4f8;
+    border-color: #c47559;
 }
 
 .tag-small {
@@ -600,6 +600,58 @@ body.dark-mode .post-card {
 .post-card-title a:hover {
     background: none;
     text-decoration: underline;
+}
+
+.post-card-meta .external-venue {
+    margin-left: 12px;
+    color: #a85a3a;
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+.post-card-meta .external-venue::before {
+    content: "·";
+    margin-right: 12px;
+    color: #888;
+    font-style: normal;
+}
+
+body.dark-mode .post-card-meta .external-venue {
+    color: #c47559;
+}
+
+/* Banner shown on individual post pages when the post is republished from elsewhere. */
+.external-banner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 30px 0;
+    padding: 10px 14px;
+    border-left: 2px solid #a85a3a;
+    background: rgba(168, 90, 58, 0.05);
+    font-size: 0.9em;
+    color: #5a4a3d;
+}
+
+.external-banner a {
+    color: #a85a3a;
+    border-bottom: none;
+    font-weight: 500;
+}
+
+.external-banner a:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+body.dark-mode .external-banner {
+    border-left-color: #c47559;
+    background: rgba(196, 117, 89, 0.07);
+    color: #b8aa97;
+}
+
+body.dark-mode .external-banner a {
+    color: #c47559;
 }
 
 body.dark-mode .post-card-title a {

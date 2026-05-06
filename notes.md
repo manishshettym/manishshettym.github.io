@@ -36,6 +36,9 @@ title: Notes
           {% assign words = post.content | number_of_words %}
           {% if words < 200 %}1 min{% else %}{{ words | divided_by: 200 }} min{% endif %}
         </span>
+        {% if post.external_url %}
+        <span class="external-venue">{{ post.external_url | split: "/" | slice: 2 | first }}</span>
+        {% endif %}
       </div>
       {% if post.description %}
       <p class="post-card-excerpt">{{ post.description }}</p>
