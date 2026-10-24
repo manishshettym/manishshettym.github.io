@@ -6,7 +6,7 @@ layout: default
 
 <div class="intro-section">
   <div class="intro-photo">
-    <img class="profile-picture" src="./images/dpForAll.png" alt="Profile photo of Manish Shetty">
+    <img class="profile-picture" src="./images/dp-metr.jpg" alt="Profile photo of Manish Shetty">
   </div>
   <div class="intro-text">
     <div id="intro-unit">
