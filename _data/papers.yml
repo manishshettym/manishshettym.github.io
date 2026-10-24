@@ -1,3 +1,10 @@
+- title: "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT"
+  authors: "Tom Cunningham, Manish Shetty, Vincent Cheng, Nate Rush"
+  venue: "METR 2026"
+  website: "https://metr.org/blog/2026-07-21-expenditure-horizon/"
+  blog: "/notes/expenditure-horizon/"
+  featured: true
+
 - title: "Scaling Environments and Verifiers for Software Engineering Agents"
   authors: "Manish Shetty · PhD, UC Berkeley · May 2026"
   venue: "Dissertation"
