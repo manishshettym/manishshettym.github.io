@@ -21,8 +21,8 @@
 title: Manish Shetty
 email: manishs@berkeley.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Computer Science PhD student in the Programming Systems group at UC Berkeley
-  studying programming languages and software engineering.
+  Researcher at METR measuring the capabilities of frontier AI. PhD in Computer Science from UC Berkeley,
+  where I built evals and environments for AI software engineering agents.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://manishs.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: slimshetty_
