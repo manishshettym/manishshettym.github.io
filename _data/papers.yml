@@ -1,8 +1,15 @@
 - title: "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT"
   authors: "Tom Cunningham, Manish Shetty, Vincent Cheng, Nate Rush"
-  venue: "METR 2026"
+  venue: "METR"
   website: "https://metr.org/blog/2026-07-21-expenditure-horizon/"
   blog: "/notes/expenditure-horizon/"
+  featured: true
+
+- title: "An Apple-Picking Model of AI R&D"
+  authors: "Tom Cunningham, Manish Shetty"
+  venue: "METR"
+  website: "https://tecunningham.github.io/posts/2026-03-13-apple-picking-ai.html"
+  blog: "/notes/apple-picking-model-of-ai-rd/"
   featured: true
 
 - title: "Scaling Environments and Verifiers for Software Engineering Agents"
