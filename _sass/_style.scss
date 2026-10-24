@@ -28,6 +28,12 @@ body {
     text-align: justify;
 }
 
+// Headings: justified text stretches short titles with wide word gaps.
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    text-wrap: balance;
+}
+
 a {
     text-decoration: none;
     // color: $accent;

@@ -5,6 +5,13 @@
   blog: "/notes/expenditure-horizon/"
   featured: true
 
+- title: "Evidence on AI R&D Progress from NanoGPT"
+  authors: "Manish Shetty"
+  venue: "METR"
+  website: "https://metr.org/notes/2026-04-21-ai-rd-nanogpt-progress/"
+  blog: "/notes/ai-rd-nanogpt-progress/"
+  featured: true
+
 - title: "An Apple-Picking Model of AI R&D"
   authors: "Tom Cunningham, Manish Shetty"
   venue: "METR"
